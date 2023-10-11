@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.4; wp-6.1.1\n"
-"X-Domain: ta-dfs"
+"X-Domain: domain-for-sale"
 
 #: inc/dfs-plugin-options.php:216
 msgid "(345) 456 789 23"

@@ -7,30 +7,30 @@ $prefix = 'dfs-opt';
 // Create options
 //
 CSF::createOptions($prefix, array(
-  'menu_title' => esc_html__('Domain For Sale', 'ta-dfs'),
+  'menu_title' => esc_html__('Domain For Sale', 'domain-for-sale'),
   'menu_slug'  => 'dfs',
   'menu_icon' => 'dashicons-admin-site',
   'framework_title' => 'Domain For Sale <small>by ThemeAtelier</small>',
-  'footer_text'             => esc_html__('Thank you for using our product', 'ta-dfs'),
+  'footer_text'             => esc_html__('Thank you for using our product', 'domain-for-sale'),
   'theme'                   => 'dark',
 ));
 
 
 // Main options
 CSF::createSection($prefix, array(
-  'title'  => esc_html__('Main Options', 'ta-dfs'),
+  'title'  => esc_html__('Main Options', 'domain-for-sale'),
   'icon'   => 'fas fa-home',
   'fields' => array(
     array(
       'type'    => 'subheading',
-      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'ta-dfs'),
+      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'domain-for-sale'),
     ),
     // Enable domain for sale mode
     array(
       'id'    => 'dfs-enable',
       'type'  => 'switcher',
-      'title' => esc_html__('Enable Domain for sale', 'ta-dfs'),
-      'label' => esc_html__('Turn ON for enable domain for sale mode for your website.', 'ta-dfs'),
+      'title' => esc_html__('Enable Domain for sale', 'domain-for-sale'),
+      'label' => esc_html__('Turn ON for enable domain for sale mode for your website.', 'domain-for-sale'),
       'default' => false,
     ),
 
@@ -38,14 +38,14 @@ CSF::createSection($prefix, array(
     array(
       'id'    => 'dfs-favicon',
       'type'  => 'upload',
-      'title' => esc_html__('Upload favicon', 'ta-dfs'),
-      'lebel' => esc_html__('Use a 32x32 .ico or .png file.', 'ta-dfs'),
+      'title' => esc_html__('Upload favicon', 'domain-for-sale'),
+      'lebel' => esc_html__('Use a 32x32 .ico or .png file.', 'domain-for-sale'),
     ),
     // Color scheme
     array(
       'id'          => 'dfs-scheme',
       'type'        => 'image_select',
-      'title'       => esc_html__('Select color scheme', 'ta-dfs'),
+      'title'       => esc_html__('Select color scheme', 'domain-for-sale'),
       'options'     => array(
         '1'     => DFS_DIR_URL . 'assets/images/color-1.png',
         '2'     => DFS_DIR_URL . 'assets/images/color-2.png',
@@ -59,7 +59,7 @@ CSF::createSection($prefix, array(
     array(
       'id'      => 'dfs-background',
       'type'    => 'background',
-      'title'   => esc_html__('Body Background Image', 'ta-dfs'),
+      'title'   => esc_html__('Body Background Image', 'domain-for-sale'),
       'background_color' => false,
       'default' => array(
         'background-position'   => 'center center',
@@ -76,7 +76,7 @@ CSF::createSection($prefix, array(
     array(
       'id'      => 'dfs-overlay',
       'type'    => 'color',
-      'title'   => esc_html__('Background Overlay', 'ta-dfs'),
+      'title'   => esc_html__('Background Overlay', 'domain-for-sale'),
       'default' => 'rgba(0,0,0,0.7)',
     ),
 
@@ -84,7 +84,7 @@ CSF::createSection($prefix, array(
     array(
       'id'               => 'dfs-body-typography',
       'type'             => 'typography',
-      'title'            => esc_html__('Body Typography', 'ta-dfs'),
+      'title'            => esc_html__('Body Typography', 'domain-for-sale'),
       'output'  => 'body',
       'text_align'     => false,
       'text_transform' => false,
@@ -105,7 +105,7 @@ CSF::createSection($prefix, array(
     array(
       'id'               => 'dfs-heading-typography',
       'type'             => 'typography',
-      'title'            => esc_html__('Heading Typography', 'ta-dfs'),
+      'title'            => esc_html__('Heading Typography', 'domain-for-sale'),
       'output'  => 'h1,h2,h3,h4,h5,h6,.h1, .h2, .h3, .h4, .h5, .h6',
       'text_align'     => false,
       'text_transform' => false,
@@ -130,31 +130,31 @@ CSF::createSection($prefix, array(
 
 // Main options
 CSF::createSection($prefix, array(
-  'title'  => esc_html__('SEO', 'ta-dfs'),
+  'title'  => esc_html__('SEO', 'domain-for-sale'),
   'icon'   => 'fas fa-chart-line',
   'fields' => array(
     array(
       'type'    => 'subheading',
-      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'ta-dfs'),
+      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'domain-for-sale'),
     ),
     array(
       'id'    => 'dfs-sitetitle',
       'type'  => 'text',
-      'title' => esc_html__('Site Title', 'ta-dfs'),
+      'title' => esc_html__('Site Title', 'domain-for-sale'),
       'default'  => get_bloginfo('title'),
     ),
 
     array(
       'id'    => 'dfs-sitedescription',
       'type'  => 'text',
-      'title' => esc_html__('Site Description', 'ta-dfs'),
+      'title' => esc_html__('Site Description', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-sitekeywords',
       'type'  => 'textarea',
-      'title' => esc_html__('Site Keywords', 'ta-dfs'),
-      'desc'  => esc_html__('Add your site keywords seperated by a comma eg: "business domain, corporate domain"', 'ta-dfs'),
+      'title' => esc_html__('Site Keywords', 'domain-for-sale'),
+      'desc'  => esc_html__('Add your site keywords seperated by a comma eg: "business domain, corporate domain"', 'domain-for-sale'),
     ),
   )
 ));
@@ -162,72 +162,72 @@ CSF::createSection($prefix, array(
 
 // Templates options
 CSF::createSection($prefix, array(
-  'title'  => esc_html__('Template Options', 'ta-dfs'),
+  'title'  => esc_html__('Template Options', 'domain-for-sale'),
   'icon'   => 'fas fa-cogs',
   'fields' => array(
     array(
       'type'    => 'subheading',
-      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'ta-dfs'),
+      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-pricetag',
       'type'  => 'text',
-      'title' => esc_html__('Price Tag', 'ta-dfs'),
-      'default'  => esc_html__('Price $200 Only', 'ta-dfs'),
+      'title' => esc_html__('Price Tag', 'domain-for-sale'),
+      'default'  => esc_html__('Price $200 Only', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-domainname',
       'type'  => 'text',
-      'title' => esc_html__('Domain Name', 'ta-dfs'),
+      'title' => esc_html__('Domain Name', 'domain-for-sale'),
       'default'  => get_site_url(),
     ),
     array(
       'id'    => 'dfs-saletitle',
       'type'  => 'text',
-      'title' => esc_html__('Sale Title', 'ta-dfs'),
-      'default'  => esc_html__('is for sale', 'ta-dfs'),
+      'title' => esc_html__('Sale Title', 'domain-for-sale'),
+      'default'  => esc_html__('is for sale', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-content',
       'type'  => 'wp_editor',
-      'title' => esc_html__('Sale Content', 'ta-dfs'),
-      'default'  => esc_html__('The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me.', 'ta-dfs'),
+      'title' => esc_html__('Sale Content', 'domain-for-sale'),
+      'default'  => esc_html__('The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me.', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-contacttitle',
       'type'  => 'text',
-      'title' => esc_html__('Contact title', 'ta-dfs'),
-      'default'  => esc_html__('Contact Info:', 'ta-dfs'),
+      'title' => esc_html__('Contact title', 'domain-for-sale'),
+      'default'  => esc_html__('Contact Info:', 'domain-for-sale'),
     ),
 
     array(
       'id'     => 'dfs-contactinfos',
       'type'   => 'repeater',
-      'title'  => esc_html__('Contact informations', 'ta-dfs'),
+      'title'  => esc_html__('Contact informations', 'domain-for-sale'),
       'fields' => array(
         array(
           'id'      => 'contactinfos-icon',
           'type'    => 'icon',
-          'title'   => esc_html__('Icon for contact info', 'ta-dfs'),
+          'title'   => esc_html__('Icon for contact info', 'domain-for-sale'),
         ),
         array(
           'id'    => 'contactinfos-text',
           'type'  => 'text',
-          'title' => esc_html__('Contact info', 'ta-dfs'),
+          'title' => esc_html__('Contact info', 'domain-for-sale'),
         ),
       ),
       'default' => array(
         array(
           'contactinfos-icon'    => 'far fa-envelope',
-          'contactinfos-text'     => esc_html__('info@yourdomain.com', 'ta-dfs'),
+          'contactinfos-text'     => esc_html__('info@yourdomain.com', 'domain-for-sale'),
         ),
         array(
           'contactinfos-icon'    => 'fas fa-phone',
-          'contactinfos-text'     => esc_html__('(345) 456 789 23', 'ta-dfs'),
+          'contactinfos-text'     => esc_html__('(345) 456 789 23', 'domain-for-sale'),
         ),
       ),
     ),
@@ -237,88 +237,88 @@ CSF::createSection($prefix, array(
 
 // Templates options
 CSF::createSection($prefix, array(
-  'title'  => esc_html__('Contact form', 'ta-dfs'),
+  'title'  => esc_html__('Contact form', 'domain-for-sale'),
   'icon'   => 'fas fa-envelope',
   'fields' => array(
     array(
       'type'    => 'subheading',
-      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'ta-dfs'),
+      'content' => __('<a target="_blank" href="https://1.envato.market/LPeXVY">Upgrate pro</a> to unlock more template versions. Lifetime purchase. There is no monthly/yearly renewals requre.', 'domain-for-sale'),
     ),
     array(
       'id'    => 'dfs-formtitle',
       'type'  => 'text',
-      'title' => esc_html__('Form title', 'ta-dfs'),
-      'default'  => esc_html__('Make an Offer', 'ta-dfs'),
+      'title' => esc_html__('Form title', 'domain-for-sale'),
+      'default'  => esc_html__('Make an Offer', 'domain-for-sale'),
     ),
     array(
       'id'    => 'dfs-namelabel',
       'type'  => 'text',
-      'title' => esc_html__('Name Field Label', 'ta-dfs'),
-      'default'  => esc_html__('Name*', 'ta-dfs'),
+      'title' => esc_html__('Name Field Label', 'domain-for-sale'),
+      'default'  => esc_html__('Name*', 'domain-for-sale'),
     ),
     array(
       'id'    => 'dfs-nameplaceholder',
       'type'  => 'text',
-      'title' => esc_html__('Name Field Placeholder', 'ta-dfs'),
-      'default'  => esc_html__('Your name', 'ta-dfs'),
+      'title' => esc_html__('Name Field Placeholder', 'domain-for-sale'),
+      'default'  => esc_html__('Your name', 'domain-for-sale'),
     ),
 
 
     array(
       'id'    => 'dfs-emaillabel',
       'type'  => 'text',
-      'title' => esc_html__('Email Field Label', 'ta-dfs'),
+      'title' => esc_html__('Email Field Label', 'domain-for-sale'),
       'default'  => 'Email*',
     ),
     array(
       'id'    => 'dfs-emailplaceholder',
       'type'  => 'text',
-      'title' => esc_html__('Email Field Placeholder', 'ta-dfs'),
-      'default'  => esc_html__('Your email address*', 'ta-dfs'),
+      'title' => esc_html__('Email Field Placeholder', 'domain-for-sale'),
+      'default'  => esc_html__('Your email address*', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-subjectlabel',
       'type'  => 'text',
-      'title' => esc_html__('Subject Field Label', 'ta-dfs'),
-      'default'  => esc_html__('Subject*', 'ta-dfs'),
+      'title' => esc_html__('Subject Field Label', 'domain-for-sale'),
+      'default'  => esc_html__('Subject*', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-subjectplaceholder',
       'type'  => 'text',
-      'title' => esc_html__('Subject Field Placeholder', 'ta-dfs'),
-      'default'  => esc_html__('Write email subject', 'ta-dfs'),
+      'title' => esc_html__('Subject Field Placeholder', 'domain-for-sale'),
+      'default'  => esc_html__('Write email subject', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-proposallabel',
       'type'  => 'text',
-      'title' => esc_html__('Proposal Field Label', 'ta-dfs'),
-      'default'  => esc_html__('Proposal*', 'ta-dfs'),
+      'title' => esc_html__('Proposal Field Label', 'domain-for-sale'),
+      'default'  => esc_html__('Proposal*', 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-proposalplaceholder',
       'type'  => 'text',
-      'title' => esc_html__('Proposal Field Placeholder', 'ta-dfs'),
-      'default'  => esc_html__('Write your proposal', 'ta-dfs'),
+      'title' => esc_html__('Proposal Field Placeholder', 'domain-for-sale'),
+      'default'  => esc_html__('Write your proposal', 'domain-for-sale'),
     ),
 
 
     array(
       'id'    => 'dfs-buttonlabel',
       'type'  => 'text',
-      'title' => esc_html__('Button Label', 'ta-dfs'),
-      'default'  => esc_html__('Send proposal', 'ta-dfs'),
+      'title' => esc_html__('Button Label', 'domain-for-sale'),
+      'default'  => esc_html__('Send proposal', 'domain-for-sale'),
     ),
 
 
     array(
       'id'    => 'dfs-targetemail',
       'type'  => 'text',
-      'title' => esc_html__('Target Email Addresses', 'ta-dfs'),
-      'desc'  => esc_html__('Write your emaill addresses to get email. Multiple email can be separated by comma , eg: info@domain.com,hi@domain.com', 'ta-dfs'),
+      'title' => esc_html__('Target Email Addresses', 'domain-for-sale'),
+      'desc'  => esc_html__('Write your emaill addresses to get email. Multiple email can be separated by comma , eg: info@domain.com,hi@domain.com', 'domain-for-sale'),
       'default' => get_bloginfo('admin_email'),
     ),
 
@@ -326,43 +326,43 @@ CSF::createSection($prefix, array(
     array(
       'id'    => 'dfs-emaitemplate',
       'type'  => 'textarea',
-      'title' => esc_html__('Email Template', 'ta-dfs'),
-      'desc'      => esc_html__('Available tags &ndash; {from}, {email}, {subject}, {message}, {date}, {siteURL}, {ip}', 'ta-dfs'),
-      'default'   => esc_html__("Dear Administrator,\nYou have one message from {from} ({email}).\n\n{message}\n\n{date}\n\n This email was submitted from {siteURL}", 'ta-dfs')
+      'title' => esc_html__('Email Template', 'domain-for-sale'),
+      'desc'      => esc_html__('Available tags &ndash; {from}, {email}, {subject}, {message}, {date}, {siteURL}, {ip}', 'domain-for-sale'),
+      'default'   => esc_html__("Dear Administrator,\nYou have one message from {from} ({email}).\n\n{message}\n\n{date}\n\n This email was submitted from {siteURL}", 'domain-for-sale')
     ),
 
     array(
       'id'    => 'dfs-success-title',
       'type'  => 'text',
-      'title' => esc_html__('Form Success Title', 'ta-dfs'),
-      "default" => esc_html__("Thank You for your proposal!", 'ta-dfs'),
+      'title' => esc_html__('Form Success Title', 'domain-for-sale'),
+      "default" => esc_html__("Thank You for your proposal!", 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-success-description',
       'type'  => 'text',
-      'title' => esc_html__('Form Success Description', 'ta-dfs'),
-      "default" => esc_html__("Your message has already arrived! We will contact you shortly.", 'ta-dfs'),
+      'title' => esc_html__('Form Success Description', 'domain-for-sale'),
+      "default" => esc_html__("Your message has already arrived! We will contact you shortly.", 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-error-title',
       'type'  => 'text',
-      'title' => esc_html__('Form Error Title', 'ta-dfs'),
-      "default" => esc_html__("Email not submitted.", 'ta-dfs'),
+      'title' => esc_html__('Form Error Title', 'domain-for-sale'),
+      "default" => esc_html__("Email not submitted.", 'domain-for-sale'),
     ),
 
     array(
       'id'    => 'dfs-error-description',
       'type'  => 'text',
-      'title' => esc_html__('Form Error Description', 'ta-dfs'),
-      "default" => esc_html__("There might me an error with server instead please send us a direct message at: info@yourdomain.com", 'ta-dfs'),
+      'title' => esc_html__('Form Error Description', 'domain-for-sale'),
+      "default" => esc_html__("There might me an error with server instead please send us a direct message at: info@yourdomain.com", 'domain-for-sale'),
     ),
     array(
       'id'    => 'dfs-error-okay',
       'type'  => 'text',
-      'title' => esc_html__('Form Okay Button Value', 'ta-dfs'),
-      "default" => esc_html__("Okay", 'ta-dfs'),
+      'title' => esc_html__('Form Okay Button Value', 'domain-for-sale'),
+      "default" => esc_html__("Okay", 'domain-for-sale'),
     ),
 
   )

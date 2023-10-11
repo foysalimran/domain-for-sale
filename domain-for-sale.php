@@ -4,12 +4,12 @@ Plugin Name: 	Domain For Sale
 Plugin URI: 	https://www.themeatelier.net
 Description: 	Creative and professional auction and domain for sale WordPress Plugin.
 Author: 		ThemeAtelier
-Version: 		1.4.9
+Version: 		1.5.0
 Author URI: 	https://themeatelier.net
 Requirements:   PHP 5.4 or above, WordPress 5.0 or above.
-License:     GPL-2.0+
-Text Domain:  ta-dfs
-Domain Path:  /languages
+License:        GPL-2.0+
+Text Domain:    domain-for-sale
+Domain Path:    /languages
 */
 
 // Block Direct access
@@ -19,7 +19,7 @@ if (!defined('ABSPATH')) {
 
 // Define Constants for direct access alert message.
 if (!defined('DFS_ALERT_MSG'))
-    define('DFS_ALERT_MSG', esc_html__('You should not access this file directly.!', 'ta-dfs'));
+    define('DFS_ALERT_MSG', esc_html__('You should not access this file directly.!', 'domain-for-sale'));
 
 // Define constants for plugin directory path.
 if (!defined('DFS_DIR_PATH'))
@@ -41,7 +41,7 @@ add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'dfs_settings_lin
 function dfs_settings_link(array $links)
 {
     $url = get_admin_url() . "admin.php?page=dfs";
-    $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'ta-dfs') . '</a>';
+    $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'domain-for-sale') . '</a>';
     $links[] = $settings_link;
     return $links;
 }
@@ -52,7 +52,7 @@ add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'ta_dfs_pro_link'
 function ta_dfs_pro_link(array $links)
 {
     $url = "https://1.envato.market/LPeXVY";
-    $settings_link = '<a target="_blank" style="color: #177764; font-weight: 700;" href="' . esc_url($url) . '">' . esc_html__('Go Pro!', 'ta-dfs') . '</a>';
+    $settings_link = '<a target="_blank" style="color: #177764; font-weight: 700;" href="' . esc_url($url) . '">' . esc_html__('Go Pro!', 'domain-for-sale') . '</a>';
     $links[] = $settings_link;
     return $links;
 }
