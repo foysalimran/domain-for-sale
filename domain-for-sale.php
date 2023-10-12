@@ -58,6 +58,8 @@ function ta_dfs_pro_link(array $links)
 }
 
 
+
+
 // Script enqueue class include
 require_once DFS_DIR_PATH . 'inc/functions.php';
 // include framework for admin panel
@@ -88,8 +90,8 @@ appsero_init_tracker_domain_for_sale();
 /********************
 	    - Front end -
  ********************/
-add_action('template_redirect', 'domina_domain_for_sale');
-function domina_domain_for_sale()
+add_action('template_redirect', 'dfs_template_redirect');
+function dfs_template_redirect()
 {
     $options = get_option('dfs-opt');
     if ($options['dfs-enable']) {
