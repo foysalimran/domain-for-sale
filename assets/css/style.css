@@ -813,8 +813,8 @@ a:focus {
 .banner--form .form-control {
   height: 34px;
   padding: 6px 15px;
-  border-color: #ccc;
-  border-radius: 0;
+  border: 1px solid #ccc !important;
+  border-radius: 0 !important;
   box-shadow: none;
   font-weight: normal;
   text-overflow: ellipsis;
