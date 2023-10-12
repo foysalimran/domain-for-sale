@@ -374,7 +374,7 @@ a:focus {
 }
 
 .bg--overlay-fixed:before {
-  position: fixed;
+  position: absolute;
 }
 
 /* 2.5. SECTION TITLE */

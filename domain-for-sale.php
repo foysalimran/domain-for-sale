@@ -58,12 +58,26 @@ function ta_dfs_pro_link(array $links)
 }
 
 
+class Domain_For_Sale_Register_Shortcodes
+{
+    public function register_shortcodes($args = array())
+    {
+        foreach ($args as $args) {
+            add_shortcode($args['name'], $args['callback']);
+        }
+    }
+}
+
+
 // Script enqueue class include
+require_once DFS_DIR_PATH . 'inc/class-post-type.php';
 require_once DFS_DIR_PATH . 'inc/functions.php';
 // include framework for admin panel
 require_once DFS_DIR_PATH . 'admin/codestar-framework.php';
 require_once DFS_DIR_PATH . 'inc/dfs-plugin-options.php';
 require_once DFS_DIR_PATH . 'inc/contact-form-shortcode.php';
+require_once DFS_DIR_PATH . 'inc/templates-meta.php';
+require_once DFS_DIR_PATH . 'inc/register-shortcodes.php';
 
 /**
  * Initialize the plugin tracker
@@ -97,3 +111,5 @@ function domina_domain_for_sale()
         die();
     };
 }
+
+require_once(DFS_DIR_PATH . 'dfs_templates/templates.php');

@@ -27,7 +27,7 @@ if ($isDfsEnable) {
 
 // CSS files
 
-if (!is_admin() && $isDfsEnable) {
+if (!is_admin() ) {
 	function dfs_styles()
 	{
 		// font awesome css
@@ -71,3 +71,48 @@ if (!is_admin() && $isDfsEnable) {
 	}
 	add_action("wp_enqueue_scripts", "dfs_scripts");
 }
+
+function domain_for_sale_shortcode()
+{
+    add_meta_box(
+        'shoetcode_meta_box', //unique ID
+        esc_html__('Shortcode', 'domain-for-sale'), //Name shown in the backend
+        'domain_for_sale_shortcode_meta_box', //function to output the meta box
+        'templates', //post type this box will attach to
+        'side', //position (side,advanced, normal etc)
+        'high' //priority (high, default, low etc)
+    );
+}
+add_action('add_meta_boxes', 'domain_for_sale_shortcode');
+
+function domain_for_sale_shortcode_meta_box()
+{
+    wp_nonce_field('shortcode_meta_box', 'shortcode_meta_box_nonce');
+    $data = '[templates id="' . get_the_ID() . '"]';
+    echo '<input style="width:100%;display:block;font-weight:bold;font-size:16px;margin-bottom:5px;" id="shortCodeValue" type="text" readonly name="shortcode_meta" value="' . esc_attr($data) . '" />';
+    $poststatus = get_post_status(get_the_ID());
+
+    if ('publish' == $poststatus) {
+        $copyShortcode = esc_html('Copy shortcode', 'domain-for-sale');
+        echo "<div id='shortcodeCopyBtn' class='button button-primary button-large'>{$copyShortcode}</div>";
+    }
+}
+
+// Creator post type
+$args = array(
+	'publicly_queryable' 	=> false,
+	'show_in_nav_menus' 	=> false,
+	'menu_icon' 			=> 'dashicons-admin-site',
+	'supports' 				=> array('title'),
+	'taxonomies' 			=> array(''),
+	'show_in_rest'   		=> true,
+);
+
+$args = array(
+	'post_type'     		=> 'templates',
+	'plural_name'   		=> 'Templates',
+	'singular_name' 		=> 'Template',
+	'args'          		=> $args,
+);
+
+$type = new Domain_For_Sale_Posttype($args);
