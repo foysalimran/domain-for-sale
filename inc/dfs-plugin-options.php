@@ -47,10 +47,10 @@ CSF::createSection($prefix, array(
       'type'        => 'image_select',
       'title'       => esc_html__('Select color scheme', 'domain-for-sale'),
       'options'     => array(
-        '1'     => DFS_DIR_URL . 'assets/images/color-1.png',
-        '2'     => DFS_DIR_URL . 'assets/images/color-2.png',
-        '3'     => DFS_DIR_URL . 'assets/images/color-3.png',
-        '4'     => DFS_DIR_URL . 'assets/images/color-4.png',
+        '1'     => DFS_DIR_URL_image . 'color-1.png',
+        '2'     => DFS_DIR_URL_image . 'color-2.png',
+        '3'     => DFS_DIR_URL_image . 'color-3.png',
+        '4'     => DFS_DIR_URL_image . 'color-4.png',
 
       ),
       'default' => '1',
@@ -67,7 +67,7 @@ CSF::createSection($prefix, array(
         'background-attachment' => 'fixed',
         'background-size'       => 'cover',
         'background-image' => array(
-          'url'       =>  DFS_DIR_URL . 'assets/images/hero-1.webp',
+          'url'       =>  DFS_DIR_URL_image . 'hero-1.webp',
         )
       )
     ),

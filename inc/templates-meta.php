@@ -15,7 +15,36 @@ if (!defined('ABSPATH')) {
 // Control core classes for avoid errors
 if (class_exists('CSF')) {
 
+    //
+    // Set a unique slug-like ID
+    $prefix = 'domain_for_sale_meta';
+    //
+    // Create a metabox
+    CSF::createMetabox($prefix, array(
+        'title'     => __('Template options', 'domain-for-sale'),
+        'post_type' => 'templates',
+    ));
 
+    //
+    // Create a section
+    CSF::createSection($prefix, array(
+        'fields' => array(
+            // Select version for templates
+            array(
+                'id'    => 'select_version',
+                'type'  => 'image_select',
+                'title' => __('Choose Version', 'domain-for-sale'),
+                'desc'  => __('Select version for this section', 'domain-for-sale'),
+                'options'    => array(
+                    'templates_1' => DFS_DIR_URL_image . 'version-1.png',
+                    'templates_2' => DFS_DIR_URL_image . 'version-2.png',
+                ),
+                'default'   => 'templates_1',
+            ),
+
+
+        )
+    ));
 
     //
     // Set a unique slug-like ID
@@ -122,10 +151,10 @@ if (class_exists('CSF')) {
                 'type'        => 'image_select',
                 'title'       => __('Select color scheme', 'domain-for-sale'),
                 'options'     => array(
-                    '1'     => DFS_DIR_URL . 'assets/images/color-1.png',
-                    '2'     => DFS_DIR_URL . 'assets/images/color-2.png',
-                    '3'     => DFS_DIR_URL . 'assets/images/color-3.png',
-                    '4'     => DFS_DIR_URL . 'assets/images/color-4.png',
+                    '1'     => DFS_DIR_URL_image . 'color-1.png',
+                    '2'     => DFS_DIR_URL_image . 'color-2.png',
+                    '3'     => DFS_DIR_URL_image . 'color-3.png',
+                    '4'     => DFS_DIR_URL_image . 'color-4.png',
 
                 ),
                 'default' => '1',
@@ -142,7 +171,7 @@ if (class_exists('CSF')) {
                     'background-attachment' => 'fixed',
                     'background-size'       => 'cover',
                     'background-image' => array(
-                        'url'       =>  DFS_DIR_URL . 'assets/images/hero-1.webp',
+                        'url'       =>  DFS_DIR_URL_image . 'templates-1.webp',
                     )
                 )
             ),

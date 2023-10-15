@@ -12,6 +12,7 @@ Text Domain:    domain-for-sale
 Domain Path:    /languages
 */
 
+
 // Block Direct access
 if (!defined('ABSPATH')) {
     die('You should not access this file directly!.');
@@ -46,6 +47,8 @@ function dfs_settings_link(array $links)
     return $links;
 }
 
+// constant define
+define('DFS_DIR_URL_image', DFS_DIR_URL . 'assets/images/');
 
 // Pro version link
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'ta_dfs_pro_link');
