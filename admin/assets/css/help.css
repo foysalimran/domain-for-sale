@@ -1,0 +1,75 @@
+/*Inactive fields CSS*/
+.dfs_pro_option .dfs-field-color {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.dfs-version-pro .dfs--sibling:not(.dfs--active){
+    pointer-events: none;
+    opacity: 0.6;
+    position:relative;
+}
+.dfs-version-pro .dfs--sibling:not(.dfs--active):before{
+    content: "PRO";
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 999;
+    background: red;
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 10px;
+}
+
+.pro_only_field .dfs-fieldset{
+    pointer-events: none;
+    opacity: 0.6;
+}
+/* Help Page CSS */
+.dfs-help-wrapper{
+    max-width: 1050px;
+    margin: 0 auto;
+    background:#f1f1f1;
+    border-radius: 25px;
+}
+.dfs__help--header, .dfs__help--footer{
+    padding: 30px;
+    text-align:center;
+}
+.dfs__help--header h3 span{
+    font-weight:400;
+    font-size: 12px;
+    background:#000;
+    padding: 5px;
+    color:#fff;
+}
+.dfs__help--video {
+    width: 100%;
+    height: 540px;
+}
+.dfs__help--video iframe{
+    width: 100%;
+    height: 100%;
+}
+.dfs__btn--primary{
+    color: #673de6;
+    font-weight: 700;
+    padding: 8px 24px;
+    text-decoration: none;
+    background: #673de6;
+    border-radius: 4px;
+    color: #fff;
+    flex-grow: 0;
+}
+.dfs__btn--secondary{
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-right: 16px;
+    color: #673de6;
+    padding: 8px 24px;
+    text-decoration: none;
+}
+.dfs__btn--secondary:hover{
+background-color: #ebe4ff;
+}

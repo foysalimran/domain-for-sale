@@ -1,15 +1,18 @@
 === Domain For Sale, Domain appraisal, Domain auction, Domain marketplace - Best Domain For sale Plugin for WordPress  ===
 Contributors: ThemeAtelier
-Tags: domain for sale, domain auction, domain brokerage, domain parking, sell the domain, sell a website
-Requires at least: 4.0
-Tested up to: 6.3
-Requires PHP: 5.4
-Stable tag: 1.4.9
+Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Monetization
+Requires at least: 5.0
+Tested up to: 6.5.4
+Requires PHP: 7.0
+Stable tag: 1.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+The ultimate WordPress plugin for domain sales, appraisals, auctions, and marketplace management.
+
 == Description ==
-Domain For Sale WordPress plugin - the ultimate tool for parking and selling your unused domain names. With this plugin, you can easily create a professional-looking template to showcase your domains and give potential buyers all the information they need to make a purchase. The plugin comes with a variety of customizable options, including a contact form that makes it easy for interested parties to get in touch. Whether you're a domain investor or just looking to sell a few unused names, this plugin is the perfect solution for turning your domains into cash.
+
+Domain For Sale WordPress plugin - the ultimate tool for parking and selling your unused domain names. With this plugin, you can easily create a professional-looking template to showcase your domains and give potential buyers all the information they need to make a purchase. The plugin comes with a variety of customizable options, including a contact form that makes it easy for interested parties to get in touch. Whether you're a domain investor or just looking to sell a few unused names, this plugin is the perfect solution for turning your domains into cash. 
 
 👉 [Demos](https://wp-plugins.themeatelier.net/nilam/) | [Pro Version](https://1.envato.market/LPeXVY) | [Support](https://wordpress.org/support/plugin/domain-for-sale/) | [Rate this plugin](https://wordpress.org/support/plugin/domain-for-sale/reviews/#new-post) 👈
 
@@ -17,6 +20,11 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 [youtube https://youtu.be/E_-iUMykP5M]
 
 == HERE’S WHAT USERS SAY ABOUT "DOMAIN FOR SALE" ==
+
+>😻 __A Fantastic Plugin For Domain Name Selling__
+
+>This is a simple and easy plugin if you sell domain names. I am testing it now and it works great. Cheers to the developer. Thank you.
+- By @techspecx
 
 >😻 __I was looking it for long!__
 
@@ -29,9 +37,17 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 * Option to modify the default font and font sizes.
 * Includes useful SEO settings to help rank your site higher in search engine results.
 * Each sentence can be easily altered through the settings panel.
-* Features a powerful contact form with a wide range of customizable options.
+* Unlimited contact informations.
+* Powerful contact form with a wide range of customizable options.
+* Add your own contact form shortcode.
+* Custom CSS option to change any styling from the option panel.
+* Custom JS option to change any scripts from the option panel. So you will able to add any analytics, tracking code or script easily.
 * Offers a backup option to effortlessly use the same settings for multiple websites.
-
+* No third-party theme dependencies. Work individually as like a theme.
+* Super Fast and Active Support.
+* Multilingual Ready.
+* RTL Supported.
+* SEO friendly & optimized for speed.
 
 == SETTINGS PANEL ==
 
@@ -75,9 +91,22 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 * <strong>Form Error Title</strong>  This text will show if somhow email unable to submit.
 * <strong>Form Error Description</strong> Description text to show if somhow email unable to submit.
 
+=== Custom Codes ===
+* <strong>Custom CSS</strong> - Add custom CSS code from setting panel.
+* <strong>Custom JavaScript</strong> - Add custom JavaScript code from setting panel.
+
 === Backup ===
 * <strong>Import</strong> - Import option is for using same settings from different domain.
 * <strong>Export</strong> - Export option is for copy same settings to put in different domain.
+
+== PRO VERSION FEATURES ==
+* Additional template to use in different way.
+* Google reCaptcha option for avoiding spam mail.
+* Add custom theme color to match with your branding.
+* One time purchase lifetime update (For first 500 pro users)
+* White Labelling
+* Priority Support
+* 14-Day Money Back Guarantee
 
 == Installation ==
 1. Upload plugin directory to the `/wp-content/plugins/` directory.
@@ -86,11 +115,13 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 
 == Screenshots ==
 1. Frontend Demo
-2. Admin Demo - Main Options
+2. Admin Demo - General Options
 3. Admin Demo - SEO Options
-4. Admin Demo - Template Options
-5. Admin Demo - Contact Form
-6. Admin Demo - Backup Option
+4. Admin Demo - Content Options
+5. Admin Demo - Contact Form Options
+6. Admin Demo - Custom Code Options
+7. Admin Demo - Backup Options
+8. Admin Demo - Get Help
 
 == Upgrade Notice ==
 
@@ -123,23 +154,68 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 
 = 1.3.2 =
 * Fixed responsive issue
-* Added turkish language file
+* Added Turkish language file
 
 = 1.3.6 =
- * Fixed php and latest wordpress version compatiblity issue
+ * Fixed php and latest Wordpress version compatibility issue
 
 = 1.3.7 =
 * Update in plugin content direction
 
 = 1.3.8 =
-* Fix php compatiblity and wordpress latest compatiblity
+* Fix php compatibility and Wordpress latest compatibility
 
 = 1.4.8 =
-* Change defalt placeholder email template text for identify websites.
+* Change default placeholder email template text for identify websites.
 * Added new tags for emails: {subject},{siteURL}
 * Automatically get website url as "Domain Name" field
 * Automatically get admin email address as "Target Email Addresses" field
 
-== 1.4.9 ==
+= 1.4.9 =
 * Fixed PHP warning
-* WordPress 6.3 compatiblity
+* WordPress 6.3 compatibility
+
+= 1.4.10 =
+* Added all missing strings for translation
+* Added help page for easy to access
+* Redirection option after active plugin in help page
+* Fixed PHP warning
+* WordPress 6.3.2 compatibility
+
+= 1.4.11 =
+ * Update 'domain for sale' framework class for avoiding conflicting with other plugins
+
+ = 1.4.12 =
+ * Convert plugin code from functional base to class base for adding upcoming features.
+ * Added compatibility for WordPress 6.4.1.
+ * Added help page for users.
+
+= 1.4.13 =
+* Fixed some compatibility issues
+
+= 1.4.14 =
+* Fixed CSS issues
+
+= 1.4.15 =
+* Added option for adding custom CSS
+* Added option for adding custom JavaScript
+
+= 1.4.16 =
+* Fixed subject variable reciving issue in email template
+* IP address option added to use in email template
+
+= 1.4.16 =
+* Added:: Option to use contact form shortcode from any third-party plugins.
+* Added help text on some fields.
+* Checked compatibility with latest WordPress version.
+* Checked compatibility with latest PHP version.
+
+= 1.5.1 =
+* Added: compatibility with WordPress 6.5.4
+* Update: Banner advertising removed.
+* Update: Added plugin action link and setting link with same function.
+
+= 1.5.2 =
+* Update: Default background removed from option field and used directly from code to avoild dissapering issue on pro version.
+* Added: Subtitle fields on admin for some sections for better understand.
+* Added: Pro version features instructions on option fields.
