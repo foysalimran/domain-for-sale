@@ -50,6 +50,7 @@ class Helpers
      */
     public function register_all_scripts()
     {
+        wp_register_style('help', DOMAIN_FOR_SALE_ASSETS . 'css/help' . $this->min . '.css', array(), '1.0.0', 'all');
         wp_register_style('ico-font', DOMAIN_FOR_SALE_ASSETS . 'css/icofont' . $this->min . '.css', array(), '1.0.0', 'all');
         wp_register_style('bootstrap', DOMAIN_FOR_SALE_ASSETS . 'css/bootstrap' . $this->min . '.css', array(), '1.0.0', 'all');
         wp_register_style('sweetalert2', DOMAIN_FOR_SALE_ASSETS . 'css/sweetalert2' . $this->min . '.css', array(), '1.0.0', 'all');

@@ -68,7 +68,7 @@ class Admin
      */
     public static function enqueue_scripts($hook)
     {
-        
+        wp_enqueue_style('help');   
     }
 
 }

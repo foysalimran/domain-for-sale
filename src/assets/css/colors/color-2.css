@@ -43,7 +43,8 @@ a:focus,
 .pricing--header,
 .pricing--action .btn,
 .service--item .icon,
-.service--item .action .btn {
+.service--item .action .btn,
+.banner--form .btn, .banner--form input[type=submit] {
   background-color: #f00;
 }
 
@@ -64,7 +65,8 @@ a:focus,
 .faq--items .title:before,
 .header--form form,
 .banner--form form,
-.faq--items {
+.faq--items,
+.banner--form #contact-form {
   border-color: #f00;
 }
 

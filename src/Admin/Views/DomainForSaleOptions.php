@@ -85,7 +85,7 @@ class DomainForSaleOptions
                     'id'        => 'dfs-scheme-custom-1',
                     'type'      => 'color_group',
                     'title'     => esc_html__('Use custom color', 'domain-for-sale-pro'),
-                    'class'     => 'dfs_pro_option',
+                    'class'     => 'domain-for-sale_pro_option',
                     'options'   => array(
                         'primary' => esc_html__('Primary', 'domain-for-sale-pro'),
                         'secondary' => esc_html__('Secondary', 'domain-for-sale-pro'),
@@ -205,7 +205,7 @@ class DomainForSaleOptions
                 array(
                     'id'          => 'dfs-version',
                     'type'        => 'image_select',
-                    'class'       => 'dfs-version-pro',
+                    'class'       => 'domain-for-sale-version-pro',
                     'title'       => esc_html__('Select template version', 'domain-for-sale'),
                     'desc'  => 'To unlock more templates <a target="_blank" href="https://1.envato.market/LPeXVY"><i><strong>Upgrade to Pro!</strong></i></a>',
                     'options'     => array(
