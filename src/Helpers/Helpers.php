@@ -51,8 +51,15 @@ class Helpers
     public function register_all_scripts()
     {
         wp_register_style('ico-font', DOMAIN_FOR_SALE_ASSETS . 'css/icofont' . $this->min . '.css', array(), '1.0.0', 'all');
+        wp_register_style('bootstrap', DOMAIN_FOR_SALE_ASSETS . 'css/bootstrap' . $this->min . '.css', array(), '1.0.0', 'all');
+        wp_register_style('sweetalert2', DOMAIN_FOR_SALE_ASSETS . 'css/sweetalert2' . $this->min . '.css', array(), '1.0.0', 'all');
         wp_register_style('domain-for-sale-style', DOMAIN_FOR_SALE_ASSETS . 'css/domain-for-sale-style' . $this->min . '.css', array(), DOMAIN_FOR_SALE_VERSION, 'all');
+        wp_register_style('dfs-responsive', DOMAIN_FOR_SALE_ASSETS . 'css/responsive' . $this->min . '.css', array(), DOMAIN_FOR_SALE_VERSION, 'all');
 
+
+
+
+        wp_register_script('sweetalert2', DOMAIN_FOR_SALE_ASSETS . 'js/sweetalert2' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
         wp_register_script('domain-for-sale-script', DOMAIN_FOR_SALE_ASSETS . 'js/domain-for-sale-script' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
     }
 }

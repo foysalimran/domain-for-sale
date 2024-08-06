@@ -15,6 +15,7 @@ use ThemeAtelier\DomainForSale\Loader;
 use ThemeAtelier\DomainForSale\Helpers\Helpers;
 use ThemeAtelier\DomainForSale\Admin\Admin;
 use ThemeAtelier\DomainForSale\Frontend\Frontend;
+use ThemeAtelier\DomainForSale\Frontend\ContactShortcode;
 
 // don't call the file directly.
 if (!defined('ABSPATH')) {
@@ -82,6 +83,7 @@ class DomainForSale
                 add_filter('plugin_action_links_' . $active_plugin, array($this, 'plugin_boilerplate_action_links'));
             }
         }
+        add_action('template_redirect', array($this, 'domina_domain_for_sale'));
     }
 
     /**
@@ -188,9 +190,11 @@ class DomainForSale
     private function define_public_hooks()
     {
         $plugin_public = new Frontend($this->get_plugin_slug(), $this->get_version());
+        $contact_shortcode = new ContactShortcode();
         $plugin_helpers = new Helpers($this->get_plugin_slug(), $this->get_version());
         $this->loader->add_action('wp_loaded', $plugin_helpers, 'register_all_scripts');
         $this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
+        $this->loader->add_shortcode('dfs_contact_form', $contact_shortcode, 'dfs_shortcode');
     }
 
     /**
@@ -215,5 +219,17 @@ class DomainForSale
         $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'domain-for-sale') . '</a>';
         $links[] = $settings_link;
         return $links;
+    }
+
+    /********************
+	    - Front end -
+     ********************/
+    function domina_domain_for_sale()
+    {
+        $options = get_option('dfs-opt');
+        if ($options['dfs-enable']) {
+            include(DOMAIN_FOR_SALE_DIR_PATH . 'src/Frontend/templates/index.php');
+            die();
+        };
     }
 }

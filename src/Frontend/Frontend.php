@@ -61,13 +61,48 @@ class Frontend
     public static function enqueue_scripts()
     {
         wp_enqueue_style('ico-font');
+        wp_enqueue_style('bootstrap');
+        wp_enqueue_style('sweetalert2');
         wp_enqueue_style('domain-for-sale-style');
+        wp_enqueue_style('dfs-responsive');
 
+        $options = get_option('dfs-opt');
+        // color scheme css
+        wp_enqueue_style('dfs-colors', DOMAIN_FOR_SALE_ASSETS . 'css/colors/color-' . $options['dfs-scheme'] . '.css', __FILE__);
+
+        $overlay = esc_html($options['dfs-overlay']);
+        $dfsCustomCss = isset($options['dfs-custom-css']) ? $options['dfs-custom-css'] : '';
+        $custom_css = "
+			.bg--overlay:before{
+					background-color: {$overlay};
+			}";
+        if ($dfsCustomCss) {
+            $custom_css .= $dfsCustomCss;
+        }
+        wp_add_inline_style('domain-for-sale-style', $custom_css);
+
+
+        /**
+         * This function is provided for demonstration purposes only.
+         *
+         * An instance of this class should be passed to the run() function
+         * defined in Domain_For_Sale_Loader as all of the hooks are defined
+         * in that particular class.
+         *
+         * The Domain_For_Sale_Loader will then create the relationship
+         * between the defined hooks and the functions defined in this
+         * class.
+         */
+        $dfsCustomJs = isset($options['dfs-custom-js']) ? $options['dfs-custom-js'] : '';
+
+        wp_enqueue_script('sweetalert2');
         wp_enqueue_script('domain-for-sale-script');
+        if (!empty($dfsCustomJs)) {
+            wp_add_inline_script('domain-for-sale-script', $dfsCustomJs);
+        }
     }
 
     public function plugin_boilerplate_content()
     {
-        echo "Hello world!";
     }
 }

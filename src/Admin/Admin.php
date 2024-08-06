@@ -58,7 +58,7 @@ class Admin
         $this->plugin_slug = $plugin_slug;
         $this->version     = $version;
         $this->min         = defined('WP_DEBUG') && WP_DEBUG ? '' : '.min';
-        DomainForSaleOptions::options('domain-for-sale');
+        DomainForSaleOptions::options('dfs-opt');
     }
 
     /**
