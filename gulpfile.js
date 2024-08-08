@@ -51,7 +51,7 @@ gulp.task("makepot", function () {
       })
     )
     // Change Plugin File Name
-    .pipe(gulp.dest("languages/domain-for-sale.php"));
+    .pipe(gulp.dest("languages/domain-for-sale.pot"));
 });
 
 // Clean zip and build directories
