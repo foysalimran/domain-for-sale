@@ -49,8 +49,12 @@ function plugin_boilerplate_run()
     $DOMAIN_FOR_SALE->run();
 }
 
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
+$pro_plugin_slug = 'domain-for-sale-pro/domain-for-sale-pro.php';
 // kick-off the plugin
-plugin_boilerplate_run();
+if (!is_plugin_active($pro_plugin_slug)) {
+    plugin_boilerplate_run();
+}
 
 
 /**

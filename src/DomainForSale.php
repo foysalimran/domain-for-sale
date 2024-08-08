@@ -140,7 +140,7 @@ class DomainForSale
     public function redirect_to($plugin)
     {
         if (DOMAIN_FOR_SALE_BASENAME === $plugin) {
-            $redirect_url = esc_url(admin_url('?page=domain-for-sale'));
+            $redirect_url = esc_url(admin_url('admin.php?page=domain-for-sale'));
             exit(wp_kses_post(wp_safe_redirect($redirect_url)));
         }
     }
