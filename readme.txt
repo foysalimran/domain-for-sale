@@ -126,6 +126,7 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 == Changelog ==
 
 = 2.0.0  – Aug 08, 2024 =
+* Fix: Error
 * Fix: Update code structure
 * Update: Code compatibility with latest WordPress version
 * Update: Code compatibility with latest PHP version
