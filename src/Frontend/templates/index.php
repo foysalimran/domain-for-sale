@@ -1,7 +1,7 @@
 <?php
 
 $options = get_option('dfs-opt');
-$dfs_background = !empty($options['dfs-background']['background-image']['url']) ? $options['dfs-background']['background-image']['url'] : DFS_DIR_URL . 'admin/assets/images/hero-1.webp';
+$dfs_background = !empty($options['dfs-background']['background-image']['url']) ? $options['dfs-background']['background-image']['url'] : DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/hero-1.webp';
 ?>
 <!DOCTYPE html>
 <html lang="en">

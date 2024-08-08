@@ -221,7 +221,7 @@ class DomainForSale
     // Plugin settings in plugin list
     public function plugin_boilerplate_action_links(array $links)
     {
-        $url = get_admin_url() . "admin.php?page=domain-for-sale#tab=main-options";
+        $url = get_admin_url() . "admin.php?page=domain-for-sale#tab=general";
         $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'domain-for-sale') . '</a>';
         $links[] = $settings_link;
         return $links;
