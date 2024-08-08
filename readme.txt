@@ -4,7 +4,7 @@ Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Mon
 Requires at least: 5.0
 Tested up to: 6.6.1
 Requires PHP: 7.0
-Stable tag: 2.0.1
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -125,10 +125,8 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 
 == Changelog ==
 
-= 2.0.1  – Aug 08, 2024 =
-* Fix: Error
-
 = 2.0.0  – Aug 08, 2024 =
+* Fix: Error
 * Fix: Update code structure
 * Update: Code compatibility with latest WordPress version
 * Update: Code compatibility with latest PHP version

@@ -50,7 +50,7 @@ class Frontend
     public function __construct()
     {
         $this->min   = defined('WP_DEBUG') && WP_DEBUG ? '' : '.min';
-        add_action('wp_footer', [$this, 'plugin_boilerplate_content']);
+        add_action('wp_footer', [$this, 'domain_for_sale_content']);
     }
 
     /**
@@ -102,7 +102,7 @@ class Frontend
         }
     }
 
-    public function plugin_boilerplate_content()
+    public function domain_for_sale_content()
     {
     }
 }

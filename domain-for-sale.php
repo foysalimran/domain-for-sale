@@ -16,7 +16,7 @@
  * Plugin Name:       Domain For Sale
  * Plugin URI:        https://themeatelier.net/domain-for-sale
  * Description:       Creative and professional auction and domain for sale WordPress Plugin.
- * Version:           2.0.1
+ * Version:           2.0.0
  * Author:            ThemeAtelier
  * Author URI:        https://themeatelier.net/
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use ThemeAtelier\DomainForSale\DomainForSale;
 
 if(!defined('DOMAIN_FOR_SALE_VERSION')){
-    define('DOMAIN_FOR_SALE_VERSION', '2.0.1');
+    define('DOMAIN_FOR_SALE_VERSION', '2.0.0');
 }
 if(!defined('DOMAIN_FOR_SALE_FILE')){
     define('DOMAIN_FOR_SALE_FILE', __FILE__);

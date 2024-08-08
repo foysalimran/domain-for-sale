@@ -1,7 +1,7 @@
 {
   "name": "domain-for-sale",
   "version": "2.0.0",
-  "description": "Domain for sale description.",
+  "description": "Creative and professional auction and domain for sale WordPress Plugin.",
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass src/assets/sass/domain-for-sale-style.scss src/assets/css/domain-for-sale-style.css -w",
