@@ -2,7 +2,7 @@
 Contributors: ThemeAtelier
 Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Monetization
 Requires at least: 5.0
-Tested up to: 6.5.4
+Tested up to: 6.6.1
 Requires PHP: 7.0
 Stable tag: 2.0.0
 License: GPLv2 or later
@@ -124,82 +124,83 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-= 1.0.0 =
-* Initial release
 
-= 1.1.0 =
-* Updated readme for proper guidelines
+= 2.0.0  – Aug 08, 2024 =
+* Fix: Update code structure
+* Update: Code compatibility with latest WordPress version
+* Update: Code compatibility with latest PHP version
+* Update: Plugin description
 
-= 1.3.2 =
-* Fixed responsive issue
-* Added Turkish language file
+= 1.5.2 =
+* Update: Default background removed from option field and used directly from code to avoid disappearing issue on pro version
+* Added: Subtitle fields on admin for some sections for better understanding
+* Added: Pro version features instructions on option fields
 
-= 1.3.6 =
- * Fixed php and latest Wordpress version compatibility issue
+= 1.5.1 =
+* Added: Compatibility with WordPress 6.5.4
+* Update: Banner advertising removed
+* Update: Added plugin action link and setting link with same function
 
-= 1.3.7 =
-* Update in plugin content direction
+= 1.4.17 =
+* Added: Option to use contact form shortcode from any third-party plugins
+* Added help text on some fields
+* Checked compatibility with latest WordPress version
+* Checked compatibility with latest PHP version
 
-= 1.3.8 =
-* Fix php compatibility and Wordpress latest compatibility
-
-= 1.4.8 =
-* Change default placeholder email template text for identify websites.
-* Added new tags for emails: {subject},{siteURL}
-* Automatically get website url as "Domain Name" field
-* Automatically get admin email address as "Target Email Addresses" field
-
-= 1.4.9 =
-* Fixed PHP warning
-* WordPress 6.3 compatibility
-
-= 1.4.10 =
-* Added all missing strings for translation
-* Added help page for easy to access
-* Redirection option after active plugin in help page
-* Fixed PHP warning
-* WordPress 6.3.2 compatibility
-
-= 1.4.11 =
- * Update 'domain for sale' framework class for avoiding conflicting with other plugins
-
- = 1.4.12 =
- * Convert plugin code from functional base to class base for adding upcoming features.
- * Added compatibility for WordPress 6.4.1.
- * Added help page for users.
-
-= 1.4.13 =
-* Fixed some compatibility issues
-
-= 1.4.14 =
-* Fixed CSS issues
+= 1.4.16 =
+* Fixed subject variable receiving issue in email template
+* IP address option added for use in email template
 
 = 1.4.15 =
 * Added option for adding custom CSS
 * Added option for adding custom JavaScript
 
-= 1.4.16 =
-* Fixed subject variable reciving issue in email template
-* IP address option added to use in email template
+= 1.4.14 =
+* Fixed CSS issues
 
-= 1.4.16 =
-* Added:: Option to use contact form shortcode from any third-party plugins.
-* Added help text on some fields.
-* Checked compatibility with latest WordPress version.
-* Checked compatibility with latest PHP version.
+= 1.4.13 =
+* Fixed some compatibility issues
 
-= 1.5.1 =
-* Added: compatibility with WordPress 6.5.4
-* Update: Banner advertising removed.
-* Update: Added plugin action link and setting link with same function.
+= 1.4.12 =
+* Convert plugin code from functional base to class base for adding upcoming features
+* Added compatibility for WordPress 6.4.1
+* Added help page for users
 
-= 1.5.2 =
-* Update: Default background removed from option field and used directly from code to avoild dissapering issue on pro version.
-* Added: Subtitle fields on admin for some sections for better understand.
-* Added: Pro version features instructions on option fields.
+= 1.4.11 =
+* Update 'domain for sale' framework class to avoid conflicts with other plugins
 
-= 2.0.0  – Aug 08, 2024
-- Fix: Update code structure
-- Update: Code compatibility with latest WordPress version
-- Update: Code compatibility with latest PHP version
-- Update: Plugin description
+= 1.4.10 =
+* Added all missing strings for translation
+* Added help page for easy access
+* Redirection option after activating plugin in help page
+* Fixed PHP warning
+* WordPress 6.3.2 compatibility
+
+= 1.4.9 =
+* Fixed PHP warning
+* WordPress 6.3 compatibility
+
+= 1.4.8 =
+* Change default placeholder email template text for identifying websites
+* Added new tags for emails: {subject}, {siteURL}
+* Automatically get website URL as "Domain Name" field
+* Automatically get admin email address as "Target Email Addresses" field
+
+= 1.3.8 =
+* Fix PHP compatibility and WordPress latest compatibility
+
+= 1.3.7 =
+* Update in plugin content direction
+
+= 1.3.6 =
+* Fixed PHP and latest WordPress version compatibility issue
+
+= 1.3.2 =
+* Fixed responsive issue
+* Added Turkish language file
+
+= 1.1.0 =
+* Updated readme for proper guidelines
+
+= 1.0.0 =
+* Initial release
