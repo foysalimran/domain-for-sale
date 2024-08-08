@@ -267,11 +267,11 @@ class DomainForSaleOptions
                     ),
                     'default' => array(
                         array(
-                            'contactinfos-icon'    => 'far fa-envelope',
+                            'contactinfos-icon'    => 'icofont-envelope',
                             'contactinfos-text'     => esc_html__('info@yourdomain.com', 'domain-for-sale'),
                         ),
                         array(
-                            'contactinfos-icon'    => 'fas fa-phone',
+                            'contactinfos-icon'    => 'icofont-phone',
                             'contactinfos-text'     => esc_html__('(345) 456 789 23', 'domain-for-sale'),
                         ),
                     ),

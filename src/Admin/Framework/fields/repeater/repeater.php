@@ -45,9 +45,9 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_repeater' ) ) {
         echo '</div>';
         echo '<div class="domain-for-sale-repeater-helper">';
         echo '<div class="domain-for-sale-repeater-helper-inner">';
-        echo '<i class="domain-for-sale-repeater-sort fas fa-arrows-alt"></i>';
-        echo '<i class="domain-for-sale-repeater-clone far fa-clone"></i>';
-        echo '<i class="domain-for-sale-repeater-remove domain-for-sale-confirm fas fa-times" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
+        echo '<i class="domain-for-sale-repeater-sort icofont-drag"></i>';
+        echo '<i class="domain-for-sale-repeater-clone icofont-copy-invert"></i>';
+        echo '<i class="domain-for-sale-repeater-remove domain-for-sale-confirm icofont-close" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
         echo '</div>';
         echo '</div>';
         echo '</div>';
@@ -73,9 +73,9 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_repeater' ) ) {
             echo '</div>';
             echo '<div class="domain-for-sale-repeater-helper">';
             echo '<div class="domain-for-sale-repeater-helper-inner">';
-            echo '<i class="domain-for-sale-repeater-sort fas fa-arrows-alt"></i>';
-            echo '<i class="domain-for-sale-repeater-clone far fa-clone"></i>';
-            echo '<i class="domain-for-sale-repeater-remove domain-for-sale-confirm fas fa-times" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
+            echo '<i class="domain-for-sale-repeater-sort icofont-drag"></i>';
+            echo '<i class="domain-for-sale-repeater-clone icofont-copy-invert"></i>';
+            echo '<i class="domain-for-sale-repeater-remove domain-for-sale-confirm icofont-close" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
             echo '</div>';
             echo '</div>';
             echo '</div>';

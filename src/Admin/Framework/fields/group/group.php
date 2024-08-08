@@ -49,9 +49,9 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_group' ) ) {
         echo '<div class="domain-for-sale-cloneable-item domain-for-sale-cloneable-hidden" data-depend-id="'. esc_attr( $this->field['id'] ) .'">';
 
           echo '<div class="domain-for-sale-cloneable-helper">';
-          echo '<i class="domain-for-sale-cloneable-sort fas fa-arrows-alt"></i>';
-          echo '<i class="domain-for-sale-cloneable-clone far fa-clone"></i>';
-          echo '<i class="domain-for-sale-cloneable-remove domain-for-sale-confirm fas fa-times" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
+          echo '<i class="domain-for-sale-cloneable-sort icofont-drag"></i>';
+          echo '<i class="domain-for-sale-cloneable-clone icofont-copy-invert"></i>';
+          echo '<i class="domain-for-sale-cloneable-remove domain-for-sale-confirm icofont-close" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
           echo '</div>';
 
           echo '<h4 class="domain-for-sale-cloneable-title">';
@@ -104,9 +104,9 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_group' ) ) {
             echo '<div class="domain-for-sale-cloneable-item">';
 
               echo '<div class="domain-for-sale-cloneable-helper">';
-              echo '<i class="domain-for-sale-cloneable-sort fas fa-arrows-alt"></i>';
-              echo '<i class="domain-for-sale-cloneable-clone far fa-clone"></i>';
-              echo '<i class="domain-for-sale-cloneable-remove domain-for-sale-confirm fas fa-times" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
+              echo '<i class="domain-for-sale-cloneable-sort icofont-drag"></i>';
+              echo '<i class="domain-for-sale-cloneable-clone icofont-copy-invert"></i>';
+              echo '<i class="domain-for-sale-cloneable-remove domain-for-sale-confirm icofont-close" data-confirm="'. esc_html__( 'Are you sure to delete this item?', 'domain-for-sale' ) .'"></i>';
               echo '</div>';
 
               echo '<h4 class="domain-for-sale-cloneable-title">';

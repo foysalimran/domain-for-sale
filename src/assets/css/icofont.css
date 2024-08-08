@@ -303,64 +303,24 @@ url("./fonts/icofont.woff") format("woff");
   content: "\efbb";
 }
 
-.icofont-envelope-open:before
+.icofont-copy-invert:before
 {
-  content: "\ef13";
+  content: "\ede9";
 }
 
-.icofont-duotone.icofont-envelope-badge:before
+.icofont-drag:before
 {
-  content: "\13b0b";
-}
-
-.icofont-duotone.icofont-envelope-badge:after
-{
-  content: "\13b0a";
-}
-
-.icofont-ui-touch-phone:before
-{
-  content: "\ec8a";
-}
-
-.icofont-smart-phone:before
-{
-  content: "\efec";
-}
-
-.icofont-telephone:before
-{
-  content: "\f008";
-}
-
-.icofont-phone-circle:before
-{
-  content: "\efba";
-}
-
-.icofont-mobile-phone:before
-{
-  content: "\ef9b";
-}
-
-.icofont-ui-dial-phone:before
-{
-  content: "\ec54";
-}
-
-.icofont-ui-cell-phone:before
-{
-  content: "\ec49";
-}
-
-.icofont-iphone:before
-{
-  content: "\ea3b";
+  content: "\ef0a";
 }
 
 .icofont-envelope:before
 {
   content: "\ef14";
+}
+
+.icofont-envelope-open:before
+{
+  content: "\ef13";
 }
 
 [class^="icofont-"].icofont-duotone,

@@ -49,56 +49,6 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 * RTL Supported.
 * SEO friendly & optimized for speed.
 
-== SETTINGS PANEL ==
-
-=== Main options ===
-* <strong>Domain for sale</strong> - Turn this option ON for enable Domain For Sale in your current website.
-* <strong>Upload Favicon</strong> - This option to add favicon of the site.
-* <strong>Select color scheme</strong> - We have 4 different color scheme. Select one of them you love.
-* <strong>Body Background Image</strong> - Add new body background image change default one.
-* <strong>Background overlay</strong> - This option allow you to change overlay color and opacity.
-* <strong>Body Typography</strong> - You will able to change body font with this option. We have all google fonts available there.
-* <strong>Heading Typography</strong> You will able to change headings font with this option. We have all google fonts available there.
-
-=== SEO options ===
-* <strong>Site title</strong> - This option allow you to set a custom website title.
-* <strong>SEO description</strong> - This option allow you to set a website description to show in google search result.
-* <strong>SEO keywords</strong> - You will able to set focus keywors for ranking the domain in google based on your selected keywords.
-
-=== Template options ===
-* <strong>Price Tag</strong> - To change default price tag to user will know around how much do you want to sale.
-* <strong>Domain Name</strong> - To add your domain name.
-* <strong>Sale Title</strong> - To change default sale title.
-* <strong>Sale Content</strong> - Main description of domain content.
-* <strong>Contact title</strong> - Title for contact informations.
-* <strong>Contact informations</strong> - Repeated field to add unlimited contact informations.
-
-=== Contact form ===
-* <strong>Form Title</strong> - This option is to change default title of form.
-* <strong>Name field label</strong> - This options it to cahgne default Name field label.
-* <strong>Name field placeholder</strong> - This options it to cahgne default Name field placeholder.
-* <strong>Email field label</strong> - This options it to cahgne default Email field label.
-* <strong>Email field placeholder</strong> - This options it to cahgne default Email field placeholder.
-* <strong>Subject field label</strong> - This options it to cahgne default Subject field label.
-* <strong>Subject field placeholder</strong> - This options it to cahgne default Subject field placeholder.
-* <strong>Proposal field label</strong> - This options it to cahgne default Proposal field label.
-* <strong>Proposal field placeholder</strong> - This options it to cahgne default Proposal field placeholder.
-* <strong>Button label</strong> - This options it to cahgne default text of button.
-* <strong>Target email addresses</strong> - This options it to add emails to recive email after submit the form.
-* <strong>Email Template</strong> - Format/Customize text for reciving email in your targeted email with same format.
-* <strong>Form Success Title</strong> - Change email successfully submitted title.
-* <strong>Form Success Description</strong> Change email successfully submitted description.
-* <strong>Form Error Title</strong>  This text will show if somhow email unable to submit.
-* <strong>Form Error Description</strong> Description text to show if somhow email unable to submit.
-
-=== Custom Codes ===
-* <strong>Custom CSS</strong> - Add custom CSS code from setting panel.
-* <strong>Custom JavaScript</strong> - Add custom JavaScript code from setting panel.
-
-=== Backup ===
-* <strong>Import</strong> - Import option is for using same settings from different domain.
-* <strong>Export</strong> - Export option is for copy same settings to put in different domain.
-
 == PRO VERSION FEATURES ==
 * Additional template to use in different way.
 * Google reCaptcha option for avoiding spam mail.
@@ -107,6 +57,34 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 * White Labelling
 * Priority Support
 * 14-Day Money Back Guarantee
+
+== Who Is the "Domain For Sale" Plugin For? ==
+
+**Domain Investors:** For those who manage portfolios of domain names, this plugin is an essential tool for showcasing and selling domains directly from your WordPress site. It simplifies transactions and displays domains attractively to maximize sales opportunities.
+
+**Web Developers and Designers:** If you often acquire domain names for future projects or client work, this plugin helps you monetize unused domains through a professional setup that integrates seamlessly with your existing WordPress site.
+
+**Entrepreneurs:** For startup founders and business owners who have acquired multiple domains related to their business, this plugin offers a streamlined way to sell off excess or unneeded domains as your business evolves.
+
+**Marketing Agencies:** Agencies holding domains for SEO purposes or as part of digital strategies can use this plugin to manage and sell domains, turning a static asset into a dynamic revenue stream.
+
+**Corporate IT Departments:** Large organizations often accumulate domain names over time. This plugin provides IT departments with a manageable, scalable way to divest unused or unnecessary domains securely and profitably.
+
+**Domain Flippers:** For those involved in buying domains at lower prices and selling at a profit, the plugin’s customizable templates and SEO features provide a competitive edge in showcasing domains in a marketable fashion.
+
+**Legal Professionals:** Attorneys and legal firms managing domain assets as part of intellectual property portfolios can utilize this plugin to streamline the sale and transfer of domain rights to other entities.
+
+== OTHER AMAZING PRODUCTS FROM ThemeAtelier ==
+
+➡️ **[Greet – Video Bubble Warm Welcome Plugin](https://wordpress.org/plugins/greet-bubble/)** - A powerful and user-friendly video bubble plugin for WordPress that provides website owners with the opportunity to create a dynamic and engaging welcome experience for their visitors.
+
+➡️ **[Eventful – Events Showcase For The Events Calendar](https://wordpress.org/plugins/eventful/)** -  Elevate your event management with this dynamic addon, enhancing ‘The Events Calendar’ with versatile layouts, advanced filtering, and user-friendly features for superior event showcasing.
+
+➡️ **[Better WhatsApp Chat Support](https://wordpress.org/plugins/chat-help/)** -  A WordPress plugin that allows website owners to easily add a WhatsApp chat bubble to their website and comes with Gutenberg, Elementor and Shortcode options.
+
+➡️ **[IDonate](https://wordpress.org/plugins/idonate/)** - A professional blood donation and blood request management plugin.
+
+➡️ **[BizReview](https://wordpress.org/plugins/bizreview/)** - The ultimate WordPress plugin to show Google Business and Google Place Reviews.
 
 == Installation ==
 1. Upload plugin directory to the `/wp-content/plugins/` directory.
@@ -146,12 +124,6 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-= 2.0.0  – Aug 08, 2024
-- Fix: Update code structure
-- Update: Code compatibility with latest WordPress version
-- Update: Code compatibility with latest PHP version
-- Update: Plugin description
-
 = 1.0.0 =
 * Initial release
 
@@ -225,3 +197,9 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 * Update: Default background removed from option field and used directly from code to avoild dissapering issue on pro version.
 * Added: Subtitle fields on admin for some sections for better understand.
 * Added: Pro version features instructions on option fields.
+
+= 2.0.0  – Aug 08, 2024
+- Fix: Update code structure
+- Update: Code compatibility with latest WordPress version
+- Update: Code compatibility with latest PHP version
+- Update: Plugin description
