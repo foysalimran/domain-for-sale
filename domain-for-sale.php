@@ -33,16 +33,30 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use ThemeAtelier\DomainForSale\DomainForSale;
 
-define('DOMAIN_FOR_SALE_VERSION', '2.0.0');
-define('DOMAIN_FOR_SALE_FILE', __FILE__);
-define('DOMAIN_FOR_SALE_ALERT_MSG', esc_html__('You should not access this file directly.!', 'domain-for-sale'));
-define('DOMAIN_FOR_SALE_DIRNAME', dirname(__FILE__));
-define('DOMAIN_FOR_SALE_DIR_PATH', plugin_dir_path(__FILE__));
-define('DOMAIN_FOR_SALE_DIR_URL', plugin_dir_url(__FILE__));
-define('DOMAIN_FOR_SALE_BASENAME', plugin_basename(__FILE__));
+if(!defined('DOMAIN_FOR_SALE_VERSION')){
+    define('DOMAIN_FOR_SALE_VERSION', '2.0.0');
+}
+if(!defined('DOMAIN_FOR_SALE_FILE')){
+    define('DOMAIN_FOR_SALE_FILE', __FILE__);
+}
+if(!defined('DOMAIN_FOR_SALE_ALERT_MSG')){
+    define('DOMAIN_FOR_SALE_ALERT_MSG', esc_html__('You should not access this file directly.!', 'domain-for-sale'));
+}
+if(!defined('DOMAIN_FOR_SALE_DIRNAME')){
+    define('DOMAIN_FOR_SALE_DIRNAME', dirname(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_DIR_PATH')){
+    define('DOMAIN_FOR_SALE_DIR_PATH', plugin_dir_path(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_DIR_URL')){
+    define('DOMAIN_FOR_SALE_DIR_URL', plugin_dir_url(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_BASENAME')){
+    define('DOMAIN_FOR_SALE_BASENAME', plugin_basename(__FILE__));
+}
 
 
-function plugin_boilerplate_run()
+function domain_for_sale_run()
 {
     // Launch the plugin.
     $DOMAIN_FOR_SALE = new DomainForSale();
@@ -53,7 +67,7 @@ include_once ABSPATH . 'wp-admin/includes/plugin.php';
 $pro_plugin_slug = 'domain-for-sale-pro/domain-for-sale-pro.php';
 // kick-off the plugin
 if (!is_plugin_active($pro_plugin_slug)) {
-    plugin_boilerplate_run();
+   domain_for_sale_run();
 }
 
 

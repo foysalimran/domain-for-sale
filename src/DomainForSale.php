@@ -132,9 +132,15 @@ class DomainForSale
      */
     public function define_constants()
     {
-        define('DOMAIN_FOR_SALE_URL', plugins_url('', DOMAIN_FOR_SALE_FILE));
-        define('DOMAIN_FOR_SALE_ASSETS', DOMAIN_FOR_SALE_URL . '/src/assets/');
-        define('DOMAIN_FOR_SALE_ADMIN', DOMAIN_FOR_SALE_URL . '/src/Admin');
+        if(!defined('DOMAIN_FOR_SALE_URL')){
+            define('DOMAIN_FOR_SALE_URL', plugins_url('', DOMAIN_FOR_SALE_FILE));
+        }
+        if(!defined('DOMAIN_FOR_SALE_ASSETS')){
+            define('DOMAIN_FOR_SALE_ASSETS', DOMAIN_FOR_SALE_URL . '/src/assets/');
+        }
+        if(!defined('DOMAIN_FOR_SALE_ADMIN')){
+            define('DOMAIN_FOR_SALE_ADMIN', DOMAIN_FOR_SALE_URL . '/src/Admin');
+        }
     }
 
     public function redirect_to($plugin)
