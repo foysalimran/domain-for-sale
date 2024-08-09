@@ -22,6 +22,10 @@ const paths = {
     src: "src/assets/js/**/*.js",
     dest: "src/assets/js/",
   },
+  colors: {
+    src: "src/assets/css/colors/*.css",
+    dest: "src/assets/css/colors/",
+  },
 };
 
 // Error handler
@@ -133,12 +137,20 @@ gulp.task("make-zip", function () {
     .pipe(zip(`domain-for-sale-v${package.version}.zip`))
     .pipe(gulp.dest("./"));
 });
-// Clean only minified JavaScript files
+// Clean only minified CSS files
 gulp.task("cleanMinifiedCSS", function () {
   return gulp
     .src(`${paths.scss.dest}/*.min.css`, { read: false, allowEmpty: true })
     .pipe(clean());
 });
+// Clean only minified colors CSS files
+gulp.task("cleanColorsCSS", function () {
+  return gulp
+    .src(`${paths.colors.dest}/*.min.css`, { read: false, allowEmpty: true })
+    .pipe(clean());
+});
+
+
 // Minify CSS
 gulp.task("minify-css", function () {
   return gulp
@@ -185,6 +197,7 @@ exports.default = gulp.series(
   "clean-zip",
   "clean-build",
   "cleanMinifiedCSS",
+  "cleanColorsCSS",
   "minify-css",
   "cleanMinifiedJs",
   "minify-js",
@@ -193,6 +206,7 @@ exports.default = gulp.series(
   "make-zip"
 );
 
+exports.minifyColors = gulp.series("cleanColorsCSS", "minify-css");
 exports.minifyCss = gulp.series("cleanMinifiedCSS", "minify-css");
 exports.minifyJs = gulp.series("cleanMinifiedJs", "minify-js");
 exports.watch = gulp.series("watch");
