@@ -57,9 +57,6 @@ class Helpers
         wp_register_style('domain-for-sale-style', DOMAIN_FOR_SALE_ASSETS . 'css/domain-for-sale-style' . $this->min . '.css', array(), DOMAIN_FOR_SALE_VERSION, 'all');
         wp_register_style('dfs-responsive', DOMAIN_FOR_SALE_ASSETS . 'css/responsive' . $this->min . '.css', array(), DOMAIN_FOR_SALE_VERSION, 'all');
 
-
-
-
         wp_register_script('sweetalert2', DOMAIN_FOR_SALE_ASSETS . 'js/sweetalert2' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
         wp_register_script('domain-for-sale-script', DOMAIN_FOR_SALE_ASSETS . 'js/domain-for-sale-script' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
     }
