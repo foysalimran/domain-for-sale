@@ -1,6 +1,6 @@
 {
   "name": "domain-for-sale",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Creative and professional auction and domain for sale WordPress Plugin.",
   "main": "index.js",
   "scripts": {

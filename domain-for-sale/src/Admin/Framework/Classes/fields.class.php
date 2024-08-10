@@ -9,37 +9,11 @@
  */
 if ( ! class_exists( 'DOMAIN_FOR_SALE_Fields' ) ) {
   abstract class DOMAIN_FOR_SALE_Fields extends DOMAIN_FOR_SALE_Abstract {
-    /**
-		 * Field
-		 *
-		 * @var array
-		 */
-		public $field = array();
-		/**
-		 * Value
-		 *
-		 * @var string
-		 */
-		public $value = '';
-		/**
-		 * Unique
-		 *
-		 * @var string
-		 */
-		public $unique = '';
-		/**
-		 * Where
-		 *
-		 * @var string
-		 */
-		public $where = '';
-		/**
-		 * Parent
-		 *
-		 * @var string
-		 */
-		public $parent = '';
-
+    protected $field;
+    protected $value;
+    protected $unique;
+    protected $where;
+    protected $parent;
     public function __construct( $field = array(), $value = '', $unique = '', $where = '', $parent = '' ) {
       $this->field  = $field;
       $this->value  = $value;
