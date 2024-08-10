@@ -125,6 +125,11 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 
 == Changelog ==
 
+
+= 2.0.2  – Aug 10, 2024 =
+* Update: Added new icon fonts
+* Fix: Activation debug errors
+
 = 2.0.1  – Aug 09, 2024 =
 * Fix: PHP warning on activation
 * Fixed: Latest PHP compitablity
