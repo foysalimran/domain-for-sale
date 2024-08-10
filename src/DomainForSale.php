@@ -122,7 +122,7 @@ class DomainForSale
     // load text domain from plugin folder
     function domain_for_sale_load_textdomain()
     {
-        load_plugin_textdomain('', false, DOMAIN_FOR_SALE_DIRNAME . "/languages");
+        load_plugin_textdomain('domain-for-sale', false, DOMAIN_FOR_SALE_DIRNAME . "/languages");
     }
 
     /**
