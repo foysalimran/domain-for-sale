@@ -846,8 +846,8 @@
         animate: false,
         heightStyle: 'content',
         icons: {
-          'header': 'domain-for-sale-cloneable-header-icon fas fa-angle-right',
-          'activeHeader': 'domain-for-sale-cloneable-header-icon fas fa-angle-down'
+          'header': 'domain-for-sale-cloneable-header-icon icofont-rounded-right',
+          'activeHeader': 'domain-for-sale-cloneable-header-icon icofont-rounded-down'
         },
         activate: function( event, ui ) {
 
@@ -2906,7 +2906,7 @@
                                 '<div class="domain-for-sale--transparent-slider"></div>' +
                                 '<div class="domain-for-sale--transparent-offset"></div>' +
                                 '<div class="domain-for-sale--transparent-text"></div>' +
-                                '<div class="domain-for-sale--transparent-button">transparent <i class="fas fa-toggle-off"></i></div>' +
+                                '<div class="domain-for-sale--transparent-button">transparent <i class="icofont-toggle-off"></i></div>' +
                                 '</div>').appendTo( $container.find('.wp-picker-holder') ),
               $transparent_slider = $transparent_wrap.find('.domain-for-sale--transparent-slider'),
               $transparent_text   = $transparent_wrap.find('.domain-for-sale--transparent-text'),

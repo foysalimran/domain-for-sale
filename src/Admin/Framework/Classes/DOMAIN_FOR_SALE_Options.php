@@ -510,7 +510,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Options' ) ) {
 
             echo ( $this->args['show_form_warning'] ) ? '<div class="domain-for-sale-form-result domain-for-sale-form-warning">'. esc_html__( 'You have unsaved changes, save your changes!', 'domain-for-sale' ) .'</div>' : '';
 
-            echo ( $has_nav && $this->args['show_all_options'] ) ? '<div class="domain-for-sale-expand-all" title="'. esc_html__( 'show all settings', 'domain-for-sale' ) .'"><i class="fas fa-outdent"></i></div>' : '';
+            echo ( $has_nav && $this->args['show_all_options'] ) ? '<div class="domain-for-sale-expand-all" title="'. esc_html__( 'show all settings', 'domain-for-sale' ) .'"><i class="icofont-outdent"></i></div>' : '';
 
             echo ( $this->args['show_search'] ) ? '<div class="domain-for-sale-search"><input type="text" name="domain-for-sale-search" placeholder="'. esc_html__( 'Search...', 'domain-for-sale' ) .'" autocomplete="off" /></div>' : '';
 

@@ -28,7 +28,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_accordion' ) ) {
 
         echo '<div class="domain-for-sale-accordion-item">';
 
-          $icon = ( ! empty( $accordion['icon'] ) ) ? 'domain-for-sale--icon '. $accordion['icon'] : 'domain-for-sale-accordion-icon fas fa-angle-right';
+          $icon = ( ! empty( $accordion['icon'] ) ) ? 'domain-for-sale--icon '. $accordion['icon'] : 'domain-for-sale-accordion-icon icofont-rounded-right';
 
           echo '<h4 class="domain-for-sale-accordion-title">';
           echo '<i class="'. esc_attr( $icon ) .'"></i>';

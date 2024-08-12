@@ -2,5 +2,6 @@
 /node_modules
 /package-lock.json
 /composer.lock
+/yarn.lock
 /build
 *.zip

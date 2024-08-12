@@ -102,7 +102,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Fields' ) ) {
 
       $output  = ( ! empty( $this->field['after'] ) ) ? '<div class="domain-for-sale-after-text">'. $this->field['after'] .'</div>' : '';
       $output .= ( ! empty( $this->field['desc'] ) ) ? '<div class="clear"></div><div class="domain-for-sale-desc-text">'. $this->field['desc'] .'</div>' : '';
-      $output .= ( ! empty( $this->field['help'] ) ) ? '<div class="domain-for-sale-help"><span class="domain-for-sale-help-text">'. $this->field['help'] .'</span><i class="fas fa-question-circle"></i></div>' : '';
+      $output .= ( ! empty( $this->field['help'] ) ) ? '<div class="domain-for-sale-help"><span class="domain-for-sale-help-text">'. $this->field['help'] .'</span><i class="icofont-question-circle"></i></div>' : '';
       $output .= ( ! empty( $this->field['_error'] ) ) ? '<div class="domain-for-sale-error-text">'. $this->field['_error'] .'</div>' : '';
 
       return $output;

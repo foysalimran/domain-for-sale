@@ -305,7 +305,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_typography' ) ) {
 
         if ( ! empty( $args['preview'] ) ) {
           echo '<div class="domain-for-sale--block domain-for-sale--block-preview'. esc_attr( $always_preview ) .'">';
-          echo '<div class="domain-for-sale--toggle fas fa-toggle-off"></div>';
+          echo '<div class="domain-for-sale--toggle icofont-toggle-off"></div>';
           echo '<div class="domain-for-sale--preview">'. esc_attr( $args['preview_text'] ) .'</div>';
           echo '</div>';
         }

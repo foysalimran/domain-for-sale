@@ -510,9 +510,9 @@ a:focus {
 }
 
 .header--box.style--1 .features .nav > li:before {
-  content: "\f046";
+  content: "\ea94";
   margin-right: 10px;
-  font-family: "FontAwesome";
+  font-family: "IcoFont";
 }
 
 .header--box.style--2 {
