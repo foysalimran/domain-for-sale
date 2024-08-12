@@ -53,24 +53,9 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ea48";
 }
 
-.icofont-duotone.icofont-eye-open:before
-{
-  content: "\13b1b";
-}
-
-.icofont-duotone.icofont-eye-open:after
-{
-  content: "\13b1a";
-}
-
 .icofont-eye-alt:before
 {
   content: "\ef21";
-}
-
-.icofont-eye-open:before
-{
-  content: "\e80b";
 }
 
 .icofont-code-alt:before
@@ -183,11 +168,6 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ecba";
 }
 
-.icofont-volume-down:before
-{
-  content: "\ecb7";
-}
-
 .icofont-mute-volume:before
 {
   content: "\eca4";
@@ -196,16 +176,6 @@ url("./fonts/icofont.woff") format("woff");
 .icofont-volume-mute:before
 {
   content: "\ecb8";
-}
-
-.icofont-duotone.icofont-expand-full:before
-{
-  content: "\13b15";
-}
-
-.icofont-duotone.icofont-expand-full:after
-{
-  content: "\13b14";
 }
 
 .icofont-expand:before
@@ -321,6 +291,141 @@ url("./fonts/icofont.woff") format("woff");
 .icofont-envelope-open:before
 {
   content: "\ef13";
+}
+
+.icofont-settings:before
+{
+  content: "\efe2";
+}
+
+.icofont-settings-alt:before
+{
+  content: "\efe1";
+}
+
+.icofont-gear-alt:before
+{
+  content: "\ef39";
+}
+
+.icofont-gear:before
+{
+  content: "\ef3a";
+}
+
+.icofont-gears:before
+{
+  content: "\ef3b";
+}
+
+.icofont-google-map:before
+{
+  content: "\ed42";
+}
+
+.icofont-drag1:before
+{
+  content: "\ef0b";
+}
+
+.icofont-blood-drop:before
+{
+  content: "\ec0d";
+}
+
+.icofont-water-drop:before
+{
+  content: "\f027";
+}
+
+.icofont-ui-folder:before
+{
+  content: "\ec5b";
+}
+
+.icofont-folder:before
+{
+  content: "\ef36";
+}
+
+.icofont-folder-open:before
+{
+  content: "\ef35";
+}
+
+.icofont-plus-circle:before
+{
+  content: "\efc0";
+}
+
+.icofont-simple-right:before
+{
+  content: "\eab8";
+}
+
+.icofont-simple-down:before
+{
+  content: "\eab2";
+}
+
+.icofont-download-alt:before
+{
+  content: "\ef07";
+}
+
+.icofont-toggle-off:before
+{
+  content: "\f011";
+}
+
+.icofont-toggle-on:before
+{
+  content: "\f012";
+}
+
+.icofont-outdent:before
+{
+  content: "\edf9";
+}
+
+.icofont-question-circle:before
+{
+  content: "\efca";
+}
+
+.icofont-question:before
+{
+  content: "\efcc";
+}
+
+.icofont-caret-left:before
+{
+  content: "\ea68";
+}
+
+.icofont-caret-right:before
+{
+  content: "\ea69";
+}
+
+.icofont-long-arrow-up:before
+{
+  content: "\ea95";
+}
+
+.icofont-long-arrow-right:before
+{
+  content: "\ea94";
+}
+
+.icofont-long-arrow-left:before
+{
+  content: "\ea93";
+}
+
+.icofont-long-arrow-down:before
+{
+  content: "\ea92";
 }
 
 [class^="icofont-"].icofont-duotone,
