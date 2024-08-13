@@ -4,7 +4,7 @@ Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Mon
 Requires at least: 4.0
 Tested up to: 6.6.1
 Requires PHP: 7.0
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -124,7 +124,8 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-
+= 2.0.3  – Aug 12, 2024 =
+* Fix: Icon issue
 
 = 2.0.2  – Aug 10, 2024 =
 * Update: Added new icon fonts

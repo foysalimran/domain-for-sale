@@ -65,7 +65,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_sortable' ) ) {
 
           echo '</div>';
 
-          echo '<div class="domain-for-sale-sortable-helper"><i class="fas fa-arrows-alt"></i></div>';
+          echo '<div class="domain-for-sale-sortable-helper"><i class="icofont-drag"></i></div>';
 
         echo '</div>';
 

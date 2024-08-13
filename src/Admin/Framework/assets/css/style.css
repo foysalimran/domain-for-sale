@@ -197,7 +197,7 @@
   box-shadow: none;
 }
 .domain-for-sale-nav ul li .domain-for-sale-arrow:after {
-  content: "\f054";
+  content: "\eaa0";
   display: inline-block;
   font-family: "IcoFont";
   font-weight: 900;
@@ -1136,10 +1136,10 @@
   float: right;
 }
 .domain-for-sale-datepicker-wrapper .ui-datepicker-prev:before {
-  content: "\f053";
+  content: "\ea9d";
 }
 .domain-for-sale-datepicker-wrapper .ui-datepicker-next:before {
-  content: "\f054";
+  content: "\eab8";
 }
 .domain-for-sale-datepicker-wrapper .ui-datepicker-prev-hover,
 .domain-for-sale-datepicker-wrapper .ui-datepicker-next-hover {
@@ -1904,14 +1904,14 @@
   border-radius: 4px 0 0 4px;
 }
 .domain-for-sale-field-spinner .ui-spinner .ui-spinner-down:before {
-  content: "\f0d9";
+  content: "\ea68";
 }
 .domain-for-sale-field-spinner .ui-spinner .ui-spinner-up {
   border-left: 0;
   border-radius: 0 4px 4px 0;
 }
 .domain-for-sale-field-spinner .ui-spinner .ui-spinner-up:before {
-  content: "\f0da";
+  content: "\ea69";
 }
 .domain-for-sale-field-spinner .ui-spinner .domain-for-sale--unit {
   border-left: 0;
@@ -3460,7 +3460,7 @@
 .domain-for-sale-fa5-shims .DOMAIN_FOR_SALE .fas,
 .domain-for-sale-fa5-shims .DOMAIN_FOR_SALE .far,
 .domain-for-sale-fa5-shims .DOMAIN_FOR_SALE .fab {
-  font-family: "FontAwesome";
+  font-family: "IcoFont";
   font-style: normal;
 }
 
