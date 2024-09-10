@@ -1,7 +1,7 @@
 === Domain For Sale, Domain appraisal, Domain auction, Domain marketplace - Best Domain For sale Plugin for WordPress  ===
 Contributors: ThemeAtelier
 Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Monetization
-Requires at least: 4.0
+Requires at least: 5.0
 Tested up to: 6.6.1
 Requires PHP: 7.0
 Stable tag: 2.0.3
@@ -124,8 +124,8 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-= 2.0.3  – Aug 12, 2024 =
-* Fix: Icon issue
+= 2.0.3  – Aug 17, 2024 =
+* Fix: Icon issue for admin panel
 
 = 2.0.2  – Aug 10, 2024 =
 * Update: Added new icon fonts
