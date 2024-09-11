@@ -26,24 +26,32 @@ class ContactShortcode
             $ip = esc_sql(sanitize_text_field($_SERVER['REMOTE_ADDR']));
             $siteURL   = get_site_url();
             $options = get_option('dfs-opt');
+            $dfs_target_mail = isset($options['dfs-targetemail']) ? $options['dfs-targetemail'] : '';
+            $dfs_success_title = isset($options['dfs-success-title']) ? $options['dfs-success-title'] : '';
+            $dfs_success_description = isset($options['dfs-success-description']) ? $options['dfs-success-description'] : '';
+
+            $dfs_error_title = isset($options['dfs-error-title']) ? $options['dfs-error-title'] : '';
+            $dfs_error_description = isset($options['dfs-error-description']) ? $options['dfs-error-description'] : '';
+            $dfs_error_okay = isset($options['dfs-error-okay']) ? $options['dfs-error-okay'] : '';
+
             $variables = array('{from}', '{email}', '{message}', '{date}', '{ip}', '{subject}', '{siteURL}');
             $values    = array($name, $email, $message, $date, $ip, $subject, $siteURL);
             $text = trim(str_replace($variables, $values, $options['dfs-emaitemplate']));
             $headers = array('From: ' . $name . ' <' . $email . '>');
             // If email has been process for sending, display a success message
-            if (wp_mail($options['dfs-targetemail'], $subject, $text, $headers)) {
+            if (wp_mail($dfs_target_mail, $subject, $text, $headers)) {
                 $data = array(
                     'type' => 'success',
-                    'title' => $options['dfs-success-title'],
-                    'description' => $options['dfs-success-description'],
+                    'title' => $dfs_success_title,
+                    'description' => $dfs_success_description,
                     'okay' => null,
                 );
             } else {
                 $data = array(
                     'type' => 'error',
-                    'title' => $options['dfs-error-title'],
-                    'description' => $options['dfs-error-description'],
-                    'okay' => $options['dfs-error-okay'],
+                    'title' => $dfs_error_title,
+                    'description' => $dfs_error_description,
+                    'okay' => $dfs_error_okay,
                 );
             }
         }
@@ -51,26 +59,37 @@ class ContactShortcode
 
 
         $options = get_option('dfs-opt');
+        $dfs_name_label = isset($options['dfs-namelabel']) ? $options['dfs-namelabel'] : '';
+        $dfs_name_placeholder = isset($options['dfs-nameplaceholder']) ? $options['dfs-nameplaceholder'] : '';
+
+        $dfs_email_label = isset($options['dfs-emaillabel']) ? $options['dfs-emaillabel'] : '';
+        $dfs_email_placeholder = isset($options['dfs-emailplaceholder']) ? $options['dfs-emailplaceholder'] : '';
+
+        $dfs_subject_label = isset($options['dfs-subjectlabel']) ? $options['dfs-subjectlabel'] : '';
+        $dfs_subject_placeholder = isset($options['dfs-subjectplaceholder'])? $options['dfs-subjectplaceholder'] : '';
+
+
+
         echo '<form action="' . esc_url($_SERVER['REQUEST_URI']) . '" method="post"><div class="contact-form-holder">';
         echo '<div class="row"><div class="col-md-12"><div class="mb-2">';
-        if ($options['dfs-namelabel']) :
-            echo '<label  class="form-label" for="dfs-name"><span>' . esc_attr($options['dfs-namelabel']) . '</span></label>';
+        if ($dfs_name_label) :
+            echo '<label  class="form-label" for="dfs-name"><span>' . esc_attr($dfs_name_label) . '</span></label>';
         endif;
-        echo '<input id="dfs-name" class="form-control" required placeholder="' . esc_html($options['dfs-nameplaceholder']) . '" type="text" name="dfs-name" pattern="[a-zA-Z0-9 ]+"/>';
+        echo '<input id="dfs-name" class="form-control" required placeholder="' . esc_html($dfs_name_placeholder) . '" type="text" name="dfs-name" pattern="[a-zA-Z0-9 ]+"/>';
         echo '</div></div></div>';
 
         echo '<div class="row"><div class="col-md-12"><div class="mb-2">';
-        if ($options['dfs-emaillabel']) :
-            echo '<label  class="form-label" for="dfs-email"><span>' . esc_attr($options['dfs-emaillabel']) . '</span></label>';
+        if ($dfs_email_label) :
+            echo '<label  class="form-label" for="dfs-email"><span>' . esc_attr($dfs_email_label) . '</span></label>';
         endif;
-        echo '<input id="dfs-email" class="form-control" required placeholder="' . esc_html($options['dfs-emailplaceholder']) . '" type="email" name="dfs-email"/>';
+        echo '<input id="dfs-email" class="form-control" required placeholder="' . esc_html($dfs_email_placeholder) . '" type="email" name="dfs-email"/>';
         echo '</div></div></div>';
 
         echo '<div class="row"><div class="col-md-12"><div class="mb-2">';
-        if ($options['dfs-subjectlabel']) :
-            echo '<label  class="form-label" for="dfs-subject"><span>' . esc_attr($options['dfs-subjectlabel']) . '</span></label>';
+        if ($dfs_subject_label) :
+            echo '<label  class="form-label" for="dfs-subject"><span>' . esc_attr($dfs_subject_label) . '</span></label>';
         endif;
-        echo '<input id="dfs-subject" class="form-control" required placeholder="' . esc_html($options['dfs-subjectplaceholder']) . '" type="text" name="dfs-subject"/>';
+        echo '<input id="dfs-subject" class="form-control" required placeholder="' . esc_html($dfs_subject_placeholder) . '" type="text" name="dfs-subject"/>';
         echo '</div></div></div>';
 
         echo '<div class="row"><div class="col-md-12"><div class="mb-2">';

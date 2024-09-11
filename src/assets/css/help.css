@@ -1,4 +1,8 @@
 /*Inactive fields CSS*/
+.domain-for-sale-pro-text{
+    color:#35b747;
+    font-weight:700
+}
 .domain-for-sale_pro_option .domain-for-sale-field-color {
     pointer-events: none;
     opacity: 0.6;
