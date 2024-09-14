@@ -68,6 +68,10 @@ class ContactShortcode
         $dfs_subject_label = isset($options['dfs-subjectlabel']) ? $options['dfs-subjectlabel'] : '';
         $dfs_subject_placeholder = isset($options['dfs-subjectplaceholder'])? $options['dfs-subjectplaceholder'] : '';
 
+        $dfs_proposal_label = isset($options['dfs-proposallabel']) ? $options['dfs-proposallabel'] : '';
+        $dfs_proposal_placeholder = isset($options['dfs-proposalplaceholder']) ? $options['dfs-proposalplaceholder'] : '';
+
+        $dfs_button_label = isset($options['dfs-buttonlabel']) ? $options['dfs-buttonlabel'] : '';
 
 
         echo '<form action="' . esc_url($_SERVER['REQUEST_URI']) . '" method="post"><div class="contact-form-holder">';
@@ -93,15 +97,15 @@ class ContactShortcode
         echo '</div></div></div>';
 
         echo '<div class="row"><div class="col-md-12"><div class="mb-2">';
-        if ($options['dfs-proposallabel']) :
-            echo '<label  class="form-label" for="dfs-proposal"><span>' . esc_attr($options['dfs-proposallabel']) . '</span></label>';
+        if ($dfs_proposal_label) :
+            echo '<label  class="form-label" for="dfs-proposal"><span>' . esc_attr($dfs_proposal_label) . '</span></label>';
         endif;
         echo '<textarea id="dfs-proposal" name="dfs-proposal" rows="4" class="form-control field-message"
-placeholder="' . esc_html($options['dfs-proposalplaceholder']) . '"
+placeholder="' . esc_html($dfs_proposal_placeholder) . '"
 required></textarea>';
         echo '</div></div></div>';
 
-        echo '<div class="row"><div class="col-md-12"><input class="btn btn-block" type="submit" name="dfs-submitted" value="' . esc_html($options['dfs-buttonlabel']) . '"></div></div>';
+        echo '<div class="row"><div class="col-md-12"><input class="btn btn-block" type="submit" name="dfs-submitted" value="' . esc_html($dfs_button_label) . '"></div></div>';
         echo '</div></form>';
         return ob_get_clean();
     }

@@ -111,10 +111,10 @@ class Admin
     /**
      * Options page callback
      */
-    public function domain_for_sale_settings() {}
+    public function domain_for_sale_settings()   {}
 
     // Help page callbacks
-    public function domain_for_sale_help() {
+    public function domain_for_sale_help(): void {
    
         ?>
 <div class="wrap">

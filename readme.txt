@@ -124,8 +124,11 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-= 2.0.3  – Aug 17, 2024 =
+= 2.0.3  – Sep 11, 2024 =
 * Fix: Icon issue for admin panel
+* Fix: PHP 8.1.12 Compatibility Issue
+* Fix: WordPress 6.6.1 Compatibility Issue
+* Added: Help area for admin panel
 
 = 2.0.2  – Aug 10, 2024 =
 * Update: Added new icon fonts
