@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-
+if(confirmation) {
   if (confirmation.type === "success") {
     Swal.fire({
       icon: "success",
@@ -17,4 +17,5 @@
       confirmButtonText: confirmation.okay,
     });
   }
+}
 })(jQuery);
