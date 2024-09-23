@@ -4,7 +4,7 @@ Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Mon
 Requires at least: 5.0
 Tested up to: 6.6.1
 Requires PHP: 7.0
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
