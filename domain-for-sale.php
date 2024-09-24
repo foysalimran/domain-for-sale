@@ -70,7 +70,6 @@ if (!is_plugin_active($pro_plugin_slug)) {
    domain_for_sale_run();
 }
 
-
 /**
  * Initialize the plugin tracker
  *

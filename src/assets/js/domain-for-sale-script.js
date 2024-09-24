@@ -1,7 +1,7 @@
 (function ($) {
   "use strict";
 if(confirmation) {
-  if (confirmation.type === "success") {
+  if (confirmation?.type === "success") {
     Swal.fire({
       icon: "success",
       title: confirmation.title,
@@ -9,7 +9,7 @@ if(confirmation) {
       showConfirmButton: false,
       timer: 2000,
     });
-  } else if (confirmation.type === "error") {
+  } else if (confirmation?.type === "error") {
     Swal.fire({
       icon: "error",
       title: confirmation.title,
