@@ -2,9 +2,9 @@
 Contributors: ThemeAtelier
 Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Monetization
 Requires at least: 5.0
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Requires PHP: 7.0
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -125,9 +125,13 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 
 == Changelog ==
 
+= 2.0.5  – Sep 24, 2024 =
+* Added: All icons form Icofont library.
+* Fixed: Check mark icon not loading issue on admin panel.
+* TESTED: WordPress 6.6.2 compatibility.
+
 = 2.0.4  – Sep 14, 2024 =
 * Update: Plugin UI
-
 
 = 2.0.3  – Sep 11, 2024 =
 * Fix: Icon issue for admin panel
