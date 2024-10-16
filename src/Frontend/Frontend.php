@@ -193,8 +193,8 @@ class Frontend
         wp_register_script('dfs-recaptcha', '//www.google.com/recaptcha/api.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
 
         wp_enqueue_script('sweetalert2');
-        wp_enqueue_script('main');
-        wp_localize_script('main', 'confirmation', array(
+        wp_enqueue_script('domain-for-sale-script');
+        wp_localize_script('domain-for-sale-script', 'confirmation', array(
             'ajax_url' => admin_url('admin-ajax.php'),
             'nonce' => wp_create_nonce('domain_for_sale_email_nonce')
         ));

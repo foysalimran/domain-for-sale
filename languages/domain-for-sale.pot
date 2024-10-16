@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-24 10:29+0000\n"
+"POT-Creation-Date: 2024-10-16 10:59+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -18,376 +18,72 @@ msgstr ""
 msgid "You should not access this file directly.!"
 msgstr ""
 
-#: src/DomainForSale.php:222, src/Admin/Admin.php:91, src/Admin/Admin.php:92
+#: src/Admin/Admin.php:109, src/Admin/Admin.php:110, src/DomainForSale.php:449
 msgid "Settings"
 msgstr ""
 
-#: src/DomainForSale.php:224
-msgid "Go Pro!"
-msgstr ""
-
-#: src/Admin/Admin.php:79, src/Admin/Admin.php:80, src/Admin/Views/DomainForSaleOptions.php:30
-msgid "Domain For Sale"
-msgstr ""
-
-#: src/Admin/Admin.php:101, src/Admin/Admin.php:102
+#: src/Admin/Admin.php:118, src/Admin/Admin.php:119
 msgid "Help"
 msgstr ""
 
-#: src/Admin/Admin.php:108, src/Admin/Admin.php:108
+#: src/Admin/Admin.php:126, src/Admin/Admin.php:129
 msgid "👑 Upgrade to Pro!"
 msgstr ""
 
-#: src/Admin/Views/DomainForSaleOptions.php:33
-msgid "Thank you for using our product"
+#: src/Admin/Admin.php:174
+msgid "Title"
 msgstr ""
 
-#: src/Admin/Views/DomainForSaleOptions.php:45
-msgid "If you like <strong>Domain For Sale</strong>, please leave us a <a href=\"https://wordpress.org/support/plugin/domain-for-sale/reviews/?filter=5#new-post\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Your Review is very important to us as it helps us to grow more."
+#: src/Admin/Admin.php:175, src/Helpers/Helpers.php:67
+msgid "Shortcode"
 msgstr ""
 
-#: src/Admin/Views/DomainForSaleOptions.php:50
-msgid "GENERAL"
+#: src/Admin/Admin.php:176, src/DomainForSale.php:167
+msgid "Layout"
 msgstr ""
 
-#: src/Admin/Views/DomainForSaleOptions.php:58
-msgid "Enable Domain for sale"
+#: src/Admin/Admin.php:177
+msgid "Date"
 msgstr ""
 
-#: src/Admin/Views/DomainForSaleOptions.php:59
-msgid "Turn ON for enable domain for sale mode for your website."
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:67
-msgid "Upload favicon"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:68
-msgid "Use a 32x32 .ico or .png file."
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:74
-msgid "Select color scheme"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:104
-msgid "Body Background Image"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:119
-msgid "Background Overlay"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:127
-msgid "Body Typography"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:148
-msgid "Heading Typography"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:173
-msgid "SEO"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:180
-msgid "Site Title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:187
-msgid "Site Description"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:193
-msgid "Site Keywords"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:194
-msgid "Add your site keywords seperated by a comma eg: \"business domain, corporate domain\""
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:202
-msgid "CONTENT"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:210
-msgid "Select template version"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:222
-msgid "Price Tag"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:223
-msgid "Price $200 Only"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:229
-msgid "Domain Name"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:235
-msgid "Sale Title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:236
-msgid "is for sale"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:242
-msgid "Sale Content"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:243
-msgid "The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me."
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:249
-msgid "Contact title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:250
-msgid "Contact Info:"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:256
-msgid "Contact informations"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:261
-msgid "Icon for contact info"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:266
-msgid "Contact info"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:272
-msgid "info@yourdomain.com"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:276
-msgid "(345) 456 789 23"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:286
-msgid "CONTACT FORM"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:292
-msgid "Form type"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:293
-msgid "Select third-party form for using custom shortcode from any third-party plugins such as: Contact form 7, Ninja form, Fluent form etc"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:295
-msgid "Domain For Sale Form"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:296
-msgid "Third-party Form"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:303
-msgid "Form title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:304
-msgid "Make an Offer"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:310
-msgid "Form Fields"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:317
-msgid "Insert shortcode for contact form"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:325
-msgid "Name Field Label"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:326
-msgid "Name*"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:332
-msgid "Name Field Placeholder"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:333
-msgid "Your name"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:341
-msgid "Email Field Label"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:348
-msgid "Email Field Placeholder"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:349
-msgid "Your email address*"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:356
-msgid "Subject Field Label"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:357
-msgid "Subject*"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:364
-msgid "Subject Field Placeholder"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:365
-msgid "Write email subject"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:372
-msgid "Proposal Field Label"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:373
-msgid "Proposal*"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:380
-msgid "Proposal Field Placeholder"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:381
-msgid "Write your proposal"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:389
-msgid "Button Label"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:390
-msgid "Send proposal"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:397
-msgid "Form Notification"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:404
-msgid "Target Email Addresses"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:405
-msgid "Write your emaill addresses to get email. Multiple email can be separated by comma , eg: info@domain.com,hi@domain.com"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:414
-msgid "Email Template"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:415
-msgid "Available tags &ndash; {from}, {email}, {subject}, {message}, {date}, {siteURL}, {ip}"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:416
-msgid ""
-"Dear Administrator,\n"
-"You have one message from {from} ({email}).\n"
-"\n"
-"{message}\n"
-"\n"
-"{date}\n"
-"\n"
-" This email was submitted from {siteURL}"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:433
-msgid "Form Success Title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:434
-msgid "Thank You for your proposal!"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:441
-msgid "Form Success Description"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:442
-msgid "Your message has already arrived! We will contact you shortly."
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:449
-msgid "Form Error Title"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:450
-msgid "Email not submitted."
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:457
-msgid "Form Error Description"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:458
-msgid "There might me an error with server instead please send us a direct message at: info@yourdomain.com"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:464
-msgid "Form Okay Button Value"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:465
-msgid "Okay"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:542
-msgid "CUSTOM CODES"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:548
-msgid "Custom CSS"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:558
-msgid "Custom JavaScript"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:572
-msgid "BACKUP"
-msgstr ""
-
-#: src/Admin/Views/DomainForSaleOptions.php:574
-msgid "Export or import to use same settings in different websites."
-msgstr ""
-
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:461
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:465
 msgid "Are you sure?"
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:462
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:466
 msgid "Please enter %s or more characters"
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:463
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:467
 msgid "Searching..."
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:464
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:468
 msgid "No results found."
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:565
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:569
 msgid "Oops! Not allowed."
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:637, src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:633
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:641, src/Admin/Framework/Classes/DOMAIN_FOR_SALE.php:637
 msgid "Field not found!"
+msgstr ""
+
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Metabox.php:266, src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:618, src/Admin/Framework/fields/button_set/button_set.php:56, src/Admin/Framework/fields/checkbox/checkbox.php:82, src/Admin/Framework/fields/radio/radio.php:75, src/Admin/Framework/fields/select/select.php:113, src/Admin/Framework/functions/actions.php:43
+msgid "No data available."
+msgstr ""
+
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Metabox.php:283, src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:520, src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:643, src/Admin/Framework/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Metabox.php:284
+msgid "update post"
+msgstr ""
+
+#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Metabox.php:284
+msgid "Cancel"
 msgstr ""
 
 #: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:171
@@ -438,63 +134,19 @@ msgstr ""
 msgid "Reset All"
 msgstr ""
 
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:520, src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:643, src/Admin/Framework/fields/backup/backup.php:31
-msgid "Reset"
-msgstr ""
-
 #: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:520, src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:643
 msgid "Are you sure you want to reset all settings to default values?"
-msgstr ""
-
-#: src/Admin/Framework/Classes/DOMAIN_FOR_SALE_Options.php:618, src/Admin/Framework/functions/actions.php:43, src/Admin/Framework/fields/button_set/button_set.php:56, src/Admin/Framework/fields/checkbox/checkbox.php:82, src/Admin/Framework/fields/radio/radio.php:75, src/Admin/Framework/fields/select/select.php:113
-msgid "No data available."
-msgstr ""
-
-#: src/Admin/Framework/functions/actions.php:18, src/Admin/Framework/functions/actions.php:70, src/Admin/Framework/functions/actions.php:108, src/Admin/Framework/functions/actions.php:143, src/Admin/Framework/functions/actions.php:172
-msgid "Error: Invalid nonce verification."
-msgstr ""
-
-#: src/Admin/Framework/functions/actions.php:74, src/Admin/Framework/functions/actions.php:112
-msgid "Error: Invalid key."
-msgstr ""
-
-#: src/Admin/Framework/functions/actions.php:116
-msgid "Error: The response is not a valid JSON response."
-msgstr ""
-
-#: src/Admin/Framework/functions/actions.php:176
-msgid "Error: Invalid term ID."
-msgstr ""
-
-#: src/Admin/Framework/functions/actions.php:182
-msgid "Error: You do not have permission to do that."
-msgstr ""
-
-#: src/Admin/Framework/functions/validate.php:14, src/Admin/Framework/functions/validate.php:86
-msgid "Please enter a valid email address."
-msgstr ""
-
-#: src/Admin/Framework/functions/validate.php:32, src/Admin/Framework/functions/validate.php:106
-msgid "Please enter a valid number."
-msgstr ""
-
-#: src/Admin/Framework/functions/validate.php:50, src/Admin/Framework/functions/validate.php:126
-msgid "This field is required."
-msgstr ""
-
-#: src/Admin/Framework/functions/validate.php:68, src/Admin/Framework/functions/validate.php:146
-msgid "Please enter a valid URL."
 msgstr ""
 
 #: src/Admin/Framework/fields/background/background.php:38, src/Admin/Framework/fields/media/media.php:59
 msgid "Not selected"
 msgstr ""
 
-#: src/Admin/Framework/fields/background/background.php:74, src/Admin/Framework/fields/date/date.php:31, src/Admin/Framework/fields/datetime/datetime.php:36
+#: src/Admin/Framework/fields/background/background.php:74, src/Admin/Framework/fields/datetime/datetime.php:36, src/Admin/Framework/fields/date/date.php:31
 msgid "From"
 msgstr ""
 
-#: src/Admin/Framework/fields/background/background.php:92, src/Admin/Framework/fields/date/date.php:32, src/Admin/Framework/fields/datetime/datetime.php:37
+#: src/Admin/Framework/fields/background/background.php:92, src/Admin/Framework/fields/datetime/datetime.php:37, src/Admin/Framework/fields/date/date.php:32
 msgid "To"
 msgstr ""
 
@@ -758,7 +410,7 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: src/Admin/Framework/fields/group/group.php:25
+#: src/Admin/Framework/fields/group/group.php:25, src/Admin/TemplatePostTypes.php:73
 msgid "Add New"
 msgstr ""
 
@@ -980,4 +632,570 @@ msgstr ""
 
 #: src/Admin/Framework/fields/typography/typography.php:390
 msgid "Google Web Fonts"
+msgstr ""
+
+#: src/Admin/Framework/functions/actions.php:18, src/Admin/Framework/functions/actions.php:70, src/Admin/Framework/functions/actions.php:108, src/Admin/Framework/functions/actions.php:143, src/Admin/Framework/functions/actions.php:172
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: src/Admin/Framework/functions/actions.php:74, src/Admin/Framework/functions/actions.php:112
+msgid "Error: Invalid key."
+msgstr ""
+
+#: src/Admin/Framework/functions/actions.php:116
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: src/Admin/Framework/functions/actions.php:176
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: src/Admin/Framework/functions/actions.php:182
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: src/Admin/Framework/functions/validate.php:14, src/Admin/Framework/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: src/Admin/Framework/functions/validate.php:32, src/Admin/Framework/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: src/Admin/Framework/functions/validate.php:50, src/Admin/Framework/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: src/Admin/Framework/functions/validate.php:68, src/Admin/Framework/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:69
+msgid "Templates"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:70
+msgid "Template"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:71, src/Admin/Views/DomainForSaleMetaboxes.php:30, src/Admin/Views/DomainForSaleMetaboxes.php:75
+msgid "Domain For Sale"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:72
+msgid "All Templates"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:74, src/Admin/TemplatePostTypes.php:75
+msgid "Create New Template"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:76
+msgid "Edit Created Template"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:77
+msgid "View Created Template"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:78
+msgid "Template Creator"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:79
+msgid "Search Created Template"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:80
+msgid "Parent Created Template:"
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:81
+msgid "No Template found."
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:82
+msgid "No Template found in Trash."
+msgstr ""
+
+#: src/Admin/TemplatePostTypes.php:94, src/Admin/TemplatePostTypes.php:95
+msgid "DFS Template"
+msgstr ""
+
+#: src/Admin/Views/DomainForSaleMetaboxes.php:51
+msgid "View Options"
+msgstr ""
+
+#: src/Admin/Views/DomainForSaleSettings.php:39
+msgid "Global Settings"
+msgstr ""
+
+#: src/Admin/Views/DomainForSaleSettings.php:49
+msgid "Domain For Sale Settings"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:31
+msgid "Contact form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:37
+msgid "Form type"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:38
+msgid "Select third-party form for using custom shortcode from any third-party plugins such as: Contact form 7, Ninja form, Fluent form etc"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:40, src/Admin/Views/Settings/DomainForSaleForm.php:35
+msgid "Domain For Sale Form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:41
+msgid "Third-party Form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:49
+msgid "Form title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:50
+msgid "Make an Offer"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:58
+msgid "Insert shortcode for contact form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleLayout.php:40
+msgid "Layout Preset"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleLayout.php:45
+msgid "Layout 01"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleLayout.php:50
+msgid "Layout 02"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:32
+msgid "Main Options"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:38
+msgid "Apply On"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:47
+msgid "Specific Pages"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:57
+msgid "Color scheme type"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:60
+msgid "Pre Defined"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:61
+msgid "Custom"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:70
+msgid "Select color scheme"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:85
+msgid "Use custom color"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:87
+msgid "Primary"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:88
+msgid "Secondary"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:99
+msgid "Container Width"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:105
+msgid "Gap between columns"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:111
+msgid "Body Background Image"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:123
+msgid "Background Overlay"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:31
+msgid "Template Options"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:37
+msgid "Price Tag"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:38
+msgid "Price $200 Only"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:43, src/Admin/Views/Metabox/DomainForSaleTypography.php:57
+msgid "Domain Name"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:49, src/Admin/Views/Metabox/DomainForSaleTypography.php:75
+msgid "Sale Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:50
+msgid "is for sale"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:55
+msgid "Sale Content"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:56
+msgid "The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me."
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:61
+msgid "Contact title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:62
+msgid "Contact Info:"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:67
+msgid "Contact informations"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:72
+msgid "Icon for contact info"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:77
+msgid "Contact info"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:87
+msgid "(345) 456 789 23"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:95
+msgid "More domain title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:96
+msgid "More Domains"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:103
+msgid "Recommended Domain"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:109
+msgid "Domain name"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:114
+msgid "Domain link"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:119
+msgid "About domain"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:126, src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:131, src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:136
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni."
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:32
+msgid "Typography"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:38
+msgid "Body"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:93
+msgid "Form Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:110
+msgid "Recommendation Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:128
+msgid "Recommendation Domain Name"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleBackup.php:35
+msgid "Backup"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleBackup.php:37
+msgid "Export or import to use same settings in different websites."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleCustomCodes.php:34
+msgid "Custom Codes"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleCustomCodes.php:40
+msgid "Custom CSS"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleCustomCodes.php:49
+msgid "Custom JavaScript"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:42
+msgid "Form Fields"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:47
+msgid "Name Field Label"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:48
+msgid "Name*"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:53
+msgid "Name Field Placeholder"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:54
+msgid "Your name"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:59
+msgid "Email Field Label"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:65
+msgid "Email Field Placeholder"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:66
+msgid "Your email address*"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:71
+msgid "Subject Field Label"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:72
+msgid "Subject*"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:77
+msgid "Subject Field Placeholder"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:78
+msgid "Write email subject"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:83
+msgid "Proposal Field Label"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:84
+msgid "Proposal*"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:89
+msgid "Proposal Field Placeholder"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:90
+msgid "Write your proposal"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:95
+msgid "Button Label"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:96
+msgid "Send proposal"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:101
+msgid "Form Notification"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:106
+msgid "Target Email Addresses"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:107
+msgid "Write your emaill addresses to get email. Multiple email can be separated by comma , eg: info@domain.com,hi@domain.com"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:112
+msgid "Email Template"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:113
+msgid "Available tags &ndash; {from}, {email}, {subject}, {message}, {date}, {siteURL}, {ip}"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:114
+msgid ""
+"Dear Administrator,\n"
+"You have one message from {from} ({email}).\n"
+"\n"
+"{message}\n"
+"\n"
+"{date}"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:119
+msgid "Email confirmation notices"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:124
+msgid "Form Success Title"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:125
+msgid "Thank You for your proposal!"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:130
+msgid "Form Success Description"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:131
+msgid "Your message has already arrived! We will contact you shortly."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:136
+msgid "Form Error Title"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:137, src/Admin/Views/Settings/DomainForSaleForm.php:222
+msgid "Email not submitted."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:142
+msgid "Form Error Description"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:143
+msgid "There might be an error with server instead please send us a direct message at: info@yourdomain.com"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:148
+msgid "Form Okay Button Value"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:149, src/Admin/Views/Settings/DomainForSaleForm.php:236
+msgid "Okay"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:154
+msgid "Google Recaptcha"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:159
+msgid "<a href=\"https://www.google.com/recaptcha\" target=\"_blank\">reCAPTCHA</a> is a free anti-spam service of Google that protects your website from spam and abuse. <a href=\"https://www.google.com/recaptcha/admin#list\" target=\"_blank\"> Get your API Keys</a>."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:167
+msgid "Turn on google recaptcha"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:172
+msgid "reCAPTCHA Type "
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:185, src/Admin/Views/Settings/DomainForSaleForm.php:197, src/Admin/Views/Settings/DomainForSaleForm.php:209
+msgid "Site key"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:191, src/Admin/Views/Settings/DomainForSaleForm.php:203, src/Admin/Views/Settings/DomainForSaleForm.php:215
+msgid "Secret key"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:221
+msgid "Form Recaptcha Error Title"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:228
+msgid "Form Recaptcha Error Description"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:229
+msgid "Please tick and verify the recaptcha."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleForm.php:235
+msgid "Form Recaptcha Okay Button Value"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:35
+msgid "General"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:42
+msgid "Upload favicon"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:43
+msgid "Use a 32x32 .ico or .png file."
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:48
+msgid "SEO Settings"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:53
+msgid "Site Title"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:59
+msgid "Site Description"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:64
+msgid "Site Keywords"
+msgstr ""
+
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:65
+msgid "Add your site keywords seperated by a comma eg: \"business domain, corporate domain\""
+msgstr ""
+
+#: src/DomainForSale.php:451
+msgid "Go Pro!"
+msgstr ""
+
+#: src/Helpers/helper-functions.php:58
+msgid "Security Check Failed"
+msgstr ""
+
+#: src/Helpers/helper-functions.php:59
+msgid "Nonce verification failed."
+msgstr ""
+
+#: src/Helpers/helper-functions.php:60
+msgid "OK"
+msgstr ""
+
+#: src/Helpers/Helpers.php:68
+msgid "Replace Current Theme"
+msgstr ""
+
+#: src/Helpers/Helpers.php:69
+msgid "Specific Page"
 msgstr ""

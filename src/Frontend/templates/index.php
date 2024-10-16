@@ -10,7 +10,6 @@ $dfs_site_favicon = isset($template_options['dfs-favicon']) ? $template_options[
 
 //Options
 $dfs_layout_preset = isset($layout['dfs_layout_preset']) ? $layout['dfs_layout_preset'] : '';
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
