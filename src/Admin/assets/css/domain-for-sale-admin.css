@@ -1,0 +1,59 @@
+/* Shortcode sidebar */
+.domain-for-sale-after-copy-text {
+  bottom: 0;
+  opacity: 0;
+  z-index: 9999999;
+  position: fixed;
+  width: 205px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+  line-height: 15px;
+  color: #fff;
+  border-radius: 3px;
+  background: #32373c;
+  border: 1px solid #32373c;
+}
+.domain-for-sale-after-copy-text i {
+  font-size: 14px;
+  margin-right: 2px;
+  color: #5db62e;
+}
+
+span.domain-for-sale-shortcode-selectable {
+  background-color: #eeeeee;
+  padding: 10px 15px 10px 30px;
+  display: inline-block;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+  border-radius: 3px;
+  word-break: break-word;
+  position: relative;
+  width: 80%;
+}
+span.domain-for-sale-shortcode-selectable::after {
+  content: url(../img/copy.svg);
+  width: 16px;
+  left: 10px;
+  top: 50%;
+  position: absolute;
+  margin-top: -6px;
+}
+.domain-for-sale-scode-wrap-side p {
+  margin-top: 0;
+}
+.domain-for-sale-scode-wrap-side {
+  margin-top: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.domain-for-sale-scode-wrap-side .domain-for-sale-sc-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 1.2em;
+}
+.post-type-domain-for-sale .postbox-header .handle-actions .handle-order-lower,
+.post-type-domain-for-sale .postbox-header .handle-actions .handle-order-higher {
+  display: none;
+}

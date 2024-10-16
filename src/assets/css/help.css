@@ -1,5 +1,5 @@
 /*Inactive fields CSS*/
-.domain-for-sale-pro-text{
+.domain-for-sale-text{
     color:#35b747;
     font-weight:700
 }
@@ -8,12 +8,12 @@
     opacity: 0.6;
 }
 
-.domain-for-sale-version-pro .domain-for-sale--sibling:not(.domain-for-sale--active){
+.domain-for-sale-version .domain-for-sale--sibling:not(.domain-for-sale--active){
     pointer-events: none;
     opacity: 0.6;
     position:relative;
 }
-.domain-for-sale-version-pro .domain-for-sale--sibling:not(.domain-for-sale--active):before{
+.domain-for-sale-version .domain-for-sale--sibling:not(.domain-for-sale--active):before{
     content: "PRO";
     position: absolute;
     right: 2px;

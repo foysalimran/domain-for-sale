@@ -59,8 +59,9 @@ if(!defined('DOMAIN_FOR_SALE_BASENAME')){
 function domain_for_sale_run()
 {
     // Launch the plugin.
-    $DOMAIN_FOR_SALE = new DomainForSale();
-    $DOMAIN_FOR_SALE->run();
+    $domain_for_sale = new DomainForSale();
+    $domain_for_sale->run();
+    register_activation_hook(__FILE__, array($domain_for_sale, 'dfs_plugin_activate'));
 }
 
 include_once ABSPATH . 'wp-admin/includes/plugin.php';

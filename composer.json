@@ -6,7 +6,8 @@
     "autoload": {
         "psr-4": {
             "ThemeAtelier\\DomainForSale\\": "src/"
-        }
+        },
+        "files": [ "src/Helpers/helper-functions.php" ]
     },
     "authors": [
         {

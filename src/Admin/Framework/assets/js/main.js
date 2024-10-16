@@ -3468,6 +3468,7 @@
         // Field Siblings
         $this.children('.domain-for-sale-field-button_set').find('.domain-for-sale-siblings').DOMAIN_FOR_SALE_siblings();
         $this.children('.domain-for-sale-field-image_select').find('.domain-for-sale-siblings').DOMAIN_FOR_SALE_siblings();
+        $this.children('.domain-for-sale-field-layout_preset').find('.domain-for-sale-siblings').DOMAIN_FOR_SALE_siblings();
         $this.children('.domain-for-sale-field-palette').find('.domain-for-sale-siblings').DOMAIN_FOR_SALE_siblings();
 
         // Help Tooptip
@@ -3490,7 +3491,6 @@
   // Document ready and run scripts
   //
   $(document).ready( function() {
-
     $('.domain-for-sale-save').DOMAIN_FOR_SALE_save();
     $('.domain-for-sale-options').DOMAIN_FOR_SALE_options();
     $('.domain-for-sale-sticky-header').DOMAIN_FOR_SALE_sticky();
@@ -3507,7 +3507,6 @@
     $('#widgets-editor').DOMAIN_FOR_SALE_widgets();
     $('#widgets-right').DOMAIN_FOR_SALE_widgets();
     $('#menu-to-edit').DOMAIN_FOR_SALE_nav_menu();
-
   });
 
 })( jQuery, window, document );
