@@ -4,7 +4,7 @@
   opacity: 0;
   z-index: 9999999;
   position: fixed;
-  width: 205px;
+  width: auto;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
