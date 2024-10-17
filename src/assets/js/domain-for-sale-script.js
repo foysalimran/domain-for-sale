@@ -48,26 +48,5 @@
         },
       });
     });
-
-    // // FAQ Item Toggle within each .dfs instance
-    // const $faqItems = $dfs.find(".dfs__faq_item");
-    // if ($faqItems.length) {
-    //   $faqItems.first().addClass("faq_active");
-    // }
-
-    // $dfs.find(".dfs__faq__question").on("click", function () {
-    //   const $item = $(this).closest(".dfs__faq_item");
-    //   $item
-    //     .toggleClass("faq_active")
-    //     .siblings(".dfs__faq_item")
-    //     .removeClass("faq_active");
-    // });
-
-    // // FAQ Form Button Toggle within each .dfs instance
-    // $dfs.find(".dfs__form__btn").on("click", function (e) {
-    //   e.preventDefault();
-    //   $(this).toggleClass("btn_active");
-    //   $dfs.find(".dfs__form_popup").toggleClass("form_active");
-    // });
   });
 })(jQuery);

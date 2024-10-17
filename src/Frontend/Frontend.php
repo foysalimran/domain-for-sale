@@ -190,7 +190,6 @@ class Frontend
         if (!empty($dfsCustomCss)) {
             wp_add_inline_style('domain-for-sale-style', $dfsCustomCss);
         }
-        wp_register_script('dfs-recaptcha', '//www.google.com/recaptcha/api.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
 
         wp_enqueue_script('sweetalert2');
         wp_enqueue_script('domain-for-sale-script');

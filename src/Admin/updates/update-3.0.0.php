@@ -72,8 +72,8 @@ function domain_for_sale_convert_old_to_new_data_3_1_0($options)
         update_post_meta($domain_for_sale_id, 'dfs_template_options', $template_options);
 
         $dfs_layouts = get_post_meta($domain_for_sale_id, 'dfs_layouts', true);
-
-        if ($options['dfs-version'] == '1') {
+        $dfs_version = isset($options['dfs-version']) ? $options['dfs-version'] : '';
+        if ($dfs_version == '1') {
             $dfs_layouts['dfs_layout_preset'] = 'layout_01';
         }
         update_post_meta($domain_for_sale_id, 'dfs_layouts', $dfs_layouts);

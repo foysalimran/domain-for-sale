@@ -37,7 +37,6 @@ class DomainForSaleForm
                 'fields' => array(
                     // Domain for sale form
                     array(
-                        'id'  => 'dfs-recaptcha',
                         'type'  => 'heading',
                         'title' => esc_html__('Form Fields', 'domain-for-sale'),
                     ),
@@ -96,7 +95,6 @@ class DomainForSaleForm
                         'default'  => esc_html__('Send proposal', 'domain-for-sale'),
                     ),
                     array(
-                        'id'  => 'dfs-recaptcha',
                         'type'  => 'heading',
                         'title' => esc_html__('Form Notification', 'domain-for-sale'),
                     ),
@@ -114,7 +112,6 @@ class DomainForSaleForm
                         'default'   => esc_html__("Dear Administrator,\nYou have one message from {from} ({email}).\n\n{message}\n\n{date}", 'domain-for-sale'),
                     ),
                     array(
-                        'id'  => 'dfs-recaptcha',
                         'type'  => 'heading',
                         'title' => esc_html__('Email confirmation notices', 'domain-for-sale'),
                     ),
@@ -149,7 +146,6 @@ class DomainForSaleForm
                         "default" => esc_html__("Okay", 'domain-for-sale'),
                     ),
                     array(
-                        'id'  => 'dfs-recaptcha',
                         'type'  => 'heading',
                         'title' => esc_html__('Google Recaptcha', 'domain-for-sale'),
                     ),

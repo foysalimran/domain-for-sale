@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-17 09:36+0000\n"
+"POT-Creation-Date: 2024-10-17 10:04+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -1002,99 +1002,99 @@ msgstr ""
 msgid "Custom JavaScript"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:42
+#: src/Admin/Views/Settings/DomainForSaleForm.php:41
 msgid "Form Fields"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:47
+#: src/Admin/Views/Settings/DomainForSaleForm.php:46
 msgid "Name Field Label"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:48
+#: src/Admin/Views/Settings/DomainForSaleForm.php:47
 msgid "Name*"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:53
+#: src/Admin/Views/Settings/DomainForSaleForm.php:52
 msgid "Name Field Placeholder"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:54
+#: src/Admin/Views/Settings/DomainForSaleForm.php:53
 msgid "Your name"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:59
+#: src/Admin/Views/Settings/DomainForSaleForm.php:58
 msgid "Email Field Label"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:65
+#: src/Admin/Views/Settings/DomainForSaleForm.php:64
 msgid "Email Field Placeholder"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:66
+#: src/Admin/Views/Settings/DomainForSaleForm.php:65
 msgid "Your email address*"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:71
+#: src/Admin/Views/Settings/DomainForSaleForm.php:70
 msgid "Subject Field Label"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:72
+#: src/Admin/Views/Settings/DomainForSaleForm.php:71
 msgid "Subject*"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:77
+#: src/Admin/Views/Settings/DomainForSaleForm.php:76
 msgid "Subject Field Placeholder"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:78
+#: src/Admin/Views/Settings/DomainForSaleForm.php:77
 msgid "Write email subject"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:83
+#: src/Admin/Views/Settings/DomainForSaleForm.php:82
 msgid "Proposal Field Label"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:84
+#: src/Admin/Views/Settings/DomainForSaleForm.php:83
 msgid "Proposal*"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:89
+#: src/Admin/Views/Settings/DomainForSaleForm.php:88
 msgid "Proposal Field Placeholder"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:90
+#: src/Admin/Views/Settings/DomainForSaleForm.php:89
 msgid "Write your proposal"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:95
+#: src/Admin/Views/Settings/DomainForSaleForm.php:94
 msgid "Button Label"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:96
+#: src/Admin/Views/Settings/DomainForSaleForm.php:95
 msgid "Send proposal"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:101
+#: src/Admin/Views/Settings/DomainForSaleForm.php:99
 msgid "Form Notification"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:106
+#: src/Admin/Views/Settings/DomainForSaleForm.php:104
 msgid "Target Email Addresses"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:107
+#: src/Admin/Views/Settings/DomainForSaleForm.php:105
 msgid "Write your emaill addresses to get email. Multiple email can be separated by comma , eg: info@domain.com,hi@domain.com"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:112
+#: src/Admin/Views/Settings/DomainForSaleForm.php:110
 msgid "Email Template"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:113
+#: src/Admin/Views/Settings/DomainForSaleForm.php:111
 msgid "Available tags &ndash; {from}, {email}, {subject}, {message}, {date}, {siteURL}, {ip}"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:114
+#: src/Admin/Views/Settings/DomainForSaleForm.php:112
 msgid ""
 "Dear Administrator,\n"
 "You have one message from {from} ({email}).\n"
@@ -1104,87 +1104,87 @@ msgid ""
 "{date}"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:119
+#: src/Admin/Views/Settings/DomainForSaleForm.php:116
 msgid "Email confirmation notices"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:124
+#: src/Admin/Views/Settings/DomainForSaleForm.php:121
 msgid "Form Success Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:125
+#: src/Admin/Views/Settings/DomainForSaleForm.php:122
 msgid "Thank You for your proposal!"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:130
+#: src/Admin/Views/Settings/DomainForSaleForm.php:127
 msgid "Form Success Description"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:131
+#: src/Admin/Views/Settings/DomainForSaleForm.php:128
 msgid "Your message has already arrived! We will contact you shortly."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:136
+#: src/Admin/Views/Settings/DomainForSaleForm.php:133
 msgid "Form Error Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:137, src/Admin/Views/Settings/DomainForSaleForm.php:219
+#: src/Admin/Views/Settings/DomainForSaleForm.php:134, src/Admin/Views/Settings/DomainForSaleForm.php:215
 msgid "Email not submitted."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:142
+#: src/Admin/Views/Settings/DomainForSaleForm.php:139
 msgid "Form Error Description"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:143
+#: src/Admin/Views/Settings/DomainForSaleForm.php:140
 msgid "There might be an error with server instead please send us a direct message at: info@yourdomain.com"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:148
+#: src/Admin/Views/Settings/DomainForSaleForm.php:145
 msgid "Form Okay Button Value"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:149, src/Admin/Views/Settings/DomainForSaleForm.php:235
+#: src/Admin/Views/Settings/DomainForSaleForm.php:146, src/Admin/Views/Settings/DomainForSaleForm.php:231
 msgid "Okay"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:154
+#: src/Admin/Views/Settings/DomainForSaleForm.php:150
 msgid "Google Recaptcha"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:159
+#: src/Admin/Views/Settings/DomainForSaleForm.php:155
 msgid "<a href=\"https://www.google.com/recaptcha\" target=\"_blank\">reCAPTCHA</a> is a free anti-spam service of Google that protects your website from spam and abuse. <a href=\"https://www.google.com/recaptcha/admin#list\" target=\"_blank\"> Get your API Keys</a>."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:167
+#: src/Admin/Views/Settings/DomainForSaleForm.php:163
 msgid "Turn on google recaptcha"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:175
+#: src/Admin/Views/Settings/DomainForSaleForm.php:171
 msgid "reCAPTCHA Type "
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:194, src/Admin/Views/Settings/DomainForSaleForm.php:205
+#: src/Admin/Views/Settings/DomainForSaleForm.php:190, src/Admin/Views/Settings/DomainForSaleForm.php:201
 msgid "Site key"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:200, src/Admin/Views/Settings/DomainForSaleForm.php:211
+#: src/Admin/Views/Settings/DomainForSaleForm.php:196, src/Admin/Views/Settings/DomainForSaleForm.php:207
 msgid "Secret key"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:218
+#: src/Admin/Views/Settings/DomainForSaleForm.php:214
 msgid "Form Recaptcha Error Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:226
+#: src/Admin/Views/Settings/DomainForSaleForm.php:222
 msgid "Form Recaptcha Error Description"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:227
+#: src/Admin/Views/Settings/DomainForSaleForm.php:223
 msgid "Please tick and verify the recaptcha."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:234
+#: src/Admin/Views/Settings/DomainForSaleForm.php:230
 msgid "Form Recaptcha Okay Button Value"
 msgstr ""
 
@@ -1200,35 +1200,35 @@ msgstr ""
 msgid "Use a 32x32 .ico or .png file."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleGeneral.php:48
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:47
 msgid "SEO Settings"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleGeneral.php:53
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:52
 msgid "Site Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleGeneral.php:59
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:58
 msgid "Site Description"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleGeneral.php:64
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:63
 msgid "Site Keywords"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleGeneral.php:65
+#: src/Admin/Views/Settings/DomainForSaleGeneral.php:64
 msgid "Add your site keywords seperated by a comma eg: \"business domain, corporate domain\""
 msgstr ""
 
-#: src/Helpers/helper-functions.php:58
+#: src/Helpers/helper-functions.php:20
 msgid "Security Check Failed"
 msgstr ""
 
-#: src/Helpers/helper-functions.php:59
+#: src/Helpers/helper-functions.php:21
 msgid "Nonce verification failed."
 msgstr ""
 
-#: src/Helpers/helper-functions.php:60
+#: src/Helpers/helper-functions.php:22
 msgid "OK"
 msgstr ""
 
