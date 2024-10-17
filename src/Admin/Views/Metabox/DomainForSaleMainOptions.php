@@ -34,7 +34,7 @@ class DomainForSaleMainOptions
                 'fields' => array(
                     array(
                         'id'          => 'dfs_apply_on',
-                        'type'        => 'select',
+                        'type'        => 'select_f',
                         'title'       => esc_html__('Apply On', 'domain-for-sale'),
                         'options'   => 'dfs_apply_on',
                         'default'   => 'shortcode',

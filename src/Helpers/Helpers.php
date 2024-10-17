@@ -64,9 +64,18 @@ class Helpers
     public static function dfs_apply_on()
     {
         $dfs_apply_on = array(
-            'shortcode'     => esc_html__('Shortcode', 'domain-for-sale'),
-            'replace_theme' => esc_html__('Replace Current Theme', 'domain-for-sale'),
-            'specific_page' => esc_html__('Specific Page', 'domain-for-sale'),
+            'shortcode'     => array(
+                'name'  => esc_html__('Shortcode', 'domain-for-sale'),
+                'pro_only' => false,
+            ),
+            'replace_theme'     => array(
+                'name'  => esc_html__('Replace Current Theme', 'domain-for-sale'),
+                'pro_only' => false,
+            ),
+            'specific_page'     => array(
+                'name'  => esc_html__('Specific Page', 'domain-for-sale'),
+                'pro_only' => true,
+            ),
         );
         return $dfs_apply_on;
     }

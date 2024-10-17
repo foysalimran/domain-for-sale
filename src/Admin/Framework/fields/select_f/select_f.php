@@ -99,7 +99,7 @@ if (! class_exists('DOMAIN_FOR_SALE_Field_select_f')) {
 					echo '</select>';
 				} else {
 
-					echo ! empty($this->field['empty_message']) ? wp_kses_post($this->field['empty_message']) : esc_html__('No data provided for this option type.', 'testimonial-free');
+					echo ! empty($this->field['empty_message']) ? wp_kses_post($this->field['empty_message']) : esc_html__('No data provided for this option type.', 'domain-for-sale');
 				}
 			}
 

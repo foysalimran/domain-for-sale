@@ -84,7 +84,7 @@ class DomainForSale
         foreach ($active_plugins as $active_plugin) {
             $_temp = strpos($active_plugin, 'domain-for-sale.php');
             if (false != $_temp) {
-                add_filter('plugin_action_links_' . $active_plugin, array($this, 'DOMAIN_FOR_SALE_plugin_action_links'));
+                add_filter('plugin_action_links_' . $active_plugin, array($this, 'domain_for_sale_plugin_action_links'));
             }
         }
     }
@@ -441,16 +441,11 @@ class DomainForSale
     }
 
     // Plugin settings in plugin list
-    public function domain_for_sale_action_links(array $links, $file)
+    public function domain_for_sale_plugin_action_links(array $links): array
     {
-
-        if (DOMAIN_FOR_SALE_BASENAME === $file) {
-            $ui_links        = array(
-                sprintf('<a href="%s">%s</a>', admin_url('admin.php?page=domain-for-sale#tab=general'), __('Settings', 'domain-for-sale')),
-            );
-            $links['go_pro'] = sprintf('<a target="_blank" href="%s" style="%s">%s</a>', 'https://1.envato.market/LPeXVY', 'color:#35b747;font-weight:bold', __('Go Pro!', 'domain-for-sale'));
-            return array_merge($ui_links, $links);
-        }
+        $url = get_admin_url() . "edit.php?post_type=dfs_template&page=domain-for-sale-settings";
+        $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'domain-for-sale') . '</a>';
+        $links[] = $settings_link;
         return $links;
     }
 }

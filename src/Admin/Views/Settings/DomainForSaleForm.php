@@ -188,28 +188,16 @@ class DomainForSaleForm
                         'dependency' => array('dfs-enable-recaptcha', '==', 'true'),
                     ),
                     array(
-                        'id' => 'dfs-recaptcha-sitekey',
-                        'type'  => 'text',
-                        'title' => esc_html__('Site key', 'domain-for-sale'),
-                        'dependency' => array('dfs-enable-recaptcha|dfs_recaptcha_version', '==|==', 'true|v2'),
-                    ),
-                    array(
-                        'id' => 'dfs-recaptcha-secretkey',
-                        'type'  => 'text',
-                        'title' => esc_html__('Secret key', 'domain-for-sale'),
-                        'dependency' => array('dfs-enable-recaptcha|dfs_recaptcha_version', '==|==', 'true|v2'),
-                    ),
-                    array(
                         'id' => 'dfs-recaptcha-sitekey_v3',
                         'type'  => 'text',
+                        'class' => 'text_pro_only',
                         'title' => esc_html__('Site key', 'domain-for-sale'),
-                        'dependency' => array('dfs-enable-recaptcha|dfs_recaptcha_version', '==|==', 'true|v3'),
                     ),
                     array(
                         'id' => 'dfs-recaptcha-secretkey_v3',
                         'type'  => 'text',
+                        'class' => 'text_pro_only',
                         'title' => esc_html__('Secret key', 'domain-for-sale'),
-                        'dependency' => array('dfs-enable-recaptcha|dfs_recaptcha_version', '==|==', 'true|v3'),
                     ),
                     array(
                         'id' => 'dfs-recaptcha-sitekey_invisible',
@@ -226,6 +214,7 @@ class DomainForSaleForm
                     array(
                         'id'    => 'dfs-recaptcha-error-title',
                         'type'  => 'text',
+                        'class' => 'text_pro_only',
                         'title' => esc_html__('Form Recaptcha Error Title', 'domain-for-sale'),
                         "default" => esc_html__("Email not submitted.", 'domain-for-sale'),
                         'dependency' => array('dfs-enable-recaptcha', '==', 'true'),
@@ -233,6 +222,7 @@ class DomainForSaleForm
                     array(
                         'id'    => 'dfs-recaptcha-error-description',
                         'type'  => 'text',
+                        'class' => 'text_pro_only',
                         'title' => esc_html__('Form Recaptcha Error Description', 'domain-for-sale'),
                         "default" => esc_html__("Please tick and verify the recaptcha.", 'domain-for-sale'),
                         'dependency' => array('dfs-enable-recaptcha', '==', 'true'),
@@ -240,6 +230,7 @@ class DomainForSaleForm
                     array(
                         'id'    => 'dfs-recaptcha-error-okay',
                         'type'  => 'text',
+                        'class' => 'text_pro_only',
                         'title' => esc_html__('Form Recaptcha Okay Button Value', 'domain-for-sale'),
                         "default" => esc_html__("Okay", 'domain-for-sale'),
                         'dependency' => array('dfs-enable-recaptcha', '==', 'true'),

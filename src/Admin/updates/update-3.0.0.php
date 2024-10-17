@@ -32,12 +32,6 @@ function domain_for_sale_convert_old_to_new_data_3_1_0($options)
             $template_options['dfs-scheme'] = $options['dfs-scheme'];
         }
 
-        $dfs_scheme_custom_1 = isset($options['dfs-scheme-custom-1']) ?  $options['dfs-scheme-custom-1'] : '';
-        if ($dfs_scheme_custom_1['primary'] !== '#44dc46' || $dfs_scheme_custom_1['secondary']   !== '#3bbf3d') {
-            $template_options['dfs_color_scheme_type'] = 'custom';
-            $template_options['dfs_custom_scheme'] = $options['dfs-scheme-custom-1'];
-        }
-
         if (!empty($options['dfs-background'])) {
             $template_options['dfs-background'] = $options['dfs-background'];
         }
@@ -46,12 +40,15 @@ function domain_for_sale_convert_old_to_new_data_3_1_0($options)
         }
 
         if (!empty($options['dfs-body-typography'])) {
-            $template_options['dfs-body-typography'] = $options['dfs-body-typography'];
+            $template_options['dfs_body_typography'] = $options['dfs-body-typography'];
         }
         if (!empty($options['dfs-heading-typography'])) {
-            $template_options['dfs-heading-typography'] = $options['dfs-heading-typography'];
+            $template_options['dfs_domain_name'] = $options['dfs-heading-typography'];
+            $template_options['dfs_sale_title'] = $options['dfs-heading-typography'];
+            $template_options['dfs_form_title'] = $options['dfs-heading-typography'];
+            $template_options['dfs_recommendation_title'] = $options['dfs-heading-typography'];
+            $template_options['dfs_recommendation_domain_name'] = $options['dfs-heading-typography'];
         }
-
 
         $fields_to_update = [
             'dfs-pricetag',

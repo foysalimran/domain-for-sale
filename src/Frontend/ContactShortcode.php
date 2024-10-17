@@ -29,7 +29,7 @@ class ContactShortcode
             if ('v2' === $dfs_recaptcha_version) {
                 wp_enqueue_script('dfs-recaptcha');
             } else {
-                wp_enqueue_script('dfs-recaptcha-v3', '//www.google.com/recaptcha/api.js?render=' . $captcha_site_key_v3, array(), DOMAIN_FOR_SALE_PRO_VERSION, true);
+                wp_enqueue_script('dfs-recaptcha-v3', '//www.google.com/recaptcha/api.js?render=' . $captcha_site_key_v3, array(), DOMAIN_FOR_SALE_VERSION, true);
                 wp_add_inline_script(
                     'dfs-recaptcha-v3',
                     'grecaptcha.ready(function() {

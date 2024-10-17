@@ -31,16 +31,16 @@ class Template_01
         $dfs_custom_scheme_secondary = !empty($dfs_custom_scheme['secondary']) ? $dfs_custom_scheme['secondary'] : '';
 
         if ('pre_defined' == $dfs_color_scheme_type) {
-            if ($dfs_scheme == '1') {
+            if ($dfs_scheme == '4') {
                 $primary = '#1abc9c';
                 $secondary = '#199e83';
-            } else if ($dfs_scheme == '2') {
+            } else if ($dfs_scheme == '1') {
                 $primary = '#44dc46';
                 $secondary = '#3bbf3d';
-            } else if ($dfs_scheme == '3') {
+            } else if ($dfs_scheme == '2') {
                 $primary = '#C57229';
                 $secondary = '#9B1210';
-            } else if ($dfs_scheme == '4') {
+            } else if ($dfs_scheme == '3') {
                 $primary = '#e74c3c';
                 $secondary = '#d21414';
             }
