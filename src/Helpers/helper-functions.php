@@ -10,44 +10,6 @@ function domain_for_sale_dashboard_capability()
     return apply_filters('domain_for_sale_dashboard_capability', 'manage_options');
 }
 
-function dfs_recaptcha_validation()
-{
-    $options = get_option('dfs-opt');
-    $isDfsRecaptchaEnable = !empty($options['dfs-enable-recaptcha']) ? $options['dfs-enable-recaptcha'] : false;
-    $dfs_recaptcha_version = !empty($options['dfs_recaptcha_version']) ? $options['dfs_recaptcha_version'] : '';
-
-    if ($isDfsRecaptchaEnable) {
-
-        // Recaptcha v3.
-        if ('v2' === $dfs_recaptcha_version) {
-            $response = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
-            $recaptcha_secret         = $options['dfs-recaptcha-secretkey'];
-        } else {
-            $response = isset($_POST['token']) ? $_POST['token'] : '';
-            $recaptcha_secret = !empty($options['dfs-recaptcha-secretkey_v3']) ? $options['dfs-recaptcha-secretkey_v3'] : '';
-        }
-        $remote_ip = $_SERVER['REMOTE_ADDR'];
-
-        $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-        $recaptcha_response = wp_remote_post($recaptcha_url, array(
-            'body' => array(
-                'secret' => $recaptcha_secret,
-                'response' => $response,
-                'remoteip' => $remote_ip
-            )
-        ));
-
-        $recaptcha_data = json_decode(wp_remote_retrieve_body($recaptcha_response));
-        if (!$recaptcha_data->success) {
-            return false; // reCAPTCHA validation failed
-        }
-
-        return true;
-    } else {
-        return true;
-    }
-}
-
 add_action('wp_ajax_dfs_send_email', 'dfs_send_email');
 add_action('wp_ajax_nopriv_dfs_send_email', 'dfs_send_email');
 function dfs_send_email()
@@ -84,10 +46,6 @@ function dfs_send_email()
     $dfs_error_description = isset($options['dfs-error-description']) ? $options['dfs-error-description'] : 'There was an issue sending your message. Please try again later.';
     $dfs_error_okay = isset($options['dfs-error-okay']) ? $options['dfs-error-okay'] : 'Ok';
 
-    $dfs_recaptcha_error_title = isset($options['dfs-recaptcha-error-title']) ? $options['dfs-recaptcha-error-title'] : '';
-    $dfs_recaptcha_error_decription = isset($options['dfs-recaptcha-error-description']) ? $options['dfs-recaptcha-error-description'] : '';
-    $dfs_recaptcha_error_okay = isset($options['dfs-recaptcha-error-okay']) ? $options['dfs-recaptcha-error-okay'] : '';
-
     // Prepare email content
     $variables      = array('{from}', '{email}', '{message}', '{date}', '{ip}', '{subject}', '{siteURL}');
     $values         = array($name, $email, $message, $date, $ip, $subject, $siteURL);
@@ -95,29 +53,21 @@ function dfs_send_email()
     $headers        = array('From: ' . $name . ' <' . $email . '>');
 
     // Send email using wp_mail()
-    if (dfs_recaptcha_validation()) {
-        if (wp_mail($dfs_target_mail, $subject, $email_body, $headers)) {
-            wp_send_json_success(array(
-                'type'      => 'success',
-                'title'     => esc_html($dfs_success_title),
-                'description' => esc_html($dfs_success_description),
-            ));
-        } else {
-            wp_send_json_error(array(
-                'type' => 'error',
-                'title' => esc_html($dfs_error_title),
-                'okay' => esc_html($dfs_error_okay),
-                'description' => esc_html($dfs_error_description),
-            ));
-        }
+    if (wp_mail($dfs_target_mail, $subject, $email_body, $headers)) {
+        wp_send_json_success(array(
+            'type'      => 'success',
+            'title'     => esc_html($dfs_success_title),
+            'description' => esc_html($dfs_success_description),
+        ));
     } else {
         wp_send_json_error(array(
             'type' => 'error',
-            'title' => esc_html($dfs_recaptcha_error_title),
-            'okay' => esc_html($dfs_recaptcha_error_okay),
-            'description' => esc_html($dfs_recaptcha_error_decription),
+            'title' => esc_html($dfs_error_title),
+            'okay' => esc_html($dfs_error_okay),
+            'description' => esc_html($dfs_error_description),
         ));
     }
+
 
     wp_die();
 }

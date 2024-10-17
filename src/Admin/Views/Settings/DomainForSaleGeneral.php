@@ -43,7 +43,6 @@ class DomainForSaleGeneral
                         'lebel' => esc_html__('Use a 32x32 .ico or .png file.', 'domain-for-sale'),
                     ),
                     array(
-                        'id'  => 'dfs-recaptcha',
                         'type'  => 'heading',
                         'title' => esc_html__('SEO Settings', 'domain-for-sale'),
                     ),
