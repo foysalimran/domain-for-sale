@@ -54,6 +54,56 @@ span.domain-for-sale-shortcode-selectable::after {
   font-size: 1.2em;
 }
 .post-type-domain-for-sale .postbox-header .handle-actions .handle-order-lower,
-.post-type-domain-for-sale .postbox-header .handle-actions .handle-order-higher {
+.post-type-domain-for-sale
+  .postbox-header
+  .handle-actions
+  .handle-order-higher {
   display: none;
+}
+
+/**** PRO CSS ****/
+.domain-for-sale-pro-only {
+  position: relative;
+  pointer-events: none;
+}
+.domain-for-sale-pro-only::after {
+  content: "PRO";
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-weight: 600;
+  z-index: 999;
+  background-color: #cbd6df;
+  color: #5e6e7d;
+  padding: 2px 8px;
+  font-size: 10px;
+}
+.dfs_color_scheme_type li:last-child {
+  position: relative;
+  pointer-events: none;
+  color: #5e6e7d;
+}
+.dfs_color_scheme_type li:last-child::after {
+  content: "PRO";
+  position: absolute;
+  right: -38px;
+  top: 2px;
+  font-weight: 600;
+  z-index: 999;
+  background-color: #cbd6df;
+  color: #5e6e7d;
+  padding: 2px 8px;
+  font-size: 10px;
+}
+.domain-for-sale--switcher.only_pro_switcher .domain-for-sale--ball::after {
+  content: "PRO";
+  position: relative;
+  text-align: center;
+  width: 24px;
+  float: right;
+  font-weight: 600;
+  font-size: 8px;
+  color: #8796a1;
+  opacity: 1;
+  line-height: 18px;
 }

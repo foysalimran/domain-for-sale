@@ -302,6 +302,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE' ) ) {
         'radio',
         'repeater',
         'select',
+        'select_f',
         'shortcode',
         'slider',
         'sortable',

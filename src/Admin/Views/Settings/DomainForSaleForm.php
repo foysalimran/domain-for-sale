@@ -165,15 +165,23 @@ class DomainForSaleForm
                         'id' => 'dfs-enable-recaptcha',
                         'type'  => 'switcher',
                         'title' => esc_html__('Turn on google recaptcha', 'domain-for-sale'),
+                        'class' => 'switcher_pro_only',
+                        'default' => true,
                     ),
                     array(
-                        'id'         => 'dfs_recaptcha_version',
-                        'type'       => 'select',
+                        'id'        => 'dfs_recaptcha_version',
+                        'type'      => 'select_f',
+                        'class'     => 'select_pro_only',
                         'title'      => esc_html__('reCAPTCHA Type ', 'domain-for-sale'),
                         'options'  => array(
-                            'v3' => __('reCAPTCHA v3', 'geodir-recaptcha'),
-                            'v2' => __('reCAPTCHA v2 (I\'m not a robot Checkbox)', 'geodir-recaptcha'),
-                            // 'invisible' => __('reCAPTCHA v2 (Invisible reCAPTCHA badge)', 'geodir-recaptcha')
+                            'v3' => array(
+                                'name' => esc_html__('reCAPTCHA v3', 'geodir-recaptcha'),
+                                'pro_only' => true,
+                            ),
+                            'v2' => array(
+                                'name' => esc_html__('reCAPTCHA v2 (I\'m not a robot Checkbox)', 'geodir-recaptcha'),
+                                'pro_only' => true,
+                            ),
                         ),
                         'default'    => 'v3',
                         'advanced' => false,

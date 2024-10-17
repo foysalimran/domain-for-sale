@@ -40,14 +40,14 @@ class DomainForSaleMainOptions
                         'default'   => 'shortcode',
                     ),
                     array(
-						'id'	=> 'dfs_specific_page',
-						'type'	=> 'select',
-						'multiple'	=> true,
-						'chosen'      => true,
-						'title'	=> esc_html__('Specific Pages', 'domain-for-sale'),
-						'options'	=>  'dfs_specific_page',
-						'dependency'  => array('dfs_apply_on', '==', 'specific_page'),
-					),
+                        'id'    => 'dfs_specific_page',
+                        'type'    => 'select',
+                        'multiple'    => true,
+                        'chosen'      => true,
+                        'title'    => esc_html__('Specific Pages', 'domain-for-sale'),
+                        'options'    =>  'dfs_specific_page',
+                        'dependency'  => array('dfs_apply_on', '==', 'specific_page'),
+                    ),
 
                     // Color Scheme Type
 
@@ -55,7 +55,8 @@ class DomainForSaleMainOptions
                         'id'          => 'dfs_color_scheme_type',
                         'type'        => 'radio',
                         'title'       => esc_html__('Color scheme type', 'domain-for-sale'),
-                        'inline'    => true,
+                        'inline'        => true,
+                        'class'         => 'dfs_color_scheme_type',
                         'options'    => array(
                             'pre_defined' => esc_html__('Pre Defined', 'domain-for-sale'),
                             'custom' => esc_html__('Custom', 'domain-for-sale'),

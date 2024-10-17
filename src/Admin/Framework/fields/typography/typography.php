@@ -22,7 +22,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_typography' ) ) {
 
     public function render() {
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       $args                  = wp_parse_args( $this->field, array(
         'font_family'        => true,
@@ -315,7 +315,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_typography' ) ) {
 
       echo '</div>';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

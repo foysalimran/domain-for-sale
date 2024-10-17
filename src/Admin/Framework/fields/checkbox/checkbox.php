@@ -25,7 +25,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_checkbox' ) ) {
 
       $inline_class = ( $args['inline'] ) ? ' class="domain-for-sale--inline-list"' : '';
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       if ( isset( $this->field['options'] ) ) {
 
@@ -93,7 +93,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_checkbox' ) ) {
 
       }
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

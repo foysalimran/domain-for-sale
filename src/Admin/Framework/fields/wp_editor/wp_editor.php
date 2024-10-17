@@ -39,7 +39,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_wp_editor' ) ) {
         'wpautop'       => $args['wpautop'],
       );
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       echo ( DOMAIN_FOR_SALE_wp_editor_api() ) ? '<div class="domain-for-sale-wp-editor" data-editor-settings="'. esc_attr( json_encode( $editor_settings ) ) .'">' : '';
 
@@ -47,7 +47,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_wp_editor' ) ) {
 
       echo ( DOMAIN_FOR_SALE_wp_editor_api() ) ? '</div>' : '';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

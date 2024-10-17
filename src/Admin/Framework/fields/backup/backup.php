@@ -20,7 +20,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_backup' ) ) {
       $nonce  = wp_create_nonce( 'DOMAIN_FOR_SALE_backup_nonce' );
       $export = add_query_arg( array( 'action' => 'domain-for-sale-export', 'unique' => $unique, 'nonce' => $nonce ), admin_url( 'admin-ajax.php' ) );
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       echo '<textarea name="DOMAIN_FOR_SALE_import_data" class="domain-for-sale-import-data"></textarea>';
       echo '<button type="submit" class="button button-primary domain-for-sale-confirm domain-for-sale-import" data-unique="'. esc_attr( $unique ) .'" data-nonce="'. esc_attr( $nonce ) .'">'. esc_html__( 'Import', 'domain-for-sale' ) .'</button>';
@@ -30,7 +30,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_backup' ) ) {
       echo '<hr />';
       echo '<button type="submit" name="DOMAIN_FOR_SALE_transient[reset]" value="reset" class="button domain-for-sale-warning-primary domain-for-sale-confirm domain-for-sale-reset" data-unique="'. esc_attr( $unique ) .'" data-nonce="'. esc_attr( $nonce ) .'">'. esc_html__( 'Reset', 'domain-for-sale' ) .'</button>';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

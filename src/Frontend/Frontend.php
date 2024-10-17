@@ -199,7 +199,7 @@ class Frontend
             'nonce' => wp_create_nonce('domain_for_sale_email_nonce')
         ));
         if (!empty($dfsCustomJs)) {
-            wp_add_inline_script('main', $dfsCustomJs);
+            wp_add_inline_script('domain-for-sale-script', $dfsCustomJs);
         }
     }
 

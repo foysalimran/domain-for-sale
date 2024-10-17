@@ -49,6 +49,7 @@ class DomainForSaleLayout
 								'image' => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/version-2.png',
 								'text'  => esc_html__('Layout 02', 'domain-for-sale'),
 								'option_demo_url'  => 'https://wp-plugins.themeatelier.net/nilam/',
+								'pro_only'			=> true,
 							),
 						),
 						'default' => 'layout_01',

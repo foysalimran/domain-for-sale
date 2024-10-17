@@ -3509,4 +3509,19 @@
     $('#menu-to-edit').DOMAIN_FOR_SALE_nav_menu();
   });
 
+  // Disable Fields //
+  $("select option:contains((Pro))").attr("disabled", true).css("opacity", "1");
+  // Disable and style the switcher element
+  $(".switcher_pro_only .domain-for-sale--switcher")
+    .attr("disabled", "disabled")
+    .addClass("only_pro_switcher")
+    .css({ background: "#B0BCC4" });
+
+  // Apply common styling to elements with the 'only_pro_switcher' class
+  $(".only_pro_switcher").css({
+    "pointer-events": "none",
+    color: "#8796A1",
+    position: "relative",
+  });
+
 })( jQuery, window, document );
