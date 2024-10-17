@@ -30,102 +30,64 @@ class DomainForSaleMainOptions
             $prefix,
             array(
                 'title'  => esc_html__('Main Options', 'domain-for-sale'),
-                'icon'   => 'icofont-home',
+                'icon'   => 'icofont-ui-settings',
                 'fields' => array(
                     array(
-                        'id'          => 'dfs_apply_on',
-                        'type'        => 'select_f',
-                        'title'       => esc_html__('Apply On', 'domain-for-sale'),
-                        'options'   => 'dfs_apply_on',
-                        'default'   => 'shortcode',
+                        'id'            => 'dfs_apply_on',
+                        'type'          => 'select_f',
+                        'title'         => esc_html__('Apply With', 'domain-for-sale'),
+                        'options'       => 'dfs_apply_on',
+                        'subtitle'      => esc_html__('Pick the method for using this template', 'domain-for-sale'),
+                        'help'          => esc_html__('Shortcode: Copy paste shortcode any page or posts, Replace Current Theme: Your current theme will be replace with this template, Specefic Page: Pick a page you want to show this template.', 'domain-for-sale'),
+                        'default'       => 'shortcode',
                     ),
                     array(
-                        'id'    => 'dfs_specific_page',
-                        'type'    => 'select',
-                        'multiple'    => true,
-                        'chosen'      => true,
-                        'title'    => esc_html__('Specific Pages', 'domain-for-sale'),
-                        'options'    =>  'dfs_specific_page',
-                        'dependency'  => array('dfs_apply_on', '==', 'specific_page'),
+                        'id'            => 'dfs_specific_page',
+                        'type'          => 'select',
+                        'multiple'      => true,
+                        'chosen'        => true,
+                        'title'         => esc_html__('Specific Pages', 'domain-for-sale'),
+                        'options'       =>  'dfs_specific_page',
+                        'subtitle'      => esc_html__('Selected page(s) will be replaced with this template.', 'domain-for-sale'),
+                        'dependency'    => array('dfs_apply_on', '==', 'specific_page'),
                     ),
 
-                    // Color Scheme Type
-
                     array(
-                        'id'          => 'dfs_color_scheme_type',
-                        'type'        => 'radio',
-                        'title'       => esc_html__('Color scheme type', 'domain-for-sale'),
-                        'inline'        => true,
-                        'class'         => 'dfs_color_scheme_type',
-                        'options'    => array(
-                            'pre_defined' => esc_html__('Pre Defined', 'domain-for-sale'),
-                            'custom' => esc_html__('Custom', 'domain-for-sale'),
+                        'type'          => 'heading',
+                        'title'         => esc_html__('Contact Form', 'domain-for-sale'),
+                    ),
+                    array(
+                        'id'            => 'dfs_form_type',
+                        'type'          => 'button_set',
+                        'title'         => esc_html__('Form type', 'domain-for-sale'),
+                        'options'       => array(
+                            'dfs_form'  =>  esc_html__('Domain For Sale Form', 'domain-for-sale'),
+                            'shortcode_form'   => esc_html__('Third-party Form', 'domain-for-sale'),
                         ),
-                        'default' => 'pre_defined',
+                        'subtitle'      => esc_html__('Select a contact form type', 'domain-for-sale'),
+                        'help'          => esc_html__('Domain For Sale Form: Self hosted form provided by this plugin. Third-party form: Custom shortcode from any third-party plugins such as: Contact form 7, Ninja form, Fluent form etc', 'domain-for-sale'),
+                        'default'       => array('dfs_form',)
                     ),
 
-                    // Color scheme
                     array(
-                        'id'          => 'dfs-scheme',
-                        'type'        => 'image_select',
-                        'title'       => esc_html__('Select color scheme', 'domain-for-sale'),
-                        'options'     => array(
-                            '4'     => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/color-4.png',
-                            '1'     => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/color-1.png',
-                            '2'     => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/color-2.png',
-                            '3'     => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/color-3.png',
-                        ),
-                        'default' => '4',
-                        'dependency' => array('dfs_color_scheme_type', '==', 'pre_defined'),
+                        'id'            => 'dfs-formtitle',
+                        'type'          => 'text',
+                        'title'         => esc_html__('Form title', 'domain-for-sale'),
+                        'subtitle'      => esc_html__('Change form title', 'domain-for-sale'),
+                        'default'       => esc_html__('Make an Offer', 'domain-for-sale'),
+                        'dependency'    => array('dfs_form_type', '==', 'dfs_form'),
                     ),
 
-
+                    //  Third party form validation
                     array(
-                        'id'        => 'dfs_custom_scheme',
-                        'type'      => 'color_group',
-                        'title'     => esc_html__('Use custom color', 'domain-for-sale'),
-                        'options'   => array(
-                            'primary' => esc_html__('Primary', 'domain-for-sale'),
-                            'secondary' => esc_html__('Secondary', 'domain-for-sale'),
-                        ),
-                        'default'   => array(
-                            'primary' => '#44dc46',
-                            'secondary' => '#3bbf3d',
-                        ),
-                        'dependency' => array('dfs_color_scheme_type', '==', 'custom'),
-                    ),
-                    array(
-                        'id'      => 'dfs_container_width',
-                        'type'    => 'number',
-                        'title'   => esc_html__('Container Width', 'domain-for-sale'),
-                        'default' => 1140
-                    ),
-                    array(
-                        'id'      => 'dfs_gap',
-                        'type'    => 'number',
-                        'title'   => esc_html__('Gap between columns', 'domain-for-sale'),
-                        'default' => 30
-                    ),
-                    array(
-                        'id'      => 'dfs-background',
-                        'type'    => 'background',
-                        'title'   => esc_html__('Body Background Image', 'domain-for-sale'),
-                        'background_color' => false,
-                        'default' => array(
-                            'background-position'   => 'center center',
-                            'background-repeat'     => 'repeat-x',
-                            'background-attachment' => 'fixed',
-                            'background-size'       => 'cover',
-                        )
-                    ),
-                    array(
-                        'id'      => 'dfs-overlay',
-                        'type'    => 'color',
-                        'title'   => esc_html__('Background Overlay', 'domain-for-sale'),
-                        'default' => 'rgba(0,0,0,0.7)',
+                        'id'            => 'dfs-thirdparty_shortcode',
+                        'type'          => 'textarea',
+                        'title'         => esc_html__('Insert shortcode for contact form', 'domain-for-sale'),
+                        'subtitle'      => esc_html__('Use a shortcode from any third-party contact form plugins such as: Contact form 7, Ninja form, Fluent form etc'),
+                        'dependency'    => array('dfs_form_type', '==', 'shortcode_form'),
                     ),
                 )
-            )
+            )   
         );
     }
 }

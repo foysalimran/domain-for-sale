@@ -14,7 +14,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Domain For Sale
- * Plugin URI:        https://themeatelier.net/domain-for-sale
+ * Plugin URI:        https://wp-plugins.themeatelier.net/nilam
  * Description:       Creative and professional auction and domain for sale WordPress Plugin.
  * Version:           3.0.0
  * Author:            ThemeAtelier

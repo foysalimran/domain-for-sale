@@ -30,7 +30,7 @@ class DomainForSaleLayout
 						'type'  => 'metabox_branding',
 						'image' => DOMAIN_FOR_SALE_DIR_URL . 'src/Admin/assets/img/dfs-logo.svg',
 						'after' => '<i class="icofont-life-ring"></i> Support',
-						'link'  => 'https://themeatelier.net/',
+						'link'  => 'https://themeatelier.net/contact',
 						'class' => 'domain-for-sale-admin-header',
 					),
 

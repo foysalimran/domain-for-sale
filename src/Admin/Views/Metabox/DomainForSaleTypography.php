@@ -30,7 +30,7 @@ class DomainForSaleTypography
             $prefix,
             array(
                 'title'  => esc_html__('Typography', 'domain-for-sale'),
-                'icon'   => 'icofont-home',
+                'icon'   => 'icofont-text-width',
                 'fields' => array(
                     array(
                         'id'                    => 'dfs_body_typography',

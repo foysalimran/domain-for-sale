@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-17 06:32+0000\n"
+"POT-Creation-Date: 2024-10-17 09:11+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -718,7 +718,7 @@ msgstr ""
 msgid "No Template found in Trash."
 msgstr ""
 
-#: src/Admin/TemplatePostTypes.php:94, src/Admin/TemplatePostTypes.php:95
+#: src/Admin/TemplatePostTypes.php:91, src/Admin/TemplatePostTypes.php:92
 msgid "DFS Template"
 msgstr ""
 
@@ -738,7 +738,7 @@ msgstr ""
 msgid "Contact form"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:37
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:37, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:62
 msgid "Form type"
 msgstr ""
 
@@ -746,24 +746,108 @@ msgstr ""
 msgid "Select third-party form for using custom shortcode from any third-party plugins such as: Contact form 7, Ninja form, Fluent form etc"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:40, src/Admin/Views/Settings/DomainForSaleForm.php:35
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:40, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:64, src/Admin/Views/Settings/DomainForSaleForm.php:35
 msgid "Domain For Sale Form"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:41
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:41, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:65
 msgid "Third-party Form"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:49
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:49, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:75
 msgid "Form title"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:50
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:50, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:77
 msgid "Make an Offer"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:58
+#: src/Admin/Views/Metabox/DomainForSaleContactForm.php:58, src/Admin/Views/Metabox/DomainForSaleMainOptions.php:85
 msgid "Insert shortcode for contact form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:31
+msgid "Content Options"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:37
+msgid "Price Tag"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:38
+msgid "Price $200 Only"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:43, src/Admin/Views/Metabox/DomainForSaleTypography.php:57
+msgid "Domain Name"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:49, src/Admin/Views/Metabox/DomainForSaleTypography.php:75
+msgid "Sale Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:50
+msgid "is for sale"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:55
+msgid "Sale Content"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:56
+msgid "The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me."
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:61
+msgid "Contact Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:62
+msgid "Contact Info:"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:67
+msgid "Contact Information's"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:72
+msgid "Icon for contact info"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:77
+msgid "Contact info"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:87
+msgid "(345) 456 789 23"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:95
+msgid "More Domain Title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:96
+msgid "More Domains"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:103
+msgid "Recommended Domain"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:109
+msgid "Domain name"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:114
+msgid "Domain link"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:119
+msgid "About domain"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:126, src/Admin/Views/Metabox/DomainForSaleContentOptions.php:131, src/Admin/Views/Metabox/DomainForSaleContentOptions.php:136
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni."
 msgstr ""
 
 #: src/Admin/Views/Metabox/DomainForSaleLayout.php:40
@@ -783,139 +867,99 @@ msgid "Main Options"
 msgstr ""
 
 #: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:38
-msgid "Apply On"
+msgid "Apply With"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:47
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:40
+msgid "Pick the method for using this template"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:41
+msgid "Shortcode: Copy paste shortcode any page or posts, Replace Current Theme: Your current theme will be replace with this template, Specefic Page: Pick a page you want to show this template."
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:49
 msgid "Specific Pages"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:57
-msgid "Color scheme type"
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:51
+msgid "Selected page(s) will be replaced with this template."
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:61
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:57
+msgid "Contact Form"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:67
+msgid "Select a contact form type"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:68
+msgid "Domain For Sale Form: Self hosted form provided by this plugin. Third-party form: Custom shortcode from any third-party plugins such as: Contact form 7, Ninja form, Fluent form etc"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:76
+msgid "Change form title"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:31
+msgid "Style Options"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:38
+msgid "Color Scheme Type"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:42
 msgid "Pre Defined"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:62
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:43
 msgid "Custom"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:71
-msgid "Select color scheme"
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:45
+msgid "Select type of color scheme to use"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:86
-msgid "Use custom color"
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:53
+msgid "Select Pre Defined Color Scheme"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:88
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:68
+msgid "Use Custom Color"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:70
 msgid "Primary"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:89
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:71
 msgid "Secondary"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:100
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:87
 msgid "Container Width"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:106
-msgid "Gap between columns"
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:88
+msgid "Use custom width for the container."
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:112
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:92
+msgid "Gap Between Columns"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:93
+msgid "Use custom gap for the column"
+msgstr ""
+
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:104
 msgid "Body Background Image"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleMainOptions.php:124
+#: src/Admin/Views/Metabox/DomainForSaleStyleOptions.php:116
 msgid "Background Overlay"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:31
-msgid "Template Options"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:37
-msgid "Price Tag"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:38
-msgid "Price $200 Only"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:43, src/Admin/Views/Metabox/DomainForSaleTypography.php:57
-msgid "Domain Name"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:49, src/Admin/Views/Metabox/DomainForSaleTypography.php:75
-msgid "Sale Title"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:50
-msgid "is for sale"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:55
-msgid "Sale Content"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:56
-msgid "The domain name (without content) is available for sale by its owner. Any offer you submit is binding for 7 days. If you require futher information contact with me."
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:61
-msgid "Contact title"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:62
-msgid "Contact Info:"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:67
-msgid "Contact informations"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:72
-msgid "Icon for contact info"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:77
-msgid "Contact info"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:87
-msgid "(345) 456 789 23"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:95
-msgid "More domain title"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:96
-msgid "More Domains"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:103
-msgid "Recommended Domain"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:109
-msgid "Domain name"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:114
-msgid "Domain link"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:119
-msgid "About domain"
-msgstr ""
-
-#: src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:126, src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:131, src/Admin/Views/Metabox/DomainForSaleTemplateOptions.php:136
-msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni."
 msgstr ""
 
 #: src/Admin/Views/Metabox/DomainForSaleTypography.php:32

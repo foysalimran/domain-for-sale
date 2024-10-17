@@ -7,7 +7,7 @@
  * @since      1.0.0
  *
  * @package domain-for-sale
- * @subpackage domain-for-sale/Admin/Views/DomainForSaleTemplateOptions
+ * @subpackage domain-for-sale/Admin/Views/DomainForSaleContentOptions
  * @author     ThemeAtelier<themeatelierbd@gmail.com>
  */
 
@@ -15,7 +15,7 @@ namespace ThemeAtelier\DomainForSale\Admin\Views\Metabox;
 
 use ThemeAtelier\DomainForSale\Admin\Framework\Classes\DOMAIN_FOR_SALE;
 
-class DomainForSaleTemplateOptions
+class DomainForSaleContentOptions
 {
 
     /**
@@ -28,8 +28,8 @@ class DomainForSaleTemplateOptions
     {
         // Templates options
         DOMAIN_FOR_SALE::createSection($prefix, array(
-            'title'  => esc_html__('Template Options', 'domain-for-sale'),
-            'icon'   => 'icofont-ui-settings',
+            'title'  => esc_html__('Content Options', 'domain-for-sale'),
+            'icon'   => 'icofont-edit',
             'fields' => array(
                 array(
                     'id'    => 'dfs-pricetag',
@@ -58,13 +58,13 @@ class DomainForSaleTemplateOptions
                 array(
                     'id'    => 'dfs-contacttitle',
                     'type'  => 'text',
-                    'title' => esc_html__('Contact title', 'domain-for-sale'),
+                    'title' => esc_html__('Contact Title', 'domain-for-sale'),
                     'default'  => esc_html__('Contact Info:', 'domain-for-sale'),
                 ),
                 array(
                     'id'     => 'dfs-contactinfos',
                     'type'   => 'repeater',
-                    'title'  => esc_html__('Contact informations', 'domain-for-sale'),
+                    'title'  => esc_html__('Contact Information\'s', 'domain-for-sale'),
                     'fields' => array(
                         array(
                             'id'      => 'contactinfos-icon',
@@ -92,7 +92,7 @@ class DomainForSaleTemplateOptions
                 array(
                     'id'    => 'dfs-moredomainTitle',
                     'type'  => 'text',
-                    'title' => esc_html__('More domain title', 'domain-for-sale'),
+                    'title' => esc_html__('More Domain Title', 'domain-for-sale'),
                     'default'  => esc_html__('More Domains', 'domain-for-sale'),
                     'dependency' => array('dfs_layout_preset', '==', 'layout_02', 'any'),
                 ),

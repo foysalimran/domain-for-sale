@@ -55,9 +55,6 @@ class Frontend
 
         $this->domain_for_sale_public_action();
         add_action('template_redirect', [$this, 'domina_domain_for_sale']);
-
-        $options = get_option('dfs-opt');
-        echo '<pre>'; print_r($options); echo '</pre>';
     }
 
     /**
