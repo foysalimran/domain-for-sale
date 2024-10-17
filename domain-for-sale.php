@@ -14,9 +14,9 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Domain For Sale
- * Plugin URI:        https://themeatelier.net/domain-for-sale
+ * Plugin URI:        https://wp-plugins.themeatelier.net/nilam
  * Description:       Creative and professional auction and domain for sale WordPress Plugin.
- * Version:           2.0.5
+ * Version:           3.0.0
  * Author:            ThemeAtelier
  * Author URI:        https://themeatelier.net/
  * License:           GPL-2.0+
@@ -34,7 +34,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use ThemeAtelier\DomainForSale\DomainForSale;
 
 if(!defined('DOMAIN_FOR_SALE_VERSION')){
-    define('DOMAIN_FOR_SALE_VERSION', '2.0.5');
+    define('DOMAIN_FOR_SALE_VERSION', '3.0.0');
 }
 if(!defined('DOMAIN_FOR_SALE_FILE')){
     define('DOMAIN_FOR_SALE_FILE', __FILE__);
@@ -59,8 +59,9 @@ if(!defined('DOMAIN_FOR_SALE_BASENAME')){
 function domain_for_sale_run()
 {
     // Launch the plugin.
-    $DOMAIN_FOR_SALE = new DomainForSale();
-    $DOMAIN_FOR_SALE->run();
+    $domain_for_sale = new DomainForSale();
+    $domain_for_sale->run();
+    register_activation_hook(__FILE__, array($domain_for_sale, 'dfs_plugin_activate'));
 }
 
 include_once ABSPATH . 'wp-admin/includes/plugin.php';

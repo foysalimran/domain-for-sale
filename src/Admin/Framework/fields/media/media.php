@@ -58,7 +58,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_media' ) ) {
       $hidden_auto = ( empty( $this->value['url'] ) ) ? ' hidden' : '';
       $placeholder = ( empty( $this->field['placeholder'] ) ) ? ' placeholder="'.  esc_html__( 'Not selected', 'domain-for-sale' ) .'"' : '';
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       if ( ! empty( $args['preview'] ) ) {
 
@@ -88,7 +88,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_media' ) ) {
       echo '<input type="hidden" name="'. esc_attr( $this->field_name( '[title]' ) ) .'" value="'. esc_attr( $this->value['title'] ) .'" class="domain-for-sale--title"/>';
       echo '<input type="hidden" name="'. esc_attr( $this->field_name( '[description]' ) ) .'" value="'. esc_attr( $this->value['description'] ) .'" class="domain-for-sale--description"/>';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

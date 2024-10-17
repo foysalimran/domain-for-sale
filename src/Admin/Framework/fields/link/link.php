@@ -34,7 +34,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_link' ) ) {
 
       $maybe_hidden = ( empty( $hidden ) ) ? ' hidden' : '';
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       echo '<textarea readonly="readonly" class="domain-for-sale--link hidden"></textarea>';
 
@@ -48,7 +48,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_link' ) ) {
       echo '<a href="#" class="button domain-for-sale--edit'. esc_attr( $maybe_hidden ) .'">'. $args['edit_title'] .'</a> ';
       echo '<a href="#" class="button domain-for-sale-warning-primary domain-for-sale--remove'. esc_attr( $maybe_hidden ) .'">'. $args['remove_title'] .'</a>';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

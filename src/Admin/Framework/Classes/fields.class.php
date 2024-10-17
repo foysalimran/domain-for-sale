@@ -1,4 +1,5 @@
-<?php if ( ! defined( 'ABSPATH' ) ) { die; } // Cannot access directly.
+<?php if ( ! defined( 'ABSPATH' ) ) { die; } 
+use ThemeAtelier\DomainForSale\Helpers\Helpers;
 /**
  *
  * Fields Class
@@ -131,7 +132,12 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Fields' ) ) {
 
       // switch type
       switch( $type ) {
-
+        case 'dfs_apply_on':
+          $apply_list = Helpers::dfs_apply_list();
+          foreach ($apply_list as $key => $value) {
+            $options[$key] = $value;
+          }
+          break;
         case 'page':
         case 'pages':
         case 'post':

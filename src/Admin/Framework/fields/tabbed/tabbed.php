@@ -20,7 +20,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_tabbed' ) ) {
 
       $unallows = array( 'tabbed' );
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       echo '<div class="domain-for-sale-tabbed-nav" data-depend-id="'. esc_attr( $this->field['id'] ) .'">';
       foreach ( $this->field['tabs'] as $key => $tab ) {
@@ -58,7 +58,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_tabbed' ) ) {
       }
       echo '</div>';
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

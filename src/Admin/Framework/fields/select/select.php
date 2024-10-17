@@ -28,7 +28,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_select' ) ) {
 
       $this->value = ( is_array( $this->value ) ) ? $this->value : array_filter( (array) $this->value );
 
-      echo $this->field_before();
+      echo wp_kses_post( $this->field_before() );
 
       if ( isset( $this->field['options'] ) ) {
 
@@ -64,7 +64,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_select' ) ) {
 
           if ( ! empty( $args['chosen'] ) && ! empty( $args['multiple'] ) ) {
 
-            echo '<select name="'. $field_name .'" class="domain-for-sale-hide-select hidden"'. $multiple_attr . $field_attr .'>';
+            echo '<select name="'. esc_attr( $field_name ) .'" class="domain-for-sale-hide-select hidden"'. $multiple_attr . $field_attr .'>';
             foreach ( $this->value as $option_key ) {
               echo '<option value="'. esc_attr( $option_key ) .'" selected>'. esc_attr( $option_key ) .'</option>';
             }
@@ -116,7 +116,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_select' ) ) {
 
       }
 
-      echo $this->field_after();
+      echo wp_kses_post( $this->field_after() );
 
     }
 

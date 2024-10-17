@@ -119,7 +119,6 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE' ) ) {
             self::$inited[$key] = true;
 
             \DOMAIN_FOR_SALE_Metabox::instance( $key, $params );
-
           }
         }
       }
@@ -291,16 +290,20 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE' ) ) {
         'heading',
         'icon',
         'image_select',
+        'layout_preset',
         'link',
         'link_color',
         'map',
         'media',
+        'metabox_branding',
         'notice',
         'number',
         'palette',
         'radio',
         'repeater',
         'select',
+        'select_f',
+        'shortcode',
         'slider',
         'sortable',
         'sorter',
@@ -449,11 +452,13 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE' ) ) {
       if ( is_rtl() ) {
         wp_enqueue_style( 'domain-for-sale-rtl', self::include_plugin_url( 'assets/css/style-rtl'. $min .'.css' ), array(), self::$version, 'all' );
       }
+      // Main style
+      wp_enqueue_style('taf-custom', self::include_plugin_url('assets/css/taf-custom' . $min . '.css'), array(), self::$version, 'all');
 
       // Main scripts
       wp_enqueue_script( 'domain-for-sale-plugins', self::include_plugin_url( 'assets/js/plugins'. $min .'.js' ), array(), self::$version, true );
       wp_enqueue_script( 'domain-for-sale', self::include_plugin_url( 'assets/js/main'. $min .'.js' ), array( 'domain-for-sale-plugins' ), self::$version, true );
-
+      wp_enqueue_script('domain-for-sale-custom', self::include_plugin_url('assets/js/taf-custom' . $min . '.js'), array('domain-for-sale-plugins'), self::$version, true);
       // Main variables
       wp_localize_script( 'domain-for-sale', 'DOMAIN_FOR_SALE_vars', array(
         'color_palette'     => apply_filters( 'DOMAIN_FOR_SALE_color_palette', array() ),

@@ -30,7 +30,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_repeater' ) ) {
 
       } else {
 
-        echo $this->field_before();
+        echo wp_kses_post( $this->field_before() );
 
         echo '<div class="domain-for-sale-repeater-item domain-for-sale-repeater-hidden" data-depend-id="'. esc_attr( $this->field['id'] ) .'">';
         echo '<div class="domain-for-sale-repeater-content">';
@@ -92,7 +92,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_repeater' ) ) {
         echo '<div class="domain-for-sale-repeater-alert domain-for-sale-repeater-min">'. esc_html__( 'You cannot remove more.', 'domain-for-sale' ) .'</div>';
         echo '<a href="#" class="button button-primary domain-for-sale-repeater-add">'. $args['button_title'] .'</a>';
 
-        echo $this->field_after();
+        echo wp_kses_post( $this->field_after() );
 
       }
 

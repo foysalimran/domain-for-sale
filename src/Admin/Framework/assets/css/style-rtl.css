@@ -507,11 +507,11 @@
 /**
  * 04. Profile
  */
-.domain-for-sale-profile-options > h2 > .fa {
+.domain-for-salefile-options > h2 > .fa {
   padding-right: 0;
   padding-left: 7px;
 }
-.domain-for-sale-profile-options > .domain-for-sale-field > .domain-for-sale-fieldset > .domain-for-sale-help {
+.domain-for-salefile-options > .domain-for-sale-field > .domain-for-sale-fieldset > .domain-for-sale-help {
   left: -5px;
   right: auto;
 }

@@ -44,7 +44,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_group' ) ) {
 
       } else {
 
-        echo $this->field_before();
+        echo wp_kses_post( $this->field_before() );
 
         echo '<div class="domain-for-sale-cloneable-item domain-for-sale-cloneable-hidden" data-depend-id="'. esc_attr( $this->field['id'] ) .'">';
 
@@ -144,7 +144,7 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_group' ) ) {
         echo '<div class="domain-for-sale-cloneable-alert domain-for-sale-cloneable-min">'. esc_html__( 'You cannot remove more.', 'domain-for-sale' ) .'</div>';
         echo '<a href="#" class="button button-primary domain-for-sale-cloneable-add">'. $args['button_title'] .'</a>';
 
-        echo $this->field_after();
+        echo wp_kses_post( $this->field_after() );
 
       }
 

@@ -60,4 +60,62 @@ class Helpers
         wp_register_script('sweetalert2', DOMAIN_FOR_SALE_ASSETS . 'js/sweetalert2' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
         wp_register_script('domain-for-sale-script', DOMAIN_FOR_SALE_ASSETS . 'js/domain-for-sale-script' . $this->min . '.js', array('jquery'), DOMAIN_FOR_SALE_VERSION, true);
     }
+
+    public static function dfs_apply_on()
+    {
+        $dfs_apply_on = array(
+            'shortcode'     => array(
+                'name'  => esc_html__('Shortcode', 'domain-for-sale'),
+                'pro_only' => false,
+            ),
+            'replace_theme'     => array(
+                'name'  => esc_html__('Replace Current Theme', 'domain-for-sale'),
+                'pro_only' => false,
+            ),
+            'specific_page'     => array(
+                'name'  => esc_html__('Specific Page (Pro)', 'domain-for-sale'),
+                'pro_only' => true,
+            ),
+        );
+        return $dfs_apply_on;
+    }
+
+    public static function dfs_select_settings()
+	{
+		$query          = new \WP_Query(wp_parse_args(array(
+			'post_type'   => 'dfs_template',
+			'post_status' => 'publish',
+		)));
+
+		$already_exists = array();
+		foreach ($query->posts as $item) {
+			$sett_id          = get_post_meta($item->ID, 'dfs_template_options', true);
+			$sett_id          = !empty($sett_id['dfs_apply_on']) ? $sett_id['dfs_apply_on'] : '';
+			$already_exists[] = $sett_id;
+		}
+		return $already_exists;
+	}
+
+    public static function dfs_apply_list()
+	{
+		$sett_id = '';
+		if (isset($_GET['post'])) {
+			$template_options = get_post_meta($_GET['post'], 'dfs_template_options', true);
+			$sett_id          = isset($template_options['dfs_apply_on']) ? $template_options['dfs_apply_on'] : '';
+		}
+
+		$apply_list = self::dfs_apply_on();
+		$settings   = self::dfs_select_settings();
+
+		foreach ($settings as $sett_val) {
+			if (!empty($sett_id) && $sett_id == $sett_val) {
+				continue;
+			}
+			if ($sett_val == 'replace_theme') {
+				unset($apply_list['replace_theme']);
+			}
+		}
+
+		return $apply_list;
+	}
 }
