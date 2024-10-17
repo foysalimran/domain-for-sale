@@ -73,7 +73,7 @@ class Helpers
                 'pro_only' => false,
             ),
             'specific_page'     => array(
-                'name'  => esc_html__('Specific Page', 'domain-for-sale'),
+                'name'  => esc_html__('Specific Page (Pro)', 'domain-for-sale'),
                 'pro_only' => true,
             ),
         );

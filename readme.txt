@@ -124,6 +124,15 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
+= 3.0.0 – Oct 16, 2024 =
+* Added: DFS Template custom post type.
+* Added: Options to apply the template in various ways.
+* Added: Custom container width setting.
+* Added: Option for customizing the gap between columns.
+* Added: New typography fields for all text types.
+* Removed: Bootstrap CSS and replaced with custom CSS for the template.
+* Updated: Moved all template options from options panel to metabox.
+* Updated: CSS structure for templates.
 
 = 2.0.5  – Sep 24, 2024 =
 * Added: All icons form Icofont library.
