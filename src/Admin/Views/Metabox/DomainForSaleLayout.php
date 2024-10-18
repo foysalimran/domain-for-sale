@@ -43,12 +43,12 @@ class DomainForSaleLayout
 							'layout_01'      => array(
 								'image' => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/version-1.png',
 								'text'  => esc_html__('Layout 01', 'domain-for-sale'),
-								'option_demo_url'  => 'https://wp-plugins.themeatelier.net/nilam/',
+								'option_demo_url'  => 'https://wp-plugins.themeatelier.net/nilam/layout-01',
 							),
 							'layout_02'  => array(
 								'image' => DOMAIN_FOR_SALE_DIR_URL . 'src/assets/images/version-2.png',
 								'text'  => esc_html__('Layout 02', 'domain-for-sale'),
-								'option_demo_url'  => 'https://wp-plugins.themeatelier.net/nilam/',
+								'option_demo_url'  => 'https://wp-plugins.themeatelier.net/nilam/layout-02',
 								'pro_only'			=> true,
 							),
 						),

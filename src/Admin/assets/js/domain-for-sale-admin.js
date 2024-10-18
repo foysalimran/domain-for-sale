@@ -75,8 +75,8 @@
       sel.addRange(r);
     }
 
-    $('.layout.column-layout').each(function() {
-      $(this).text($(this).text().replace('_', ' '));
+    $(".layout.column-layout").each(function () {
+      $(this).text($(this).text().replace("_", " "));
     });
   });
 })(jQuery);

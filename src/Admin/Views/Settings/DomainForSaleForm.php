@@ -158,6 +158,7 @@ class DomainForSaleForm
                         ),
                     ),
                     array(
+                        'id'    => 'google_recaptcha',
                         'type'  => 'switcher',
                         'title' => esc_html__('Turn on google recaptcha', 'domain-for-sale'),
                         'class' => 'switcher_pro_only',
@@ -180,7 +181,6 @@ class DomainForSaleForm
                         ),
                         'default'    => 'v3',
                         'advanced' => false,
-                        'dependency' => array('dfs-enable-recaptcha', '==', 'true'),
                     ),
                     array(
                         'id' => 'dfs-recaptcha-sitekey_v3',

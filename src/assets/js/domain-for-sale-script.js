@@ -17,7 +17,7 @@
           data: formData,
           nonce: confirmation.nonce,
         },
-        
+
         success: function (response) {
           if (response.data.type === "success") {
             Swal.fire({
@@ -49,4 +49,5 @@
       });
     });
   });
+
 })(jQuery);
