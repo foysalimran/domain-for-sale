@@ -66,7 +66,6 @@ Here’s the updated version with the additional features:
 - **Frequent Updates**: Regular updates introduce new features, enhance security, and fix bugs, ensuring the plugin remains optimized and functional.
 - **Fast and Active Support**: Responsive support is available whenever you need assistance.
 
-
 = Multilingual Ready =
 * [WPML](https://wpml.org/)
 * [LocoTranslate](https://localise.biz/)
