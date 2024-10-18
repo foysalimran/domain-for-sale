@@ -1,0 +1,19 @@
+{
+    "name": "themeatelier/domain-for-sale",
+    "description": "Creative and professional auction and domain for sale WordPress Plugin.",
+    "type": "wordpress-plugins",
+    "license": "GPL-2.0+",
+    "autoload": {
+        "psr-4": {
+            "ThemeAtelier\\DomainForSale\\": "src/"
+        },
+        "files": [ "src/Helpers/helper-functions.php" ]
+    },
+    "authors": [
+        {
+            "name": "ThemeAtelier",
+            "email": "themeatelierbd@gmail.com"
+        }
+    ],
+    "require": {}
+}

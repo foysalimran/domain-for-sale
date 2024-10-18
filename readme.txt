@@ -1,83 +1,128 @@
 === Domain For Sale, Domain appraisal, Domain auction, Domain marketplace - Best Domain For sale Plugin for WordPress  ===
 Contributors: ThemeAtelier
-Tags: domain for sale, domain auction, domain brokerage, domain parking, sell the domain, sell a website
-Requires at least: 4.0
-Tested up to: 6.3
-Requires PHP: 5.4
-Stable tag: 1.4.9
+Tags: domain for sale, domain parking, Domain Auctions, Sell Domains, Domain Monetization
+Requires at least: 5.0
+Tested up to: 6.6.2
+Requires PHP: 7.0
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-== Description ==
-Domain For Sale WordPress plugin - the ultimate tool for parking and selling your unused domain names. With this plugin, you can easily create a professional-looking template to showcase your domains and give potential buyers all the information they need to make a purchase. The plugin comes with a variety of customizable options, including a contact form that makes it easy for interested parties to get in touch. Whether you're a domain investor or just looking to sell a few unused names, this plugin is the perfect solution for turning your domains into cash.
+The ultimate WordPress plugin for domain sales, appraisals, auctions, and marketplace management.
 
-👉 [Demos](https://wp-plugins.themeatelier.net/nilam/) | [Pro Version](https://1.envato.market/LPeXVY) | [Support](https://wordpress.org/support/plugin/domain-for-sale/) | [Rate this plugin](https://wordpress.org/support/plugin/domain-for-sale/reviews/#new-post) 👈
+== Description ==
+
+**Domain For Sale WordPress Plugin** - The ultimate solution for domain investors and website owners looking to monetize and sell their unused domain names with ease. This powerful plugin allows you to create unlimited professional templates, fully customizable to showcase your domains with detailed information and eye-catching designs. Whether you want to replace your existing theme or use a shortcode to embed templates anywhere, the plugin offers flexibility and ease of use.
+
+Key features include a responsive, mobile-friendly design, multilingual and RTL support, SEO optimization, and seamless compatibility with all WordPress themes. The advanced customization options let you adjust typography, background images, container widths, and column spacing. With the built-in contact form and Sweet Alert integration, potential buyers can easily get in touch, ensuring quick and efficient communication.
+
+Designed with both non-developers and developers in mind, the plugin offers a user-friendly interface, while also providing developer-friendly options for deeper integration and customization. Frequent updates, cross-browser compatibility, and comprehensive documentation ensure the best experience. Plus, multisite support and backup features make it easy to manage multiple domain listings effortlessly.
+
+Turn your domains into cash with the **Domain For Sale WordPress Plugin**—the perfect tool for transforming your unused domain names into profitable opportunities.
+
+**👁️[Plugin Demo](https://wp-plugins.themeatelier.net/nilam/) | 🚀[Pro Version](https://1.envato.market/LPeXVY) | 👩🏼‍💻[Support](https://wordpress.org/support/plugin/domain-for-sale/) | 🌟[Rate this plugin](https://wordpress.org/support/plugin/domain-for-sale/reviews/#new-post)**
 
 == Video demo ==
 [youtube https://youtu.be/E_-iUMykP5M]
 
-== HERE’S WHAT USERS SAY ABOUT "DOMAIN FOR SALE" ==
+== Listen to What People Have to Say: ==
 
->😻 __I was looking it for long!__
+>😻 __A Fantastic Plugin For Domain Name Selling__
 
->I have some domain names what I would like to sale. I know there has lots of third party solution for adding my domains for auction but I was looking for a system to directly connect with users who are interested to buy my domains but I didn’t find any of solution. Finally I got this plugin what filled my needs. It’s options and features are really easy to use also the UI of plugin is really awesome. Highly recommended plugin for domain sellers.
-- By @UniteTheme
+>This is a simple and easy plugin if you sell domain names. I am testing it now and it works great. Cheers to the developer. Thank you.
+- By @techspecx
 
-== Key Features ==
+== Key Features of Domain For Sale: ==
 
-* Comes with four distinct color schemes.
-* Option to modify the default font and font sizes.
-* Includes useful SEO settings to help rank your site higher in search engine results.
-* Each sentence can be easily altered through the settings panel.
-* Features a powerful contact form with a wide range of customizable options.
-* Offers a backup option to effortlessly use the same settings for multiple websites.
+Here’s the updated version with the additional features:
+
+- **Fully Responsive and Mobile Friendly**: Ensures your site looks great and functions seamlessly on any device.
+- **Unlimited Template Creation**: Create as many templates as you need for different pages and purposes.
+- **Flexible Template Application**: Replace your existing theme with a template or use a shortcode to apply it anywhere on your site.
+- **Custom Contact Form Integration**: Add your own contact form shortcode to easily capture user information.
+- **Dynamic Content Management**: Each sentence on every template can be modified through the content options panel for full customization.
+- **Multiple Color Schemes**: Comes with four unique color schemes for easy customization.
+- **Custom Container Width**: Set custom container widths to control the layout precisely.
+- **Column Spacing Adjustment**: Adjust the gap between columns for a more tailored design.
+- **Advanced Background Customization**: Modify background images and overlay settings to enhance visual appeal.
+- **Comprehensive Typography Control**: Full customization options for all types of text on your site.
+- **Custom Favicon Support**: Easily upload and set a custom favicon for your site.
+- **SEO Settings**: Includes essential SEO options to help your site rank better in search engine results.
+- **Powerful Contact Form**: A customizable contact form with various options for personalized user interaction.
+- **Unlimited Contact Information Entries**: Add as many contact details as needed.
+- **Email Notification Variables**: Useful variables available for email notifications, ensuring you receive all the information you need.
+- **Sweet Alert Integration**: Displays sweet alert notifications for contact form submissions.
+- **Custom CSS Panel**: Add custom CSS to modify any styling through the options panel.
+- **Custom JavaScript Panel**: Insert any scripts, including analytics or tracking codes, easily through the options panel.
+- **Backup Feature**: Save settings and use them across multiple websites effortlessly.
+- **Multisite Compatibility**: Fully compatible with multisite WordPress setups, ensuring seamless operation across your network.
+- **Multilingual Ready**: Easily translate your site into multiple languages to reach a global audience.
+- **RTL Support**: Full support for right-to-left languages, expanding accessibility options.
+- **Theme Compatibility**: Works with all WordPress themes, offering flexibility regardless of your current setup.
+- **No Coding Required**: An intuitive UI/UX makes setup simple; activate the plugin, and the system automatically creates pages that you can add to your menu or place wherever needed—no technical skills required.
+- **Developer-Friendly**: Built with customization in mind, allowing developers to integrate and expand the plugin’s functionalities easily.
+- **Cross-Browser Compatibility**: Functions seamlessly across all modern browsers including IE, Firefox, Chrome, Safari, Opera, and Edge.
+- **Comprehensive Documentation & Tutorials**: Detailed guides and video tutorials provide easy setup and usage instructions.
+- **Frequent Updates**: Regular updates introduce new features, enhance security, and fix bugs, ensuring the plugin remains optimized and functional.
+- **Fast and Active Support**: Responsive support is available whenever you need assistance.
 
 
-== SETTINGS PANEL ==
+= Multilingual Ready =
+* [WPML](https://wpml.org/)
+* [LocoTranslate](https://localise.biz/)
+* [Polylang](https://wordpress.org/plugins/polylang/)
+* [qTranslate-x](https://wordpress.org/plugins/qtranslate-x/)
+* [GTranslate](https://wordpress.org/plugins/gtranslate/)
+* [Google Language Translator](https://wordpress.org/plugins/google-language-translator/)
+* [WPGlobus](https://wordpress.org/plugins/wpglobus/)
 
-=== Main options ===
-* <strong>Domain for sale</strong> - Turn this option ON for enable Domain For Sale in your current website.
-* <strong>Upload Favicon</strong> - This option to add favicon of the site.
-* <strong>Select color scheme</strong> - We have 4 different color scheme. Select one of them you love.
-* <strong>Body Background Image</strong> - Add new body background image change default one.
-* <strong>Background overlay</strong> - This option allow you to change overlay color and opacity.
-* <strong>Body Typography</strong> - You will able to change body font with this option. We have all google fonts available there.
-* <strong>Heading Typography</strong> You will able to change headings font with this option. We have all google fonts available there.
+= Page Builders Ready =
 
-=== SEO options ===
-* <strong>Site title</strong> - This option allow you to set a custom website title.
-* <strong>SEO description</strong> - This option allow you to set a website description to show in google search result.
-* <strong>SEO keywords</strong> - You will able to set focus keywors for ranking the domain in google based on your selected keywords.
+* Gutenberg
+* WPBakery
+* Elementor
+* BeaverBuilder
+* SiteOrgin
+* DiviBuilder
+* LayersWP
+* MotoPress
+* CornerStone
+* Themify Builder etc.
 
-=== Template options ===
-* <strong>Price Tag</strong> - To change default price tag to user will know around how much do you want to sale.
-* <strong>Domain Name</strong> - To add your domain name.
-* <strong>Sale Title</strong> - To change default sale title.
-* <strong>Sale Content</strong> - Main description of domain content.
-* <strong>Contact title</strong> - Title for contact informations.
-* <strong>Contact informations</strong> - Repeated field to add unlimited contact informations.
+= All theme compitible including =
+* Hello Elementor
+* Astra
+* Divi
+* Kadence
+* Themify Ultra
+* OceanWP
+* Hestia
+* Inspiro
+* GeneratePress
+* Avada
+* Blocksy
+* Neve
 
-=== Contact form ===
-* <strong>Form Title</strong> - This option is to change default title of form.
-* <strong>Name field label</strong> - This options it to cahgne default Name field label.
-* <strong>Name field placeholder</strong> - This options it to cahgne default Name field placeholder.
-* <strong>Email field label</strong> - This options it to cahgne default Email field label.
-* <strong>Email field placeholder</strong> - This options it to cahgne default Email field placeholder.
-* <strong>Subject field label</strong> - This options it to cahgne default Subject field label.
-* <strong>Subject field placeholder</strong> - This options it to cahgne default Subject field placeholder.
-* <strong>Proposal field label</strong> - This options it to cahgne default Proposal field label.
-* <strong>Proposal field placeholder</strong> - This options it to cahgne default Proposal field placeholder.
-* <strong>Button label</strong> - This options it to cahgne default text of button.
-* <strong>Target email addresses</strong> - This options it to add emails to recive email after submit the form.
-* <strong>Email Template</strong> - Format/Customize text for reciving email in your targeted email with same format.
-* <strong>Form Success Title</strong> - Change email successfully submitted title.
-* <strong>Form Success Description</strong> Change email successfully submitted description.
-* <strong>Form Error Title</strong>  This text will show if somhow email unable to submit.
-* <strong>Form Error Description</strong> Description text to show if somhow email unable to submit.
+== PRO VERSION FEATURES ==
+* Additional template to use in different way.
+* Google reCaptcha option for avoiding spam mail.
+* Add custom theme color to match with your branding.
+* One time purchase lifetime update (For first 500 pro users)
+* White Labelling
+* Priority Support
+* 14-Day Money Back Guarantee
 
-=== Backup ===
-* <strong>Import</strong> - Import option is for using same settings from different domain.
-* <strong>Export</strong> - Export option is for copy same settings to put in different domain.
+== OTHER AMAZING PRODUCTS FROM ThemeAtelier ==
+
+➡️ **[Greet – Video Bubble Warm Welcome Plugin](https://wordpress.org/plugins/greet-bubble/)** - A powerful and user-friendly video bubble plugin for WordPress that provides website owners with the opportunity to create a dynamic and engaging welcome experience for their visitors.
+
+➡️ **[Eventful – Events Showcase For The Events Calendar](https://wordpress.org/plugins/eventful/)** -  Elevate your event management with this dynamic addon, enhancing ‘The Events Calendar’ with versatile layouts, advanced filtering, and user-friendly features for superior event showcasing.
+
+➡️ **[Better WhatsApp Chat Support](https://wordpress.org/plugins/chat-help/)** -  A WordPress plugin that allows website owners to easily add a WhatsApp chat bubble to their website and comes with Gutenberg, Elementor and Shortcode options.
+
+➡️ **[IDonate](https://wordpress.org/plugins/idonate/)** - A professional blood donation and blood request management plugin.
+
+➡️ **[BizReview](https://wordpress.org/plugins/bizreview/)** - The ultimate WordPress plugin to show Google Business and Google Place Reviews.
 
 == Installation ==
 1. Upload plugin directory to the `/wp-content/plugins/` directory.
@@ -85,12 +130,16 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 3. Access "Domain for sale" menu from your dashboard.
 
 == Screenshots ==
-1. Frontend Demo
+1. Frontend Demo - Layout One
 2. Admin Demo - Main Options
-3. Admin Demo - SEO Options
-4. Admin Demo - Template Options
-5. Admin Demo - Contact Form
-6. Admin Demo - Backup Option
+3. Admin Demo - Content Options
+4. Admin Demo - Style Options
+5. Admin Demo - Typography
+6. Admin Demo - General
+7. Admin Demo - Domain For Sale Form
+8. Admin Demo - Custom Code Options
+9. Admin Demo - Backup Options
+10. Admin Demo - Get Help
 
 == Upgrade Notice ==
 
@@ -115,31 +164,115 @@ Submit your query in plugin [Support Forum](https://wordpress.org/support/plugin
 You can create a topic in our [Support Forum](https://wordpress.org/support/plugin/domain-for-sale/) or send me a direct mail at [themeatelierbd@gmail.com](mailto:themeatelierbd@gmail.com)
 
 == Changelog ==
-= 1.0.0 =
-* Initial release
+= 3.0.0 – Oct 16, 2024 =
+* Added: DFS Template custom post type.
+* Added: Options to apply the template in various ways.
+* Added: Custom container width setting.
+* Added: Option for customizing the gap between columns.
+* Added: New typography fields for all text types.
+* Removed: Bootstrap CSS and replaced with custom CSS for the template.
+* Updated: Moved all template options from options panel to metabox.
+* Updated: CSS structure for templates.
 
-= 1.1.0 =
-* Updated readme for proper guidelines
+= 2.0.5  – Sep 24, 2024 =
+* Added: All icons form Icofont library.
+* Fixed: Check mark icon not loading issue on admin panel.
+* TESTED: WordPress 6.6.2 compatibility.
 
-= 1.3.2 =
-* Fixed responsive issue
-* Added turkish language file
+= 2.0.4  – Sep 14, 2024 =
+* Update: Plugin UI
 
-= 1.3.6 =
- * Fixed php and latest wordpress version compatiblity issue
+= 2.0.3  – Sep 11, 2024 =
+* Fix: Icon issue for admin panel
+* Fix: PHP 8.1.12 Compatibility Issue
+* Fix: WordPress 6.6.1 Compatibility Issue
+* Added: Help area for admin panel
+
+= 2.0.2  – Aug 10, 2024 =
+* Update: Added new icon fonts
+* Fix: Activation debug errors
+
+= 2.0.1  – Aug 09, 2024 =
+* Fix: PHP warning on activation
+* Fixed: Latest PHP compitablity
+
+= 2.0.0  – Aug 08, 2024 =
+* Fix: Error
+* Fix: Update code structure
+* Update: Code compatibility with latest WordPress version
+* Update: Code compatibility with latest PHP version
+* Update: Plugin description
+
+= 1.5.2 =
+* Update: Default background removed from option field and used directly from code to avoid disappearing issue on pro version
+* Added: Subtitle fields on admin for some sections for better understanding
+* Added: Pro version features instructions on option fields
+
+= 1.5.1 =
+* Added: Compatibility with WordPress 6.5.4
+* Update: Banner advertising removed
+* Update: Added plugin action link and setting link with same function
+
+= 1.4.17 =
+* Added: Option to use contact form shortcode from any third-party plugins
+* Added help text on some fields
+* Checked compatibility with latest WordPress version
+* Checked compatibility with latest PHP version
+
+= 1.4.16 =
+* Fixed subject variable receiving issue in email template
+* IP address option added for use in email template
+
+= 1.4.15 =
+* Added option for adding custom CSS
+* Added option for adding custom JavaScript
+
+= 1.4.14 =
+* Fixed CSS issues
+
+= 1.4.13 =
+* Fixed some compatibility issues
+
+= 1.4.12 =
+* Convert plugin code from functional base to class base for adding upcoming features
+* Added compatibility for WordPress 6.4.1
+* Added help page for users
+
+= 1.4.11 =
+* Update 'domain for sale' framework class to avoid conflicts with other plugins
+
+= 1.4.10 =
+* Added all missing strings for translation
+* Added help page for easy access
+* Redirection option after activating plugin in help page
+* Fixed PHP warning
+* WordPress 6.3.2 compatibility
+
+= 1.4.9 =
+* Fixed PHP warning
+* WordPress 6.3 compatibility
+
+= 1.4.8 =
+* Change default placeholder email template text for identifying websites
+* Added new tags for emails: {subject}, {siteURL}
+* Automatically get website URL as "Domain Name" field
+* Automatically get admin email address as "Target Email Addresses" field
+
+= 1.3.8 =
+* Fix PHP compatibility and WordPress latest compatibility
 
 = 1.3.7 =
 * Update in plugin content direction
 
-= 1.3.8 =
-* Fix php compatiblity and wordpress latest compatiblity
+= 1.3.6 =
+* Fixed PHP and latest WordPress version compatibility issue
 
-= 1.4.8 =
-* Change defalt placeholder email template text for identify websites.
-* Added new tags for emails: {subject},{siteURL}
-* Automatically get website url as "Domain Name" field
-* Automatically get admin email address as "Target Email Addresses" field
+= 1.3.2 =
+* Fixed responsive issue
+* Added Turkish language file
 
-== 1.4.9 ==
-* Fixed PHP warning
-* WordPress 6.3 compatiblity
+= 1.1.0 =
+* Updated readme for proper guidelines
+
+= 1.0.0 =
+* Initial release

@@ -1,71 +1,75 @@
 <?php
-/*
-Plugin Name: 	Domain For Sale
-Plugin URI: 	https://www.themeatelier.net
-Description: 	Creative and professional auction and domain for sale WordPress Plugin.
-Author: 		ThemeAtelier
-Version: 		1.5.0
-Author URI: 	https://themeatelier.net
-Requirements:   PHP 5.4 or above, WordPress 5.0 or above.
-License:        GPL-2.0+
-Text Domain:    domain-for-sale
-Domain Path:    /languages
-*/
+
+/**
+ * The plugin bootstrap file
+ *
+ * This file is read by WordPress to generate the plugin information in the plugin
+ * admin area. This file also includes all of the dependencies used by the plugin,
+ * registers the activation and deactivation functions, and defines a function
+ * that starts the plugin.
+ *
+ * @link              https://themeatelier.net
+ * @since             1.4.12
+ * @package           Domain_For_Sale
+ *
+ * @wordpress-plugin
+ * Plugin Name:       Domain For Sale
+ * Plugin URI:        https://wp-plugins.themeatelier.net/nilam
+ * Description:       Creative and professional auction and domain for sale WordPress Plugin.
+ * Version:           3.0.0
+ * Author:            ThemeAtelier
+ * Author URI:        https://themeatelier.net/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       domain-for-sale
+ * Domain Path:       /languages
+ */
 
 // Block Direct access
 if (!defined('ABSPATH')) {
     die('You should not access this file directly!.');
 }
+require_once __DIR__ . '/vendor/autoload.php';
 
-// Define Constants for direct access alert message.
-if (!defined('DFS_ALERT_MSG'))
-    define('DFS_ALERT_MSG', esc_html__('You should not access this file directly.!', 'domain-for-sale'));
+use ThemeAtelier\DomainForSale\DomainForSale;
 
-// Define constants for plugin directory path.
-if (!defined('DFS_DIR_PATH'))
-    define('DFS_DIR_PATH', plugin_dir_path(__FILE__));
-
-// Define constants for plugin directory URL.
-if (!defined('DFS_DIR_URL'))
-    define('DFS_DIR_URL', plugin_dir_url(__FILE__));
-
-// load text domain from plugin folder
-function dfs_load_textdomain()
-{
-    load_plugin_textdomain('', false, dirname(__FILE__) . "/languages");
+if(!defined('DOMAIN_FOR_SALE_VERSION')){
+    define('DOMAIN_FOR_SALE_VERSION', '3.0.0');
 }
-add_action("plugins_loaded", 'dfs_load_textdomain');
-
-// Plugin settings in plugin list
-add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'dfs_settings_link');
-function dfs_settings_link(array $links)
-{
-    $url = get_admin_url() . "admin.php?page=dfs";
-    $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'domain-for-sale') . '</a>';
-    $links[] = $settings_link;
-    return $links;
+if(!defined('DOMAIN_FOR_SALE_FILE')){
+    define('DOMAIN_FOR_SALE_FILE', __FILE__);
+}
+if(!defined('DOMAIN_FOR_SALE_ALERT_MSG')){
+    define('DOMAIN_FOR_SALE_ALERT_MSG', esc_html__('You should not access this file directly.!', 'domain-for-sale'));
+}
+if(!defined('DOMAIN_FOR_SALE_DIRNAME')){
+    define('DOMAIN_FOR_SALE_DIRNAME', dirname(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_DIR_PATH')){
+    define('DOMAIN_FOR_SALE_DIR_PATH', plugin_dir_path(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_DIR_URL')){
+    define('DOMAIN_FOR_SALE_DIR_URL', plugin_dir_url(__FILE__));
+}
+if(!defined('DOMAIN_FOR_SALE_BASENAME')){
+    define('DOMAIN_FOR_SALE_BASENAME', plugin_basename(__FILE__));
 }
 
 
-// Pro version link
-add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'ta_dfs_pro_link');
-function ta_dfs_pro_link(array $links)
+function domain_for_sale_run()
 {
-    $url = "https://1.envato.market/LPeXVY";
-    $settings_link = '<a target="_blank" style="color: #177764; font-weight: 700;" href="' . esc_url($url) . '">' . esc_html__('Go Pro!', 'domain-for-sale') . '</a>';
-    $links[] = $settings_link;
-    return $links;
+    // Launch the plugin.
+    $domain_for_sale = new DomainForSale();
+    $domain_for_sale->run();
+    register_activation_hook(__FILE__, array($domain_for_sale, 'dfs_plugin_activate'));
 }
 
-
-
-
-// Script enqueue class include
-require_once DFS_DIR_PATH . 'inc/functions.php';
-// include framework for admin panel
-require_once DFS_DIR_PATH . 'admin/codestar-framework.php';
-require_once DFS_DIR_PATH . 'inc/dfs-plugin-options.php';
-require_once DFS_DIR_PATH . 'inc/contact-form-shortcode.php';
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
+$pro_plugin_slug = 'domain-for-sale-pro/domain-for-sale-pro.php';
+// kick-off the plugin
+if (!is_plugin_active($pro_plugin_slug)) {
+   domain_for_sale_run();
+}
 
 /**
  * Initialize the plugin tracker
@@ -74,28 +78,11 @@ require_once DFS_DIR_PATH . 'inc/contact-form-shortcode.php';
  */
 function appsero_init_tracker_domain_for_sale()
 {
-
     if (!class_exists('DfsAppSero\Client')) {
-        require_once DFS_DIR_PATH . 'admin/appsero/Client.php';
+        require_once DOMAIN_FOR_SALE_DIR_PATH . 'src/Admin/appsero/Client.php';
     }
-
     $client = new DfsAppSero\Client('343a3d84-7b38-47f3-9225-10e5b28afaa4', 'Domain For Sale', __FILE__);
-
     // Active insights
     $client->insights()->init();
 }
-
 appsero_init_tracker_domain_for_sale();
-
-/********************
-	    - Front end -
- ********************/
-add_action('template_redirect', 'dfs_template_redirect');
-function dfs_template_redirect()
-{
-    $options = get_option('dfs-opt');
-    if ($options['dfs-enable']) {
-        include(DFS_DIR_PATH . 'templates/index.php');
-        die();
-    };
-}

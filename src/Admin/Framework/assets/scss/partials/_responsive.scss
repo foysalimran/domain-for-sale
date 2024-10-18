@@ -1,0 +1,157 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .domain-for-sale-metabox{
+
+    .domain-for-sale-field{
+
+      .domain-for-sale-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .domain-for-sale-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .domain-for-sale-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .domain-for-sale-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .domain-for-sale-search,
+  .domain-for-sale-header-right,
+  .domain-for-sale-header-left{
+    width: 100%;
+  }
+
+  .domain-for-sale-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .domain-for-sale-footer{
+    text-align: center;
+  }
+
+  .domain-for-sale-buttons{
+    float: none;
+  }
+
+  .domain-for-sale-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .domain-for-sale-nav,
+  .domain-for-sale-expand-all,
+  .domain-for-sale-reset-section,
+  .domain-for-sale-nav-background{
+    display: none !important;
+  }
+
+  .domain-for-sale-nav-normal + .domain-for-sale-content{
+    margin-left: 0;
+  }
+
+  .domain-for-sale-section-title,
+  .domain-for-sale-section{
+    display: block !important;
+  }
+
+  .domain-for-sale-field{
+
+    .domain-for-sale-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .domain-for-sale-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .domain-for-sale-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .domain-for-salefile-options,
+  .domain-for-sale-taxonomy-edit-fields{
+
+    > .domain-for-sale-field{
+
+      > .domain-for-sale-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .domain-for-sale-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .domain-for-sale-nav-menu-options{
+
+    > .domain-for-sale-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .domain-for-sale-field{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 782px) {
+
+  .domain-for-sale-modal{
+
+    .domain-for-sale-modal-inner{
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-height: 750px) {
+
+  .domain-for-sale-modal{
+
+    .domain-for-sale-modal-inner{
+      height: auto;
+    }
+
+    .domain-for-sale-modal-content{
+      height: calc(100vh - 200px);
+    }
+  }
+}
