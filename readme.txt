@@ -76,7 +76,6 @@ Here’s the updated version with the additional features:
 * [WPGlobus](https://wordpress.org/plugins/wpglobus/)
 
 = Page Builders Ready =
-
 * Gutenberg
 * WPBakery
 * Elementor
