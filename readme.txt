@@ -48,7 +48,7 @@ Here’s the updated version with the additional features:
 - **Comprehensive Typography Control**: Full customization options for all types of text on your site.
 - **Custom Favicon Support**: Easily upload and set a custom favicon for your site.
 - **SEO Settings**: Includes essential SEO options to help your site rank better in search engine results.
-- **Powerful Contact Form**: A customizable contact form with various options for personalized user interaction.
+- **Powerful Contact Form**: A customizable ajax contact form with various options for personalized user interaction.
 - **Unlimited Contact Information Entries**: Add as many contact details as needed.
 - **Email Notification Variables**: Useful variables available for email notifications, ensuring you receive all the information you need.
 - **Sweet Alert Integration**: Displays sweet alert notifications for contact form submissions.
@@ -172,6 +172,7 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 * Added: New typography fields for all text types.
 * Removed: Bootstrap CSS and replaced with custom CSS for the template.
 * Updated: Moved all template options from options panel to metabox.
+* Updated: Contact form submission with ajax.
 * Updated: CSS structure for templates.
 
 = 2.0.5  – Sep 24, 2024 =
