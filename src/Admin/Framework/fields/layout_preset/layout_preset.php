@@ -43,11 +43,12 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_layout_preset' ) ) {
 					$extra              = ( $args['multiple'] ) ? '[]' : '';
 					$active             = ( in_array( $key, $value ) ) ? ' domain-for-sale--active' : '';
 					$checked            = ( in_array( $key, $value ) ) ? ' checked' : '';
+					$pro_only           = isset( $option['pro_only'] ) ? ' disabled' : '';
 					$domain_for_sale_only_class = isset( $option['pro_only'] ) ? ' domain-for-sale-pro-only' : '';
 
 					echo '<div class="domain-for-sale--sibling domain-for-sale--image' . $active . $domain_for_sale_only_class . '">';
 					echo '<img src="' . esc_url( $option['image'] ) . '" alt="' . $option['text'] . '" />';
-					echo '<input type="' . esc_attr($type) . '" name="' . esc_attr( $this->field_name( $extra ) ) . '" value="' . $key . '"' . $this->field_attributes() . $checked . '/>';
+					echo '<input ' . esc_attr( $pro_only ) . ' type="' . esc_attr($type) . '" name="' . esc_attr( $this->field_name( $extra ) ) . '" value="' . $key . '"' . $this->field_attributes() . $checked . '/>';
 					echo '<span class="ta-carousel-type">' . esc_html( $option['text'] ) . '<a href="' . esc_url( $option['option_demo_url'] ) . '" tooltip="Demo" class="domain-for-sale-live-demo-icon" target="_blank"><i class="icofont-external-link"></i></a></span>';
 					echo '</div>';
 

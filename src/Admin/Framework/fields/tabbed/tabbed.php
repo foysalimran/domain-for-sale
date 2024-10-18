@@ -52,15 +52,12 @@ if ( ! class_exists( 'DOMAIN_FOR_SALE_Field_tabbed' ) ) {
           DOMAIN_FOR_SALE::field( $field, $field_value, $unique_id, 'field/tabbed' );
 
         }
-
         echo '</div>';
-
       }
       echo '</div>';
 
       echo wp_kses_post( $this->field_after() );
 
     }
-
   }
 }

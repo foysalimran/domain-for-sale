@@ -64,7 +64,7 @@ span.domain-for-sale-shortcode-selectable::after {
 /**** PRO CSS ****/
 .domain-for-sale-pro-only {
   position: relative;
-  pointer-events: none;
+  pointer-events: painted;
 }
 .domain-for-sale-pro-only::after {
   content: "PRO";
