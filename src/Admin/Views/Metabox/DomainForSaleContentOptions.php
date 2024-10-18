@@ -101,6 +101,7 @@ class DomainForSaleContentOptions
                     'id'     => 'dfs-moredomains',
                     'type'   => 'repeater',
                     'title'  => esc_html__('Recommended Domain', 'domain-for-sale'),
+                    'class'  => 'repeater_pro_only',
                     'dependency' => array('dfs_layout_preset', '==', 'layout_02', 'any'),
                     'fields' => array(
                         array(
@@ -122,16 +123,6 @@ class DomainForSaleContentOptions
                     'default' => array(
                         array(
                             'moredomains-title'    => 'www.firstdomain.com',
-                            'moredomains-link'    => '',
-                            'moredomains-content'     => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni.', 'domain-for-sale'),
-                        ),
-                        array(
-                            'moredomains-title'    => 'www.seconddomain.com',
-                            'moredomains-link'    => '',
-                            'moredomains-content'     => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni.', 'domain-for-sale'),
-                        ),
-                        array(
-                            'moredomains-title'    => 'www.thirddomain.com',
                             'moredomains-link'    => '',
                             'moredomains-content'     => esc_html__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni.', 'domain-for-sale'),
                         ),

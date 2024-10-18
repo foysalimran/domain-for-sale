@@ -166,21 +166,15 @@ class DomainForSaleForm
                     ),
                     array(
                         'id'        => 'dfs_recaptcha_version',
-                        'type'      => 'select_f',
-                        'class'     => 'select_pro_only',
+                        'type'      => 'radio',
+                        'class'     => 'radio_pro_only',
                         'title'      => esc_html__('reCAPTCHA Type ', 'domain-for-sale'),
                         'options'  => array(
-                            'v3' => array(
-                                'name' => esc_html__('reCAPTCHA v3', 'geodir-recaptcha'),
-                                'pro_only' => true,
-                            ),
-                            'v2' => array(
-                                'name' => esc_html__('reCAPTCHA v2 (I\'m not a robot Checkbox)', 'geodir-recaptcha'),
-                                'pro_only' => true,
-                            ),
+                            'v3' => esc_html__('reCAPTCHA v3', 'geodir-recaptcha'),
+                            'v2' => esc_html__('reCAPTCHA v2 (I\'m not a robot Checkbox)', 'geodir-recaptcha'),
                         ),
                         'default'    => 'v3',
-                        'advanced' => false,
+                        'inline' => true,
                     ),
                     array(
                         'id' => 'dfs-recaptcha-sitekey_v3',
