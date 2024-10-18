@@ -113,4 +113,15 @@ span.domain-for-sale-shortcode-selectable::after {
   pointer-events: none;
   opacity: 0.6;
 }
-
+.repeater_pro_only .domain-for-sale-fieldset {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.typography_pro_only .domain-for-sale-fieldset {
+  pointer-events: none;
+  opacity: 0.6;
+}
+.radio_pro_only .domain-for-sale-fieldset {
+  pointer-events: none;
+  opacity: 0.6;
+}

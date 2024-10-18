@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-18 09:01+0000\n"
+"POT-Creation-Date: 2024-10-18 09:39+0000\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -838,19 +838,19 @@ msgstr ""
 msgid "Recommended Domain"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:109
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:110
 msgid "Domain name"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:114
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:115
 msgid "Domain link"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:119
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:120
 msgid "About domain"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:126, src/Admin/Views/Metabox/DomainForSaleContentOptions.php:131, src/Admin/Views/Metabox/DomainForSaleContentOptions.php:136
+#: src/Admin/Views/Metabox/DomainForSaleContentOptions.php:127
 msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum nihil consequatur aspernatur ipsum facere neque distinctio fugit voluptatum laborum odit eveniet saepe culpa sit dolor ea fugiat officiis, debitis magni."
 msgstr ""
 
@@ -978,11 +978,11 @@ msgstr ""
 msgid "Form Title"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleTypography.php:110
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:111
 msgid "Recommendation Title"
 msgstr ""
 
-#: src/Admin/Views/Metabox/DomainForSaleTypography.php:128
+#: src/Admin/Views/Metabox/DomainForSaleTypography.php:130
 msgid "Recommendation Domain Name"
 msgstr ""
 
@@ -1132,7 +1132,7 @@ msgstr ""
 msgid "Form Error Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:134, src/Admin/Views/Settings/DomainForSaleForm.php:202
+#: src/Admin/Views/Settings/DomainForSaleForm.php:134, src/Admin/Views/Settings/DomainForSaleForm.php:196
 msgid "Email not submitted."
 msgstr ""
 
@@ -1148,7 +1148,7 @@ msgstr ""
 msgid "Form Okay Button Value"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:146, src/Admin/Views/Settings/DomainForSaleForm.php:216
+#: src/Admin/Views/Settings/DomainForSaleForm.php:146, src/Admin/Views/Settings/DomainForSaleForm.php:210
 msgid "Okay"
 msgstr ""
 
@@ -1168,27 +1168,27 @@ msgstr ""
 msgid "reCAPTCHA Type "
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:189
+#: src/Admin/Views/Settings/DomainForSaleForm.php:183
 msgid "Site key"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:195
+#: src/Admin/Views/Settings/DomainForSaleForm.php:189
 msgid "Secret key"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:201
+#: src/Admin/Views/Settings/DomainForSaleForm.php:195
 msgid "Form Recaptcha Error Title"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:208
+#: src/Admin/Views/Settings/DomainForSaleForm.php:202
 msgid "Form Recaptcha Error Description"
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:209
+#: src/Admin/Views/Settings/DomainForSaleForm.php:203
 msgid "Please tick and verify the recaptcha."
 msgstr ""
 
-#: src/Admin/Views/Settings/DomainForSaleForm.php:215
+#: src/Admin/Views/Settings/DomainForSaleForm.php:209
 msgid "Form Recaptcha Okay Button Value"
 msgstr ""
 
