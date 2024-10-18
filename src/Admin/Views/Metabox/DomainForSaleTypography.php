@@ -107,14 +107,15 @@ class DomainForSaleTypography
                     array(
                         'id'                => 'dfs_recommendation_title',
                         'type'              => 'typography',
+                        'class'             => 'typography_pro_only',
                         'title'             => esc_html__('Recommendation Title', 'domain-for-sale'),
                         'text_align'        => false,
                         'letter_spacing'    => false,
                         'subset'            => false,
                         'default'           => array(
-                            'font-family'    => 'Poppins',
-                            'font-weight'    => '700',
-                            'type'           => 'google',
+                            'font-family'   => 'Poppins',
+                            'font-weight'   => '700',
+                            'type'          => 'google',
                             'font-size'         => '28',
                             'line-height'       => '24',
                             'tablet-font-size'  => '20',
@@ -125,6 +126,7 @@ class DomainForSaleTypography
                     array(
                         'id'                => 'dfs_recommendation_domain_name',
                         'type'              => 'typography',
+                        'class'             => 'typography_pro_only',
                         'title'             => esc_html__('Recommendation Domain Name', 'domain-for-sale'),
                         'text_align'        => false,
                         'letter_spacing'    => false,
