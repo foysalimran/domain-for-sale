@@ -130,14 +130,16 @@ Here’s the updated version with the additional features:
 3. Access "Domain for sale" menu from your dashboard.
 
 == Screenshots ==
-1. Frontend Demo
-2. Admin Demo - General Options
-3. Admin Demo - SEO Options
-4. Admin Demo - Content Options
-5. Admin Demo - Contact Form Options
-6. Admin Demo - Custom Code Options
-7. Admin Demo - Backup Options
-8. Admin Demo - Get Help
+1. Frontend Demo - Layout One
+2. Admin Demo - Main Options
+3. Admin Demo - Content Options
+4. Admin Demo - Style Options
+5. Admin Demo - Typography
+6. Admin Demo - General
+7. Admin Demo - Domain For Sale Form
+8. Admin Demo - Custom Code Options
+9. Admin Demo - Backup Options
+10. Admin Demo - Get Help
 
 == Upgrade Notice ==
 
