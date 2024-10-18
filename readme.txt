@@ -12,42 +12,96 @@ The ultimate WordPress plugin for domain sales, appraisals, auctions, and market
 
 == Description ==
 
-Domain For Sale WordPress plugin - the ultimate tool for parking and selling your unused domain names. With this plugin, you can easily create a professional-looking template to showcase your domains and give potential buyers all the information they need to make a purchase. The plugin comes with a variety of customizable options, including a contact form that makes it easy for interested parties to get in touch. Whether you're a domain investor or just looking to sell a few unused names, this plugin is the perfect solution for turning your domains into cash. 
+**Domain For Sale WordPress Plugin** - The ultimate solution for domain investors and website owners looking to monetize and sell their unused domain names with ease. This powerful plugin allows you to create unlimited professional templates, fully customizable to showcase your domains with detailed information and eye-catching designs. Whether you want to replace your existing theme or use a shortcode to embed templates anywhere, the plugin offers flexibility and ease of use.
 
-👉 [Demos](https://wp-plugins.themeatelier.net/nilam/) | [Pro Version](https://1.envato.market/LPeXVY) | [Support](https://wordpress.org/support/plugin/domain-for-sale/) | [Rate this plugin](https://wordpress.org/support/plugin/domain-for-sale/reviews/#new-post) 👈
+Key features include a responsive, mobile-friendly design, multilingual and RTL support, SEO optimization, and seamless compatibility with all WordPress themes. The advanced customization options let you adjust typography, background images, container widths, and column spacing. With the built-in contact form and Sweet Alert integration, potential buyers can easily get in touch, ensuring quick and efficient communication.
+
+Designed with both non-developers and developers in mind, the plugin offers a user-friendly interface, while also providing developer-friendly options for deeper integration and customization. Frequent updates, cross-browser compatibility, and comprehensive documentation ensure the best experience. Plus, multisite support and backup features make it easy to manage multiple domain listings effortlessly.
+
+Turn your domains into cash with the **Domain For Sale WordPress Plugin**—the perfect tool for transforming your unused domain names into profitable opportunities.
+
+**👁️[Plugin Demo](https://wp-plugins.themeatelier.net/nilam/) | 🚀[Pro Version](https://1.envato.market/LPeXVY) | 👩🏼‍💻[Support](https://wordpress.org/support/plugin/domain-for-sale/) | 🌟[Rate this plugin](https://wordpress.org/support/plugin/domain-for-sale/reviews/#new-post)**
 
 == Video demo ==
 [youtube https://youtu.be/E_-iUMykP5M]
 
-== HERE’S WHAT USERS SAY ABOUT "DOMAIN FOR SALE" ==
+== Listen to What People Have to Say: ==
 
 >😻 __A Fantastic Plugin For Domain Name Selling__
 
 >This is a simple and easy plugin if you sell domain names. I am testing it now and it works great. Cheers to the developer. Thank you.
 - By @techspecx
 
->😻 __I was looking it for long!__
+== Key Features of Domain For Sale: ==
 
->I have some domain names what I would like to sale. I know there has lots of third party solution for adding my domains for auction but I was looking for a system to directly connect with users who are interested to buy my domains but I didn’t find any of solution. Finally I got this plugin what filled my needs. It’s options and features are really easy to use also the UI of plugin is really awesome. Highly recommended plugin for domain sellers.
-- By @UniteTheme
+Here’s the updated version with the additional features:
 
-== Key Features ==
+- **Fully Responsive and Mobile Friendly**: Ensures your site looks great and functions seamlessly on any device.
+- **Unlimited Template Creation**: Create as many templates as you need for different pages and purposes.
+- **Flexible Template Application**: Replace your existing theme with a template or use a shortcode to apply it anywhere on your site.
+- **Custom Contact Form Integration**: Add your own contact form shortcode to easily capture user information.
+- **Dynamic Content Management**: Each sentence on every template can be modified through the content options panel for full customization.
+- **Multiple Color Schemes**: Comes with four unique color schemes for easy customization.
+- **Custom Container Width**: Set custom container widths to control the layout precisely.
+- **Column Spacing Adjustment**: Adjust the gap between columns for a more tailored design.
+- **Advanced Background Customization**: Modify background images and overlay settings to enhance visual appeal.
+- **Comprehensive Typography Control**: Full customization options for all types of text on your site.
+- **Custom Favicon Support**: Easily upload and set a custom favicon for your site.
+- **SEO Settings**: Includes essential SEO options to help your site rank better in search engine results.
+- **Powerful Contact Form**: A customizable contact form with various options for personalized user interaction.
+- **Unlimited Contact Information Entries**: Add as many contact details as needed.
+- **Email Notification Variables**: Useful variables available for email notifications, ensuring you receive all the information you need.
+- **Sweet Alert Integration**: Displays sweet alert notifications for contact form submissions.
+- **Custom CSS Panel**: Add custom CSS to modify any styling through the options panel.
+- **Custom JavaScript Panel**: Insert any scripts, including analytics or tracking codes, easily through the options panel.
+- **Backup Feature**: Save settings and use them across multiple websites effortlessly.
+- **Multisite Compatibility**: Fully compatible with multisite WordPress setups, ensuring seamless operation across your network.
+- **Multilingual Ready**: Easily translate your site into multiple languages to reach a global audience.
+- **RTL Support**: Full support for right-to-left languages, expanding accessibility options.
+- **Theme Compatibility**: Works with all WordPress themes, offering flexibility regardless of your current setup.
+- **No Coding Required**: An intuitive UI/UX makes setup simple; activate the plugin, and the system automatically creates pages that you can add to your menu or place wherever needed—no technical skills required.
+- **Developer-Friendly**: Built with customization in mind, allowing developers to integrate and expand the plugin’s functionalities easily.
+- **Cross-Browser Compatibility**: Functions seamlessly across all modern browsers including IE, Firefox, Chrome, Safari, Opera, and Edge.
+- **Comprehensive Documentation & Tutorials**: Detailed guides and video tutorials provide easy setup and usage instructions.
+- **Frequent Updates**: Regular updates introduce new features, enhance security, and fix bugs, ensuring the plugin remains optimized and functional.
+- **Fast and Active Support**: Responsive support is available whenever you need assistance.
 
-* Comes with four distinct color schemes.
-* Option to modify the default font and font sizes.
-* Includes useful SEO settings to help rank your site higher in search engine results.
-* Each sentence can be easily altered through the settings panel.
-* Unlimited contact informations.
-* Powerful contact form with a wide range of customizable options.
-* Add your own contact form shortcode.
-* Custom CSS option to change any styling from the option panel.
-* Custom JS option to change any scripts from the option panel. So you will able to add any analytics, tracking code or script easily.
-* Offers a backup option to effortlessly use the same settings for multiple websites.
-* No third-party theme dependencies. Work individually as like a theme.
-* Super Fast and Active Support.
-* Multilingual Ready.
-* RTL Supported.
-* SEO friendly & optimized for speed.
+
+= Multilingual Ready =
+* [WPML](https://wpml.org/)
+* [LocoTranslate](https://localise.biz/)
+* [Polylang](https://wordpress.org/plugins/polylang/)
+* [qTranslate-x](https://wordpress.org/plugins/qtranslate-x/)
+* [GTranslate](https://wordpress.org/plugins/gtranslate/)
+* [Google Language Translator](https://wordpress.org/plugins/google-language-translator/)
+* [WPGlobus](https://wordpress.org/plugins/wpglobus/)
+
+= Page Builders Ready =
+
+* Gutenberg
+* WPBakery
+* Elementor
+* BeaverBuilder
+* SiteOrgin
+* DiviBuilder
+* LayersWP
+* MotoPress
+* CornerStone
+* Themify Builder etc.
+
+= All theme compitible including =
+* Hello Elementor
+* Astra
+* Divi
+* Kadence
+* Themify Ultra
+* OceanWP
+* Hestia
+* Inspiro
+* GeneratePress
+* Avada
+* Blocksy
+* Neve
 
 == PRO VERSION FEATURES ==
 * Additional template to use in different way.
@@ -57,22 +111,6 @@ Domain For Sale WordPress plugin - the ultimate tool for parking and selling you
 * White Labelling
 * Priority Support
 * 14-Day Money Back Guarantee
-
-== Who Is the "Domain For Sale" Plugin For? ==
-
-**Domain Investors:** For those who manage portfolios of domain names, this plugin is an essential tool for showcasing and selling domains directly from your WordPress site. It simplifies transactions and displays domains attractively to maximize sales opportunities.
-
-**Web Developers and Designers:** If you often acquire domain names for future projects or client work, this plugin helps you monetize unused domains through a professional setup that integrates seamlessly with your existing WordPress site.
-
-**Entrepreneurs:** For startup founders and business owners who have acquired multiple domains related to their business, this plugin offers a streamlined way to sell off excess or unneeded domains as your business evolves.
-
-**Marketing Agencies:** Agencies holding domains for SEO purposes or as part of digital strategies can use this plugin to manage and sell domains, turning a static asset into a dynamic revenue stream.
-
-**Corporate IT Departments:** Large organizations often accumulate domain names over time. This plugin provides IT departments with a manageable, scalable way to divest unused or unnecessary domains securely and profitably.
-
-**Domain Flippers:** For those involved in buying domains at lower prices and selling at a profit, the plugin’s customizable templates and SEO features provide a competitive edge in showcasing domains in a marketable fashion.
-
-**Legal Professionals:** Attorneys and legal firms managing domain assets as part of intellectual property portfolios can utilize this plugin to streamline the sale and transfer of domain rights to other entities.
 
 == OTHER AMAZING PRODUCTS FROM ThemeAtelier ==
 
