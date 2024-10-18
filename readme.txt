@@ -163,15 +163,15 @@ You can create a topic in our [Support Forum](https://wordpress.org/support/plug
 
 == Changelog ==
 = 3.0.0 – Oct 16, 2024 =
-* Added: DFS Template custom post type.
-* Added: Options to apply the template in various ways.
-* Added: Custom container width setting.
-* Added: Option for customizing the gap between columns.
-* Added: New typography fields for all text types.
-* Removed: Bootstrap CSS and replaced with custom CSS for the template.
-* Updated: Moved all template options from options panel to metabox.
-* Updated: Contact form submission with ajax.
-* Updated: CSS structure for templates.
+* Added: DFS Template Custom Post Type - Introduced a new custom post type for DFS templates.
+* Added: Template Application Options - Options for applying the template in various ways.
+* Added: Custom Container Width Setting - Ability to customize container width for templates.
+* Added: Column Gap Customization - New option to adjust the gap between columns.
+* Added: Enhanced Typography Fields - Added new typography fields for all text types.
+* Updated: Removed Bootstrap CSS and replaced it with custom CSS tailored for the template.
+* Updated: Options Panel to Metabox Transition - Moved all template options from the options panel to a more user-friendly metabox.
+* Updated: AJAX Contact Form Submission - Improved contact form submission by implementing AJAX.
+* Updated: CSS Structure Overhaul - Updated the CSS structure for templates to enhance performance and maintainability.
 
 = 2.0.5  – Sep 24, 2024 =
 * Added: All icons form Icofont library.
